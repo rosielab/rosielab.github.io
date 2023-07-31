@@ -62,7 +62,7 @@
       <nobr>Canada</nobr> -->
     </div>
     <div class="hidden-xs hidden-sm col-md-1" style="text-align:left; margin-left:0px; margin-right:0px">
-      <a href="https://arxiv.org/pdf/2006.11132.pdf" style="color:inherit">
+      <a href="resrc/ACII2023_125.pdf" style="color:inherit">
         <i class="fa fa-file-pdf-o fa-4x"></i></a> 
     </div>
     <!-- <div class="hidden-xs hidden-sm col-md-2" style="text-align:left; margin-left:0px;">
@@ -77,7 +77,7 @@
   <p><h5><em>Manual Annotation for the given image produces the following caption:</em> Sean is a male adult. Sean is a(n) passenger. Sean is or has raising eyebrows,
     side-eyeing. Mia is a child and she is sitting behind Sean and kicking Sean’s chair. Sean’s physical environment is on an airplane.</h5></p>
   <h3 style="text-align:center; padding-top:1rem">
-    <a class="label label-info" href="https://arxiv.org/abs/2006.11132">Paper</a>
+    <a class="label label-info" href="resrc/ACII2023_125.pdf">Paper</a>
     <a class="label label-info" href="resrc/annotate_no_gpt.csv">Annotations</a>
     <a class="label label-info" href="resrc/annotate_gpt.csv">Annotations  w/Results</a>
     <a class="label label-info" href="https://dev9032.d1ab6be83l9u2m.amplifyapp.com/">Annotation Website</a>
@@ -89,26 +89,30 @@
   <h3>Abstract</h3>
   <hr/>
   <p>
-          Traditional methods attempt to estimate people’s
-      emotions in images by solely focusing on the face and body
-      pose. However, previous research has proven that relying only
-      on this information is inadequate. On the other hand, Large
-      Language Models (LLMs) possess information about various
-      aspects of humans. But how well do LLMs perceive human
-      emotions? And which parts of the information enable them
-      to accurately determine emotions? We tackle the challenging
-      contextual image emotion estimation task by using text captions
-      as a rich and interpretable representation of the image. One
-      major challenge is to construct a caption that describes a person
-      within a scene with information relevant for emotion perception,
-      rather than detecting objects. Towards this goal, we propose a
-      set of natural language descriptors for faces, bodies, interactions,
-      and environments. Furthermore, we annotate a subset of images
-      from the EMOTIC dataset with these descriptors and test the
-      capability of a large language model to infer an emotion from the
-      resulting image caption. We find that GPT-3, specifically the text-
-      davinci-003 model, provides surprisingly reasonable predictions
-      consistent with human annotations
+    Emotion estimation in images is a challenging task,
+    typically using computer vision methods to directly estimate
+    people’s emotions using face, body pose and contextual cues. In
+    this paper, we explore whether Large Language Models (LLMs)
+    can support the contextual emotion estimation task, by first
+    captioning images, then using an LLM for inference. First, we
+    must understand: how well do LLMs perceive human emotions?
+    And which parts of the information enable them to determine
+    emotions? One initial challenge is to construct a caption that
+    describes a person within a scene with information relevant
+    for emotion perception. Towards this goal, we propose a set of
+    natural language descriptors for faces, bodies, interactions, and
+    environments. We use them to manually generate captions and
+    emotion annotations for a subset of 331 images from the EMOTIC
+    dataset. These captions offer an interpretable representation for
+    emotion estimation, towards understanding how elements of a
+    scene affect emotion perception in LLMs and beyond. Secondly,
+    we test the capability of a large language model to infer an
+    emotion from the resulting image captions. We find that GPT-
+    3.5, specifically the text-davinci-003 model, provides surprisingly
+    reasonable emotion predictions consistent with human annota-
+    tions, but accuracy can depend on the emotion concept. Overall,
+    the results suggest promise in the image captioning and LLM
+    approach.
   </p>
 
   <!-- <h3>Video</h3>
@@ -229,8 +233,8 @@
   <div class="row" style="text-align: center">
     <div class="col-sm-6">
       <h4>Paper</h4>
-      <a href="https://arxiv.org/abs/2006.11132" style="color:inherit">
-        <img src="resrc/paper.jpg" alt="paper.jpg" class="text-center" style="max-width:70%; border:0.15em solid;
+      <a href="resrc/ACII2023_125.pdf" style="color:inherit">
+        <img src="resrc/paper.png" alt="paper.png" class="text-center" style="max-width:70%; border:0.15em solid;
         border-radius:0.5em;"></a>
     </div>
     <div class="col-sm-6 ">
@@ -253,9 +257,9 @@
     <div class="card">
       <div class="card-block">
         <pre class="card-text clickselect">
-@inproceedings{vera2023contextual,
+@inproceedings{yang2023contextual,
   title={Contextual Emotion Estimation from Image Captions},
-  author={Vera and Archita and Yasaman and Shay and Angelica},   
+  author={Yang, Vera AND Srivastava, Archita AND Etesam, Yasaman and Zhang, Shay and Lim, Angelica},   
   booktitle={International Conference on Affective Computing and Intelligent Interaction (ACII)},
   year={2023},
 }
