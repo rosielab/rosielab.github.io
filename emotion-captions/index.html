@@ -209,10 +209,7 @@
   
   <h3>Some Visual Results</h3>
   <hr/>
-   
-    
-
-    <div class="row" style="text-align: center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem; padding-top:3rem">
+    <div class="row" style="text-align: center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem; padding-top:7rem">
       <img src="resrc/pain2.jpg" alt="deep_tsf.png"  style=" text-align: center;">
       <h4>Ground Truth: <em style ="color:red">Fear</em></h4>
     </div>
@@ -220,77 +217,134 @@
       <h4> GPT-3 Prompting</h4>
 
       <div class="col-sm-4">
-        <h4>Full Caption: <em style = "color:#800084">Chloe is a female adult. Chloe is or has frowning, open mouth. Chloe’s physical environment is right in front of an alien hand in the dark. Chloe is likely feelin a high level of {placeholder}? Choose one emotion from
-          the list: Anger, Annoyance, Aversion, Confusion, Disapproval,
-          Disconnection, Disquietment, Embarrassment, Fatigue, Fear,
-          Pain/Suffering (emotional), Pain/Suffering (physical), and Sadness</em></h4>
+        <h4>Full Caption: <em style = "color:#800084">Chloe is a female adult. Chloe is or has frowning, open mouth. Chloe’s physical environment is right in front of an alien hand in the dark. Chloe is likely feeling...? </em></h4>
         <h4>GPT Prediction: <em style="color:red">Fear</em> </h4>
       </div>
   
       <div class="col-sm-4">
-        <h4> Minus Interactions:  <em style = "color:#800084">Chloe is a female adult. Chloe is or has frowning, open mouth. Chloe's physical environment is right in front of an alien hand in the dark. Chloe is likely feeling
-          a high level of {placeholder}? Choose one emotion from
-          the list: Anger, Annoyance, Aversion, Confusion, Disapproval,
-          Disconnection, Disquietment, Embarrassment, Fatigue, Fear,
-          Pain/Suffering (emotional), Pain/Suffering (physical), and Sadness</em></h4>
+        <h4> Minus Interactions:  <em style = "color:#800084">Chloe is a female adult. Chloe is or has frowning, open mouth. Chloe's physical environment is right in front of an alien hand in the dark. Chloe is likely feeling...?</em></h4>
           <h4>GPT Prediction: <em style="color:red">Fear</em> </h4>
 
       </div>
   
       <div class="col-sm-4">
-        <h4> Minus Environment: <em style = "color:#800084"> Chloe is a female adult. Chloe is or has frowning, open mouth. Chloe is likely feeling
-          a high level of {placeholder}? Choose one emotion from
-          the list: Anger, Annoyance, Aversion, Confusion, Disapproval,
-          Disconnection, Disquietment, Embarrassment, Fatigue, Fear,
-          Pain/Suffering (emotional), Pain/Suffering (physical), and Sadness</em>
+        <h4> Minus Environment: <em style = "color:#800084"> Chloe is a female adult. Chloe is or has frowning, open mouth. Chloe is likely feeling....?</em>
           <h4>GPT Prediction: <em style="color:red">Disapproval</em> </h4>
-
         </h4>
       </div>
+    
     </div>
+    <h4>Notable Observations: <h5>Fear is an emotion that may benefit from environmental context. The F1 score for this image dropped from 0.52 and 0.48 with
+      environments to 0.34 without environments. An example is
+      shown in this Figure, when "right in front of an alien hand in
+      the dark" was removed from the full caption, the predicted emotion changed
+      from Fear to Disapproval. </h5></h4>
+      
     <hr class="new">
 
 
-    <div class="row" style="text-align: center;  padding-right:2rem; padding-bottom:1rem;">
-      <div class="col-sm-4">
-        <h4>Ground Truth: <em style="color:yellowgreen"> Embarrassment</em>
-        </h4>
-        <img src="resrc/cng1.jpg" alt="deep_tsf.png"  style="width: 96%; max-width: 1100px">
-        <h4 style="color:yellowgreen">Lucas is a male adult. Lucas is a(n) groom. Lucas is or has lips that flatten, palms open. Mia is Lucas’ bride and she is smiling. Lucas’ physical environment is cake falling down 
-          at wedding. 
-        </h4>
-      </div>
-      <div class="col-sm-4">
-        <h4>Ground Truth: <em style="color:blue"> Embarrassment</em>
-        </h4>
-
-        <img src="resrc/cng2.jpg" alt="deep_tsf.png"  style="width: 98%; max-width: 1100px">
-        <h4 style="color:blue">Jack is a male adult. Jack is or has smiling. Beth is a customer and she is side-eyeing Jack. Zoe is a customer and she is staring at Jack. Jack’s physical environment is eating in a movie theatre.
-
-        </h4>
-      </div>
-      <div class="col-sm-4">
-        <h4>Ground Truth: <em style="color:yellowgreen"> Sadness</em>
-        </h4>
-
-        <img src="resrc/cng4.jpg" alt="deep_tsf.png"  style="width: 107%; height:23rem; max-width: 1100px">
-        <h4 style="color:yellowgreen">Jane is a female adult. Jane is or has taking off eyeglasses. Mia is Jane’s daughter and Jane is putting her hand on Mia’s shoulder while Mia has her back turned to Jane. Jane’s physical environment is on a couch. 
-
-       </h4>
-      </div>
-
-      <div class="row" style="text-align: center">
-        <div class="col-xs-4">
-          <h4 >GPT Prediction: <em style="color:yellowgreen"> Embarrassment</em> </h4>
-        </div>
-        <div class="col-xs-4">
-          <h4 >GPT Prediction: <em style="color:blue">Embarrassment</em></h4>
-        </div>
-        <div class="col-xs-4">
-          <h4>GPT Prediction: <em style="color:yellowgreen">Embarrassment</em></h4>
-        </div>
-
+    <div class="row" style="text-align: center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem; padding-top:7rem">
+      <img src="resrc/cng1.jpg" alt="deep_tsf.png"  style=" text-align: center;">
+      <h4>Ground Truth: <em style ="color:green">Embarrassment</em></h4>
     </div>
+    <div class="row" style="text-align: center">
+      <h4> GPT-3 Prompting</h4>
+
+      <div class="col-sm-4">
+        <h4>Full Caption: <em style = "color:#800084">Lucas is a male adult. Lucas is a(n) groom. Lucas is or has lips that flatten, palms open. Mia is Lucas’ bride and she is smiling. Lucas’ physical environment is cake falling down 
+          at wedding. Lucas is likely feeling....? </em></h4>
+        <h4>GPT Prediction: <em style="color:green">Embarrassment</em> </h4>
+      </div>
+  
+      <div class="col-sm-4">
+        <h4> Minus Interactions:  <em style = "color:#800084">Lucas is a male adult. Lucas is a(n) groom. Lucas is or has lips that flatten, palms open. Lucas's physical environment is cake falling down at wedding. Lucas is likely feeling....?</em></h4>
+          <h4>GPT Prediction: <em style="color:green">Embarrassment</em> </h4>
+
+      </div>
+  
+      <div class="col-sm-4">
+        <h4> Minus Environment: <em style = "color:#800084"> Lucas is a male adult. Lucas is a(n) groom. Lucas is or has lips that flatten, palms open. Mia is Lucas' bride and she is smiling. Lucas is likely feeling....?</em>
+          <h4>GPT Prediction: <em style="color:green">Happiness</em> </h4>
+        </h4>
+      </div>
+    
+    </div>
+    <h4>Notable Observations: <h5>Fear is an emotion that may benefit from environmental context. The F1 score for this image dropped from 0.52 and 0.48 with
+      environments to 0.34 without environments. An example is
+      shown in this Figure, when "right in front of an alien hand in
+      the dark" was removed from the full caption, the predicted emotion changed
+      from Fear to Disapproval. </h5></h4>
+      
+    <hr class="new">
+
+    <div class="row" style="text-align: center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem; padding-top:7rem">
+      <img src="resrc/cng2.jpg" alt="deep_tsf.png"  style=" text-align: center;">
+      <h4>Ground Truth: <em style ="color:blue">Embarrassment</em></h4>
+    </div>
+    <div class="row" style="text-align: center">
+      <h4> GPT-3 Prompting</h4>
+
+      <div class="col-sm-4">
+        <h4>Full Caption: <em style = "color:#800084">Jack is a male adult. Jack is or has smiling. Beth is a customer and she is side-eyeing Jack. Zoe is a customer and she is staring at Jack. Jack's physical environment is eating in a movie theatre.
+        Jack is likely feeling....? </em></h4>
+        <h4>GPT Prediction: <em style="color:blue">Embarrassment</em> </h4>
+      </div>
+  
+      <div class="col-sm-4">
+        <h4> Minus Interactions:  <em style = "color:#800084">Jack is a male adult. Jack is or has smiling. Jack's physical environment is eating in a movie theatre. Jack is likely feeling....?</em></h4>
+          <h4>GPT Prediction: <em style="color:blue">Happiness</em> </h4>
+
+      </div>
+  
+      <div class="col-sm-4">
+        <h4> Minus Environment: <em style = "color:#800084"> Jack is a male adult. Jack is or has smiling. Beth is a customer and she is side-eyeing Jack. Zoe is a customer and she is staring at Jack. Jack is likely feeling....?</em>
+          <h4>GPT Prediction: <em style="color:blue">Embarrassment</em> </h4>
+        </h4>
+      </div>
+    
+    </div>
+    <h4>Notable Observations: <h5>Fear is an emotion that may benefit from environmental context. The F1 score for this image dropped from 0.52 and 0.48 with
+      environments to 0.34 without environments. An example is
+      shown in this Figure, when "right in front of an alien hand in
+      the dark" was removed from the full caption, the predicted emotion changed
+      from Fear to Disapproval. </h5></h4>
+      
+    <hr class="new">
+
+
+    <div class="row" style="text-align: center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem; padding-top:7rem">
+      <img src="resrc/cng4.jpg" alt="deep_tsf.png"  style=" text-align: center;">
+      <h4>Ground Truth: <em style ="color:green">Sadness</em></h4>
+    </div>
+    <div class="row" style="text-align: center">
+      <h4> GPT-3 Prompting</h4>
+
+      <div class="col-sm-4">
+        <h4>Full Caption: <em style = "color:#800084">Jane is a female adult. Jane is or has taking off eyeglasses. Mia is Jane's daughter and Jane is putting her hand on Mia's shoulder while Mia has her back turned to Jane. Jane's physical environment is on a couch.
+        Jane is likely feeling....? </em></h4>
+        <h4>GPT Prediction: <em style="color:green">Sadness</em> </h4>
+      </div>
+  
+      <div class="col-sm-4">
+        <h4> Minus Interactions:  <em style = "color:#800084">Jane is a female adult. Jane is or has taking off eyeglasses. Jane's physical environment is on a couch. Jane is likely feeling....?</em></h4>
+          <h4>GPT Prediction: <em style="color:green">Embarrassment</em> </h4>
+
+      </div>
+  
+      <div class="col-sm-4">
+        <h4> Minus Environment: <em style = "color:#800084"> Jane is a female adult. Jane is or has taking off eyeglasses. Mia is Jane's daughter and Jane is putting her hand on Mia's shoulder while Mia has her back turned to Jane. Jane is likely feeling....?</em>
+          <h4>GPT Prediction: <em style="color:green">Love</em> </h4>
+        </h4>
+      </div>
+    
+    </div>
+    <h4>Notable Observations: <h5>Fear is an emotion that may benefit from environmental context. The F1 score for this image dropped from 0.52 and 0.48 with
+      environments to 0.34 without environments. An example is
+      shown in this Figure, when "right in front of an alien hand in
+      the dark" was removed from the full caption, the predicted emotion changed
+      from Fear to Disapproval. </h5></h4>
+
+   
     
     
 
