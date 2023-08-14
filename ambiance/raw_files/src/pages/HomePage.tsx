@@ -34,7 +34,7 @@ export const HomePage = () => (
           paddingBottom='0px'
           fontSize={{ base: '16px', md: '18px', lg: '25px' }}
         >
-          Emma Hughson¹, Paige Tuttösí¹, Akihiro Matsufuji², and Angelica Lim¹³
+          Paige Tuttösí¹, Emma Hughson¹, Akihiro Matsufuji², and Angelica Lim¹³
         </Text>
         <Text
           textAlign="center"
@@ -44,7 +44,7 @@ export const HomePage = () => (
           paddingBottom='0px'
           fontSize={{ base: '14px', md: '16px', lg: '22px' }}
         >
-          IEEE Internatonal Conference on Robotics and Automation
+          IEEE International Conference on Intelligent Robots and Systems
         </Text>
         <Text
           textAlign="center"
