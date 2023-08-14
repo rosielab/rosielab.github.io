@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contextual Emotion Estimation</title>
+    <meta name="description" content="Project page for Contextual Emotion Estimation from Image Captions.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+
+<div class="container" style="text-align:center; padding:2rem 15px">
+
+  <h1>Visual Results</h1>
+  <hr/>
+
+  <div class="row" style="text-align: center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem; padding-top:7rem">
+    <img src="resrc/pain2.jpg" alt="deep_tsf.png"  style=" text-align: center;">
+    <h4>Ground Truth: <em style ="color:red">Fear</em></h4>
+  </div>
+  <div class="row" style="text-align: center">
+    <h4> GPT-3.5 Prompting</h4>
+
+    <div class="col-sm-4">
+      <h4>Full Caption: <h4 style = "color:#800084">Chloe is a female adult. Chloe is or has frowning, open mouth. Chloe’s physical environment is right in front of an alien hand in the dark. Chloe is likely feeling...? </h4></h4>
+      <h4>GPT Prediction: <em style="color:red">Fear</em> </h4>
+    </div>
+
+    <div class="col-sm-4">
+      <h4> Minus Interactions:  <h4 style = "color:#800084">Chloe is a female adult. Chloe is or has frowning, open mouth. Chloe's physical environment is right in front of an alien hand in the dark. Chloe is likely feeling...?</h4></h4>
+        <h4>GPT Prediction: <em style="color:red">Fear</em> </h4>
+
+    </div>
+
+    <div class="col-sm-4">
+      <h4> Minus Environment: <h4 style = "color:#800084"> Chloe is a female adult. Chloe is or has frowning, open mouth. Chloe is likely feeling....?</h4>
+        <h4>GPT Prediction: <em style="color:red">Disapproval</em> </h4>
+      </h4>
+    </div>
+  
+  </div>
+  <h4>Notable Observation: <h5>Fear is an emotion that may benefit from environmental context. The F1 score for this image dropped from 0.52 and 0.48 with
+    environments to 0.34 without environments, i.e, when "right in front of an alien hand in
+    the dark" was removed from the full caption of this image, the predicted emotion changed
+    from Fear to Disapproval. </h5></h4>
+    
+  <hr class="new">
+
+
+  <div class="row" style="text-align: center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem; padding-top:7rem">
+    <img src="resrc/cng1.jpg" alt="deep_tsf.png"  style=" text-align: center;">
+    <h4>Ground Truth: <em style ="color:green">Embarrassment</em></h4>
+  </div>
+  <div class="row" style="text-align: center">
+    <h4> GPT-3.5 Prompting</h4>
+
+    <div class="col-sm-4">
+      <h4>Full Caption: <h4 style = "color:#800084">Lucas is a male adult. Lucas is a(n) groom. Lucas is or has lips that flatten, palms open. Mia is Lucas’ bride and she is smiling. Lucas’ physical environment is cake falling down 
+        at wedding. Lucas is likely feeling....? </h4></h4>
+      <h4>GPT Prediction: <em style="color:green">Embarrassment</em> </h4>
+    </div>
+
+    <div class="col-sm-4">
+      <h4> Minus Interactions:  <h4 style = "color:#800084">Lucas is a male adult. Lucas is a(n) groom. Lucas is or has lips that flatten, palms open. Lucas's physical environment is cake falling down at wedding. Lucas is likely feeling....?</h4></h4>
+        <h4>GPT Prediction: <em style="color:green">Embarrassment</em> </h4>
+
+    </div>
+
+    <div class="col-sm-4">
+      <h4> Minus Environment: <h4 style = "color:#800084"> Lucas is a male adult. Lucas is a(n) groom. Lucas is or has lips that flatten, palms open. Mia is Lucas' bride and she is smiling. Lucas is likely feeling....?</h4>
+        <h4>GPT Prediction: <em style="color:green">Happiness</em> </h4>
+      </h4>
+    </div>
+
+  
+  </div>
+   <h4>Notable Observation: <h5> When the environment was removed from the following image's caption, Happiness, a positive emotion, was predicted which was not on the list of 
+      13 negative emotions that we provided to GPT-3.5 to choose from. 
+      <!-- All four cases happened in the two ablation studies when interaction or environmental features were missing from the captions. 
+      Fig.~\ref{new_emotions} shows the image for these cases and the corresponding captions. We also show the emotions that were originally predicted using the full 
+      captions and the new emotions they were changed to. The removed interactions and environments are in italics: is an emotion that may benefit from environmental context. -->
+      </h5></h4>
+    
+  <hr class="new">
+
+  <div class="row" style="text-align: center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem; padding-top:7rem">
+    <img src="resrc/cng2.jpg" alt="deep_tsf.png"  style=" text-align: center;">
+    <h4>Ground Truth: <em style ="color:blue">Embarrassment</em></h4>
+  </div>
+  <div class="row" style="text-align: center">
+    <h4> GPT-3.5 Prompting</h4>
+
+    <div class="col-sm-4">
+      <h4>Full Caption: <h4 style = "color:#800084">Jack is a male adult. Jack is or has smiling. Beth is a customer and she is side-eyeing Jack. Zoe is a customer and she is staring at Jack. Jack's physical environment is eating in a movie theatre.
+      Jack is likely feeling....? </h4></h4>
+      <h4>GPT Prediction: <em style="color:blue">Embarrassment</em> </h4>
+    </div>
+
+    <div class="col-sm-4">
+      <h4> Minus Interactions:  <h4 style = "color:#800084">Jack is a male adult. Jack is or has smiling. Jack's physical environment is eating in a movie theatre. Jack is likely feeling....?</h4></h4>
+        <h4>GPT Prediction: <em style="color:blue">Happiness</em> </h4>
+
+    </div>
+
+    <div class="col-sm-4">
+      <h4> Minus Environment: <h4 style = "color:#800084"> Jack is a male adult. Jack is or has smiling. Beth is a customer and she is side-eyeing Jack. Zoe is a customer and she is staring at Jack. Jack is likely feeling....?</h4>
+        <h4>GPT Prediction: <em style="color:blue">Embarrassment</em> </h4>
+      </h4>
+    </div>
+  
+  </div>
+  <h4>Notable Observation: <h5> When the interactions were removed from the following image's caption, Happiness, a positive emotion, was predicted which was not on the list of 
+    13 negative emotions that we provided to GPT-3.5 to choose from.     </h5></h4>
+    
+  <hr class="new">
+
+
+  <div class="row" style="text-align: center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem; padding-top:7rem">
+    <img src="resrc/cng4.jpg" alt="deep_tsf.png"  style=" text-align: center;">
+    <h4>Ground Truth: <em style ="color:green">Sadness</em></h4>
+  </div>
+  <div class="row" style="text-align: center">
+    <h4> GPT-3.5 Prompting</h4>
+
+    <div class="col-sm-4">
+      <h4>Full Caption: <h4 style = "color:#800084">Jane is a female adult. Jane is or has taking off eyeglasses. Mia is Jane's daughter and Jane is putting her hand on Mia's shoulder while Mia has her back turned to Jane. Jane's physical environment is on a couch.
+      Jane is likely feeling....? </h4></h4>
+      <h4>GPT Prediction: <em style="color:green">Sadness</em> </h4>
+    </div>
+
+    <div class="col-sm-4">
+      <h4> Minus Interactions:  <h4 style = "color:#800084">Jane is a female adult. Jane is or has taking off eyeglasses. Jane's physical environment is on a couch. Jane is likely feeling....?</h4></h4>
+        <h4>GPT Prediction: <em style="color:green">Embarrassment</em> </h4>
+
+    </div>
+
+    <div class="col-sm-4">
+      <h4> Minus Environment: <h4 style = "color:#800084"> Jane is a female adult. Jane is or has taking off eyeglasses. Mia is Jane's daughter and Jane is putting her hand on Mia's shoulder while Mia has her back turned to Jane. Jane is likely feeling....?</h4>
+        <h4>GPT Prediction: <em style="color:green">Love</em> </h4>
+      </h4>
+    </div>
+
+    </div>
+    <h4>Notable Observation: <h5>During the ablation studies, when interaction or envrionmental features were removed from the caption of this image, the GPT 3.5 Predictions interestingly changed to 
+      Embarrassment and Love (a positive emotion) respectively.</h5></h4>
+  
+   
+  <!-- <h4>Notable Observations: <h5>Fear is an emotion that may benefit from environmental context. The F1 score for this image dropped from 0.52 and 0.48 with
+    environments to 0.34 without environments. An example is
+    shown in this Figure, when "right in front of an alien hand in
+    the dark" was removed from the full caption, the predicted emotion changed
+    from Fear to Disapproval. </h5></h4> -->
+
+    <hr class="new">
+
+    <div class="row" style="text-align: center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem; padding-top:7rem">
+      <img src="resrc/pain1.jpg" alt="deep_tsf.png"  style=" text-align: center;">
+      <h4>Ground Truth: <em style ="color:red">Pain/Suffering - Physical</em></h4>
+    </div>
+    <div class="row" style="text-align: center">
+      <h4> GPT-3.5 Prompting</h4>
+  
+      <div class="col-sm-4">
+        <h4>Full Caption: <h4 style = "color:#800084">Jack is a male adult. Jack is or has frowning, rubbing the back. Jack’s physical environment is on a bed with medication on the side. 
+
+        Jack is likely feeling....? </h4></h4>
+        <h4>GPT Prediction: <em style="color:red">Pain/Suffering - Physical</em> </h4>
+      </div>
+  
+      <div class="col-sm-4">
+        <h4> Minus Interactions:  <h4 style = "color:#800084">Jack is a male adult. Jack is or has frowning, rubbing the back. Jack's physical environment is on a bed with medication on the side.
+          Jack is likely feeling....?</h4></h4>
+          <h4>GPT Prediction: <em style="color:red">Pain/Suffering - Physical</em> </h4>
+  
+      </div>
+  
+      <div class="col-sm-4">
+        <h4> Minus Environment: <h4 style = "color:#800084"> Jack is a male adult. Jack is or has frowning, rubbing the back.
+          Jack is likely feeling....?</h4>
+          <h4>GPT Prediction: <em style="color:red">Disapproval</em> </h4>
+        </h4>
+      </div>
+    
+    </div>
+    <h4>Notable Observation: <h5>This image shows that when "medication on the side" was removed from
+      the full caption, the predicted emotion changed from Physical Pain/Suffering
+      to Disapproval. This is because the lack of description about environment in the image cap-
+      tions seemed to impact Physical Pain/Suffering the most. The
+      F1 score dropped from 0.73 with full captions to 0.46 and it is
+      even lower than the F1 score for captions without interactions.
+      As a result, we observed that Physical Pain/Suffering needed
+      both the interaction and environment descriptions to be well
+      recognized by GPT-3.5</h5></h4>
+
+    <hr class="new">
+
+
+
+
+    <div class="row" style="text-align: center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem; padding-top:7rem">
+        <img src="resrc/emb2.jpg" alt="deep_tsf.png"  style=" text-align: center;">
+        <h4>Ground Truth: <em style ="color:green">Embarrassment</em></h4>
+      </div>
+      <div class="row" style="text-align: center">
+        <h4> GPT-3.5 Prompting</h4>
+    
+        <div class="col-sm-4">
+          <h4>Full Caption: <h4 style = "color:#800084">Nancy is a female adult. Nancy is a(n) contestent. Nancy is or has squeezing eyes shut, body posture that loosens or collapses, falling onto ground. Alec is a contestent and reaching hand out to Nancy. Nora is a contestent and reaching hand out to Nancy. Nancy's physical environment is at a modelling competition.
+            Nancy is likely feeling....? </h4></h4>
+          <h4>GPT Prediction: <em style="color:green">Embarrassment</em> </h4>
+        </div>
+    
+        <div class="col-sm-4">
+          <h4> Minus Interactions:  <h4 style = "color:#800084">Nancy is a female adult. Nancy is a(n) contestent. Nancy is or has squeezing eyes shut, body posture that loosens or collapses, falling onto ground. Nancy's physical environment is at a modelling competition.
+            Nancy is likely feeling....?</h4></h4>
+            <h4>GPT Prediction: <em style="color:green">Embarrassment</em> </h4>
+    
+        </div>
+    
+        <div class="col-sm-4">
+          <h4> Minus Environment: <h4 style = "color:#800084"> Nancy is a female adult. Nancy is a(n) contestent. Nancy is or has squeezing eyes shut, body posture that loosens or collapses, falling onto ground. Alec is a contestent and reaching hand out to Nancy. Nora is a contestent and reaching hand out to Nancy.
+            Nancy is likely feeling....?</h4>
+            <h4>GPT Prediction: <em style="color:green">Embarrassment</em> </h4>
+          </h4>
+        </div>
+
+
+  
+    </div>
+    <hr class="new">
+
+
+
+
+    <div class="row" style="text-align: center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem; padding-top:7rem">
+        <img src="resrc/emb1.jpg" alt="deep_tsf.png"  style=" text-align: center;">
+        <h4>Ground Truth: <em style ="color:blue">Embarrassment</em></h4>
+      </div>
+      <div class="row" style="text-align: center">
+        <h4> GPT-3.5 Prompting</h4>
+    
+        <div class="col-sm-4">
+          <h4>Full Caption: <h4 style = "color:#800084">Lucas is a Male Child. Lucas is or has Using something to hide face, Knees pulling together, Bringing the feet together. Beth is Lucas' classmate and looking at Lucas. Marie is Lucas' classmate and looking at Lucas. Lucas's physical environment is on stage in a classroom.
+          Lucas is likely feeling....? </h4></h4>
+          <h4>GPT Prediction: <em style="color:blue">Embarrassment</em> </h4>
+        </div>
+    
+        <div class="col-sm-4">
+          <h4> Minus Interactions:  <h4 style = "color:#800084">Lucas is a Male Child. Lucas is or has Using something to hide face, Knees pulling together, Bringing the feet together. Lucas's physical environment is on stage in a classroom.
+            Lucas is likely feeling....?</h4></h4>
+            <h4>GPT Prediction: <em style="color:blue">Embarrassment</em> </h4>
+    
+        </div>
+    
+        <div class="col-sm-4">
+          <h4> Minus Environment: <h4 style = "color:#800084"> Lucas is a Male Child. Lucas is or has Using something to hide face, Knees pulling together, Bringing the feet together. Beth is Lucas' classmate and looking at Lucas. Marie is Lucas' classmate and looking at Lucas. 
+            Lucas is likely feeling....?</h4>
+            <h4>GPT Prediction: <em style="color:blue">Embarrassment</em> </h4>
+          </h4>
+        </div>
+
+    </div>
+    <hr class="new">
+
+    <div class="row" style="text-align: center; padding-left:1rem; padding-right:1rem; padding-bottom:1rem; padding-top:7rem">
+        <img src="resrc/cng3.jpg" alt="deep_tsf.png"  style=" text-align: center; height:50rem">
+        <h4>Ground Truth: <em style ="color:red">Embarrassment</em></h4>
+      </div>
+      <div class="row" style="text-align: center">
+        <h4> GPT-3.5 Prompting</h4>
+    
+        <div class="col-sm-4">
+          <h4>Full Caption: <h4 style = "color:#800084">Terry is a male adult. Karl is a security guard and he is grabbing onto Terry and carrying him out from the stadium. Terry’s physical environment is at a sports game.
+
+          Terry is likely feeling....? </h4></h4>
+          <h4>GPT Prediction: <em style="color:red">Fear</em> </h4>
+        </div>
+    
+        <div class="col-sm-4">
+          <h4> Minus Interactions:  <h4 style = "color:#800084">Terry is a male adult. Terry's physical environment is at a sports game.
+            Terry is likely feeling....?</h4></h4>
+            <h4>GPT Prediction: <em style="color:red">Excitement</em> </h4>
+    
+        </div>
+    
+        <div class="col-sm-4">
+          <h4> Minus Environment: <h4 style = "color:#800084"> Terry is a male adult. Karl is a security guard and he is grabbing onto Terry and carrying him out from the stadium.
+            Terry is likely feeling....?</h4>
+            <h4>GPT Prediction: <em style="color:red">Fear</em> </h4>
+          </h4>
+        </div>
+
+    </div>
+    <hr class="new">
+
+
+  
+  </div>
+
+  
+
+
+</div>
+
+</body>
+</html> 
+
+
+  
+</div> 
+
+
+  
+</div>
+
+<div class="container" style="padding-top:3rem; padding-bottom:3rem">
+  <p style="text-align:center">
+  &#169; This webpage was in part inspired from this
+  <a href="https://github.com/monniert/project-webpage">template</a>.
+  </p>
+</div>
+
+</body>
+</html> 
