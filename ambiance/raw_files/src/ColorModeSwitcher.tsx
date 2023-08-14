@@ -43,7 +43,7 @@ export const ColorModeSwitcher: React.FC<ColorModeSwitcherProps> = (props) => {
         <Flex
           display={['none', 'none', 'none','flex']}
         >
-          <Link to="/">
+          <Link to="/ambiance">
             <Button
               as="a"
               variant="ghost"
