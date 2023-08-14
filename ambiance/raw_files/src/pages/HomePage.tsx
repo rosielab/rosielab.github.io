@@ -6,9 +6,12 @@ import {
   Text,
   VStack,
   Container,
+  Link,
+  Center,
 } from "@chakra-ui/react"
 import back from '../back.jpg';
 import us from '../us.png';
+import pdf from '../pdf.png';
 import nserc from '../nserc.png';
 
 export const HomePage = () => (
@@ -26,6 +29,15 @@ export const HomePage = () => (
         >
           Read the Room: Adapting a Robot's Voice to Ambient and Social Contexts
         </Heading>
+
+        <Container>
+          <Link href='https://arxiv.org/pdf/2205.04952' isExternal>
+            <Center>
+              <Image src= {pdf} alt='pdf icon to access the paper' boxSize='50px' align="center"/>
+            </Center>
+          </Link>
+        </Container>
+
         <Text
           textAlign="center"
           letterSpacing="1px"
