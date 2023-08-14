@@ -9,7 +9,7 @@ import { HomePage } from '../pages/HomePage';
 
 
 export const routePaths = {
-    HOME: '/',
+    HOME: '/ambiance',
     AMBIENCE1: '/ambience1',
     AMBIENCE2: '/ambience2',
     AMBIENCE3: '/ambience3',
