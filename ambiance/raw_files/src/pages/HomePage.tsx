@@ -30,6 +30,12 @@ export const HomePage = () => (
           Read the Room: Adapting a Robot's Voice to Ambient and Social Contexts
         </Heading>
 
+        <Center>
+          <Link  color='red.600' href='https://arxiv.org/abs/2205.04952v2' isExternal>
+            arXiv Link
+          </Link>
+        </Center>
+
         <Container>
           <Link href='https://arxiv.org/pdf/2205.04952' isExternal>
             <Center>
