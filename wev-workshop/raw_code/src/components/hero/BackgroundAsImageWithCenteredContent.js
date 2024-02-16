@@ -67,7 +67,7 @@ export default () => {
         <StyledHeader links={navLinks} />
         <Content>
           <Heading>
-              Worshop on Embodied Voices
+              Workshop on Embodied Voices
               <br />
               RSS 2024
           </Heading>

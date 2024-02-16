@@ -2,7 +2,7 @@
   "name": "treact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rosielab.github.io/web-workshop",
+  "homepage": "https://rosielab.github.io/wev",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^13.4.0",
