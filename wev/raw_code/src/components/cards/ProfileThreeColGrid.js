@@ -45,13 +45,13 @@ export default ({
       imageSrc: lealuka,
       name: "Dr. Lea Luka Sikau",
       position: "University of Cambridge, UK",
-      description: "Lea Luka (she/her) is an artist-researcher with a PhD on critical posthumanism, new music and rehearsal ethnography from the University of Cambridge. She teaches on artistic research processes at Humboldt University Berlin and Seoul National University. Sikau has been a Bavarian American Academy Fellow at Harvard University’s Mellon School for Performance and Theater Research and was awarded with the Bavarian Cultural Award for her research at MIT’s Center for Art, Science and Technology. She has worked with some of the most sought-after visionaries in the arts such as Romeo Castellucci, Marina Abramović, Lotte de Beer and Stefan Kaegi (Rimini Protokoll). As a media artist and mezzosoprano, Sikau was commissioned by S+T+ARTS (European Commission), the Ars Electronica Festival, transmediale Berlin, Impakt Utrecht, Ensemble Modern and Climate Week NYC. Image : Patrick Münnich",
+      description: "Dr. Sikau (she/her) is an artist-researcher with a PhD on critical posthumanism, new music and rehearsal ethnography from the University of Cambridge. She teaches on artistic research processes at Humboldt University Berlin and Seoul National University. Sikau has been a Bavarian American Academy Fellow at Harvard University’s Mellon School for Performance and Theater Research and was awarded with the Bavarian Cultural Award for her research at MIT’s Center for Art, Science and Technology. She has worked with some of the most sought-after visionaries in the arts such as Romeo Castellucci, Marina Abramović, Lotte de Beer and Stefan Kaegi (Rimini Protokoll). As a media artist and mezzosoprano, Sikau was commissioned by S+T+ARTS (European Commission), the Ars Electronica Festival, transmediale Berlin, Impakt Utrecht, Ensemble Modern and Climate Week NYC. Image : Patrick Münnich",
     },
     {
       imageSrc: zhengjun,
       name: "Dr. Zhengjun Yue",
       position: "Delft University of Technology, Netherlands",
-      description: "Zhengjun Yue is an Assistant Professor at the Multimedia Computing Group working on speech technology for healthcare. Her interests are atypical speech processing and recognition.  She is also interested in building conversation AI medical systems for healthcare, and using heart sounds and brain signals for medical care and treatment.",
+      description: "Dr. Yue is an Assistant Professor at the Multimedia Computing Group working on speech technology for healthcare. Her interests are atypical speech processing and recognition.  She is also interested in building conversation AI medical systems for healthcare, and using heart sounds and brain signals for medical care and treatment.",
       title : "Title: Speech Technology for Healthcare in Robotics"
     },
     {

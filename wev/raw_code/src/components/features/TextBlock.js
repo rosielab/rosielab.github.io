@@ -33,7 +33,7 @@ export default () => {
           submissions from researchers at any stage of their career.
           </HeadingDescription>
           <HeadingMinor>
-          Papers are to be maximum 5 pages including references and should ahear to the RSS format 
+          Papers are to be maximum 4 pages plus references and should adhear to the RSS format 
           found <a href="https://roboticsconference.org/information/authorinfo/">HERE</a>
           </HeadingMinor>
           <HeadingMinor>
@@ -43,7 +43,7 @@ export default () => {
           Deadline for submission is <b>May 15th 2024</b>
           </HeadingMinor>
           <HeadingMinor>
-          Notification of acceptance is <b>July 15th 2024</b>
+          Notification of acceptance is <b>June 15th 2024</b>
           </HeadingMinor>
         </HeadingInfoContainer>
       </SingleColumn>

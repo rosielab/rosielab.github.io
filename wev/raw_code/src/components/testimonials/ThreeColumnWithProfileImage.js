@@ -106,16 +106,16 @@ export default ({
       imageSrc:
         lawrence,
       quote:
-        "Lawrence is an Assistant Professor in the School of Computing Science. His research includes the design and development of novel tangible user interfaces for physical and mental well-being.",
-      customerName: "Lawrence Kim",
+        "Dr. Kim is an Assistant Professor in the School of Computing Science. His research includes the design and development of novel tangible user interfaces for physical and mental well-being.",
+      customerName: "Dr. Lawrence Kim",
       position: "Simon Fraser University, Canada"
     },
     {
       imageSrc:
         angelica,
       quote:
-        "Angelica is an Assistant Professor in the School of Computing Science and Director of the Robots with Social Intelligence and Empathy (ROSIE) Lab. Her research interests include multimodal emotional intelligence, machine learning and social robotics.",
-      customerName: "Angelica Lim",
+        "Dr. Lim is an Assistant Professor in the School of Computing Science and Director of the Robots with Social Intelligence and Empathy (ROSIE) Lab. Her research interests include multimodal emotional intelligence, machine learning and social robotics.",
+      customerName: "Dr. Angelica Lim",
       position: "Simon Fraser University, Canada"
     }
   ]

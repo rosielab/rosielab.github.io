@@ -29,10 +29,18 @@ const Container = styled.div`
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-75`;
 
 const HeroContainer = tw.div`z-20 relative px-6 sm:px-8 mx-auto h-full flex flex-col`;
+/*const Content = tw.div`px-4 flex flex-1 flex-col justify-center items-center`;*/
 const Content = tw.div`px-4 flex flex-1 flex-col justify-center items-center`;
 
 const Heading = styled.h1`
-  ${tw`text-3xl text-center sm:text-4xl lg:text-5xl xl:text-6xl font-black text-gray-100 leading-snug -mt-24 sm:mt-0`}
+  ${tw`text-3xl text-center sm:text-4xl lg:text-5xl xl:text-6xl font-black text-gray-100 leading-snug`}
+  span {
+    ${tw`inline-block mt-2`}
+  }
+`;
+
+const Para = styled.h2`
+  ${tw`text-sm text-center sm:text-lg lg:text-xl xl:text-2xl font-thin text-gray-100 leading-snug`}
   span {
     ${tw`inline-block mt-2`}
   }
@@ -74,11 +82,15 @@ export default () => {
       <HeroContainer>
         <StyledHeader links={navLinks} />
         <Content>
+          <Para>
+              July 15th 2024, Full day
+          </Para>
           <Heading>
-              Workshop on Embodied Voices
-              <br />
-              RSS 2024
+              WEV: Workshop on Embodied Voices
           </Heading>
+          <Para>
+              Workshop at : <a href="https://roboticsconference.org/">RSS 2024</a>, Delft University of Technology, Netherlands
+          </Para>
         </Content>
       </HeroContainer>
     </Container>
