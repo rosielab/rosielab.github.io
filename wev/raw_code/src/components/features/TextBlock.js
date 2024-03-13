@@ -33,6 +33,10 @@ export default () => {
           submissions from researchers at any stage of their career.
           </HeadingDescription>
           <HeadingMinor>
+          Papers are to be maximum 5 pages including references and should ahear to the RSS format 
+          found <a href="https://roboticsconference.org/information/authorinfo/">HERE</a>
+          </HeadingMinor>
+          <HeadingMinor>
           Papers are to be submitted via Microsoft CMT here: TBA
           </HeadingMinor>
           <HeadingMinor>
