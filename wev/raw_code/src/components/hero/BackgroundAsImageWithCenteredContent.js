@@ -49,6 +49,14 @@ export default () => {
       style= {linkStyle}>
         Activities
       </NavHashLink>
+      <NavHashLink smooth to ="/#cfp"
+      style= {linkStyle}>
+        Call for Papers
+      </NavHashLink>
+      <NavHashLink smooth to ="/#schedule"
+      style= {linkStyle}>
+        Schedule
+      </NavHashLink>
       <NavHashLink smooth to="/#invited"
       style= {linkStyle}>
         Invited Speakers

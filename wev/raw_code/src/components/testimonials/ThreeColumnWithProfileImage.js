@@ -6,6 +6,11 @@ import { ContentWithPaddingXl, Container } from "components/misc/Layouts.js";
 import { SectionHeading as Heading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-7.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-8.svg";
+import shay from "images/shay.jpeg";
+import lawrence from "images/LAWRENCE_KIM (3)-slim Medium.jpeg";
+import paige from "images/paige.png";
+import paul from "images/paul.jpeg";
+import angelica from "images/angelica.jpg";
 
 const Testimonials = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`;
 const TestimonialContainer = tw.div`mt-16 lg:w-1/3`;
@@ -27,91 +32,91 @@ export default ({
   testimonials = [
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        paige,
       quote:
-        "Bio",
+        "Paige is a PhD sudent building adaptive voices for robotics, specifically focusing on voices for teaching and second language learners.",
       customerName: "Paige Tuttösí",
-      position: "Simon Fraser University & FEMTO-ST"
+      position: "Simon Fraser University, Canada & FEMTO-ST, France"
     },
     {
       imageSrc:
         "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       quote:
-        "Bio",
+        "Siyang is a PhD student working on speech and gesture synthesis.",
       customerName: "Siyang Wang",
-      position: "KTH Royal Institute of Technology"
+      position: "KTH Royal Institute of Technology, Sweden"
     },
     {
       imageSrc:
         "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       quote:
-        "Bio",
+        "Minja is a final year PhD student working on design, ethics and user experiences in HRI, and particularly on robots for mental wellbeing.",
       customerName: "Minja Axelsson",
-      position: "University of Cambridge"
+      position: "University of Cambridge, UK"
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        paul,
       quote:
-        "Bio",
+        "Paul is a PhD student in Music In the Brain Lab. His work focuses on the altered vocal feedback impacts on felt emotion.",
       customerName: "Paul Maublanc",
-      position: "Aarhus University"
+      position: "Aarhus University, Denmark"
     },
     {
       imageSrc:
         "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       quote:
-        "Bio",
+        "Charlotte is a PhD student working on anthropomorphism and agency in social robots and AI's impact on human interaction.",
       customerName: "Charlotte Stinkeste",
-      position: "KTH Royal Institute of Technology"
+      position: "KTH Royal Institute of Technology, Sweden"
     },
     {
       imageSrc:
         "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       quote:
-        "Bio",
+        "Jūra a PhD student working on Multimodal Machine Learning and HRI.",
       customerName: "Jūra Miniota",
-      position: "KTH Royal Institute of Technology"
+      position: "KTH Royal Institute of Technology, Sweden"
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        shay,
       quote:
-        "Bio",
+        "Chuxuan (Shay) is a master’s student studying human emotion and behaviors in the HCI/HRI context. Her research interests include Affective Computing, Social Robotics and Human-Centered Design.",
       customerName: "Chuxuan Zhang",
-      position: "Simon Fraser University"
+      position: "Simon Fraser University, Canada"
     },
     {
       imageSrc:
         "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       quote:
-        "Bio",
+        "Emma holds a BSc (honours) in psychology from the UVic and MSc in CS from SFU. She has 4 years of both industry and academic experience working in affective computing, human-machine interaction, cognitive science, and data science.",
       customerName: "Emma Hughson",
-      position: "Cambridge Consultants"
+      position: "Cambridge Consultants, UK"
     },
     {
       imageSrc:
         "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       quote:
-        "Bio",
+        "Marine has been leading the HRI team in the software department in Aldebaran for almost 7 years now, addressing the challenges of social robotics to enhance the social intelligence and the attractiveness and naturalness of our robots.",
       customerName: "Marine Chamoux",
-      position: "Aldebaran"
+      position: "Aldebaran, France"
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        lawrence,
       quote:
-        "Bio",
+        "Lawrence is an Assistant Professor in the School of Computing Science. His research includes the design and development of novel tangible user interfaces for physical and mental well-being.",
       customerName: "Lawrence Kim",
-      position: "Simon Fraser University"
+      position: "Simon Fraser University, Canada"
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        angelica,
       quote:
-        "Bio",
+        "Angelica is an Assistant Professor in the School of Computing Science and Director of the Robots with Social Intelligence and Empathy (ROSIE) Lab. Her research interests include multimodal emotional intelligence, machine learning and social robotics.",
       customerName: "Angelica Lim",
-      position: "Simon Fraser University"
+      position: "Simon Fraser University, Canada"
     }
   ]
 }) => {

@@ -55,7 +55,7 @@ export default () => {
         "https://images.pexels.com/photos/680940/pexels-photo-680940.jpeg?auto=compress&cs=tinysrgb&w=800",
       title: "Lightning Talks",
       description:
-        "Lightning talks will be 3-5 minutes long followed by pannel Q&A. Posters will be available here on the Website. We aim to bring together robot designers, interaction scholars and those working in generative sound and voice that can be embedded into robotic systems. We challenge those working in behavior generation to consider the challenges of working within the constraints of embodiment and context, and those designing robots to consider the benefits of embedding state of the art generative models. We strongly encourage submissions from researchers at any stage of their career.",
+        "Lightning talks will be 3-5 minutes long followed by pannel Q&A. Posters will be available here on the Website. We aim to bring together robot designers, interaction scholars and those working in generative sound and voice that can be embedded into robotic systems. See the Call for Papers for additional information.",
     },
 
     {
@@ -94,24 +94,6 @@ export default () => {
           robot dog approaching you while working in a warehouse. If it speaks, how do you expect 
           it to sound? If it had the voice of a 5 year old child, would this affect the trust you 
           have in this robot as a working companion? 
-          </HeadingDescription>
-          <HeadingDescription>
-          The first question to consider is whether the robot even needs 
-          a voice; will sounds, e.g. beeps and boops, suffice, or should there be no sound at all? 
-          When we decide to use a voice how do we choose the right one; how will this choice affect 
-          user comfort and perception, what ethical problems could result from vocal interaction, 
-          e.g. affirming gender bias in tasks, difficulties in perception for second language speakers, 
-          both on the side of the human and the robot, and increasing the humanlikess of the robot, 
-          which could lead to attachment issues and personification. Consider, for example, a 
-          robot dog approaching you while working in a warehouse. If it speaks, how do you expect 
-          it to sound? If it had the voice of a 5 year old child, would this affect the trust you 
-          have in this robot as a working companion? 
-          </HeadingDescription>
-          <HeadingDescription>
-          In this workshop, we aim to bring together and nourish a multidisciplinary community of 
-          those working in speech synthesis and their applications in interaction. By doing so we 
-          hope to bridge the disconnect between state of the art generative models for voice and the 
-          in the wild implementation in embodied characters, whether it be robots, virtual agents or beyond. 
           </HeadingDescription>
         </HeadingInfoContainer>
 
