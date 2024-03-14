@@ -33,7 +33,7 @@ export default () => {
           submissions from researchers at any stage of their career.
           </HeadingDescription>
           <HeadingMinor>
-          Papers are to be maximum 4 pages plus references and should adhear to the RSS format 
+          Papers are to be maximum 4 pages plus references and should adhere to the RSS format 
           found <a href="https://roboticsconference.org/information/authorinfo/">HERE</a>
           </HeadingMinor>
           <HeadingMinor>

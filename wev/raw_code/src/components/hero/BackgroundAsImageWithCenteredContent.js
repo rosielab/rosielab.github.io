@@ -83,7 +83,7 @@ export default () => {
         <StyledHeader links={navLinks} />
         <Content>
           <Para>
-              July 15th 2024, Full day
+              July 15th 2024, Full day, Hybrid
           </Para>
           <Heading>
               WEV: Workshop on Embodied Voices

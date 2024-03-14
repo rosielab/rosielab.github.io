@@ -11,6 +11,7 @@ import lawrence from "images/LAWRENCE_KIM (3)-slim Medium.jpeg";
 import paige from "images/paige.png";
 import paul from "images/paul.jpeg";
 import angelica from "images/angelica.jpg";
+import charlotte from "images/charlotte.png";
 
 const Testimonials = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`;
 const TestimonialContainer = tw.div`mt-16 lg:w-1/3`;
@@ -64,7 +65,7 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        charlotte,
       quote:
         "Charlotte is a PhD student working on anthropomorphism and agency in social robots and AI's impact on human interaction.",
       customerName: "Charlotte Stinkeste",

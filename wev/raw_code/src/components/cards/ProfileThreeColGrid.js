@@ -7,6 +7,7 @@ import { SectionHeading, Subheading as SubheadingBase } from "components/misc/He
 import {SectionDescription} from "components/misc/Typography";
 import lealuka from "images/lea-luka.png";
 import zhengjun from "images/zhengjun.png";
+import tony from "images/tony.jpeg";
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
@@ -52,7 +53,7 @@ export default ({
       name: "Dr. Zhengjun Yue",
       position: "Delft University of Technology, Netherlands",
       description: "Dr. Yue is an Assistant Professor at the Multimedia Computing Group working on speech technology for healthcare. Her interests are atypical speech processing and recognition.  She is also interested in building conversation AI medical systems for healthcare, and using heart sounds and brain signals for medical care and treatment.",
-      title : "Title: Speech Technology for Healthcare in Robotics"
+      title: "Title: Speech Technology for Healthcare in Robotics"
     },
     {
       imageSrc: "https://images.pexels.com/photos/8566525/pexels-photo-8566525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -61,10 +62,11 @@ export default ({
       description: "Bio",
     },
     {
-      imageSrc: "https://images.pexels.com/photos/8566525/pexels-photo-8566525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      imageSrc: tony,
       name: "Dr. Tony Belpaeme",
-      position: "Ghent University, Belgium",
-      description: "Bio",
+      position: "Ghent University & imec, Belgium",
+      description: "Dr. Belpaeme is professor and senior researcher. His team studies human-robot interaction and applications of social robotics, with a specific focus on building autonomous robots for applications such as education, healthcare and entertainment. Spoken language is the most natural and, once sufficiently mature and robust, will likely be the most common interface for robot applications. Interacting using language requires efforts across the whole chain of processing, which needs speech recognition, multimodal interpretation, dialogue management and speech production to all singing together. However, the speech of a robot is often an afterthought and all too often relies on bland out-of-the-box text-to-speech solutions. This talk argues that robot voices merit more attention and scopes the challenges and possible solutions to give robots the voice they deserve.",
+      title: "Title: Giving Robots a Voice"
     },
     //{
     //  imageSrc: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
