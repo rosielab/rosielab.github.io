@@ -14,6 +14,8 @@ import angelica from "images/angelica.jpg";
 import charlotte from "images/charlotte.png";
 import emma from "images/emma.png";
 import marine from "images/marine.png";
+import minja from "images/minja.png";
+import jura from "images/jura.png";
 
 const Testimonials = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`;
 const TestimonialContainer = tw.div`mt-16 lg:w-1/3`;
@@ -51,11 +53,19 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        charlotte,
       quote:
-        "Minja is a final year PhD student working on design, ethics and user experiences in HRI, and particularly on robots for mental wellbeing.",
-      customerName: "Minja Axelsson",
-      position: "University of Cambridge, UK"
+        "Charlotte is a PhD student working on anthropomorphism and agency in social robots and AI's impact on human interaction.",
+      customerName: "Charlotte Stinkeste",
+      position: "KTH Royal Institute of Technology, Sweden"
+    },
+    {
+      imageSrc:
+        emma,
+      quote:
+        "Emma holds a BSc (honours) in psychology from the UVic and MSc in CS from SFU. She has 4 years of both industry and academic experience working in affective computing, human-machine interaction, cognitive science, and data science.",
+      customerName: "Emma Hughson",
+      position: "Cambridge Consultants, UK"
     },
     {
       imageSrc:
@@ -67,15 +77,15 @@ export default ({
     },
     {
       imageSrc:
-        charlotte,
+        minja,
       quote:
-        "Charlotte is a PhD student working on anthropomorphism and agency in social robots and AI's impact on human interaction.",
-      customerName: "Charlotte Stinkeste",
-      position: "KTH Royal Institute of Technology, Sweden"
+        "Minja is a final year PhD student working on design, ethics and user experiences in HRI, and particularly on robots for mental wellbeing.",
+      customerName: "Minja Axelsson",
+      position: "University of Cambridge, UK"
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        jura,
       quote:
         "Jūra a PhD student working on Multimodal Machine Learning and HRI.",
       customerName: "Jūra Miniota",
@@ -88,14 +98,6 @@ export default ({
         "Chuxuan (Shay) is a master’s student studying human emotion and behaviors in the HCI/HRI context. Her research interests include Affective Computing, Social Robotics and Human-Centered Design.",
       customerName: "Chuxuan Zhang",
       position: "Simon Fraser University, Canada"
-    },
-    {
-      imageSrc:
-        emma,
-      quote:
-        "Emma holds a BSc (honours) in psychology from the UVic and MSc in CS from SFU. She has 4 years of both industry and academic experience working in affective computing, human-machine interaction, cognitive science, and data science.",
-      customerName: "Emma Hughson",
-      position: "Cambridge Consultants, UK"
     },
     {
       imageSrc:
