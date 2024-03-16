@@ -12,6 +12,8 @@ import paige from "images/paige.png";
 import paul from "images/paul.jpeg";
 import angelica from "images/angelica.jpg";
 import charlotte from "images/charlotte.png";
+import emma from "images/emma.png";
+import marine from "images/marine.png";
 
 const Testimonials = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`;
 const TestimonialContainer = tw.div`mt-16 lg:w-1/3`;
@@ -89,7 +91,7 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        emma,
       quote:
         "Emma holds a BSc (honours) in psychology from the UVic and MSc in CS from SFU. She has 4 years of both industry and academic experience working in affective computing, human-machine interaction, cognitive science, and data science.",
       customerName: "Emma Hughson",
@@ -97,7 +99,7 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        marine,
       quote:
         "Marine has been leading the HRI team in the software department in Aldebaran for almost 7 years now, addressing the challenges of social robotics to enhance the social intelligence and the attractiveness and naturalness of our robots.",
       customerName: "Marine Chamoux",
