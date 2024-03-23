@@ -9,6 +9,7 @@ import lealuka from "images/lea-luka.png";
 import zhengjun from "images/zhengjun.png";
 import tony from "images/tony.jpeg";
 import kazuhiro from "images/kazuhiro.png"
+import catherine from "images/catherine.png"
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
@@ -38,10 +39,11 @@ export default ({
   description = "We are excited to present our lineup of excellent speakers.",
   cards = [
     {
-      imageSrc: "https://images.pexels.com/photos/8566525/pexels-photo-8566525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      imageSrc: catherine,
       name: "Dr. Catherine Lai",
       position: "University of Edinburgh, UK",
-      description: "Bio",
+      description: "Dr. Lai is a Lecturer in Speech and Language Technology, based in the Centre for Speech Technology Research. She will discuss recent work exploring prosodic variation in conversational (English) speech using text-to-speech synthesis models. She argues that there are a  lot of benefits to be had from new self-supervised methods for representation learning on speech and text datasets, but we still need linguistic knowledge to actually make use of the true richness of spoken communication. Her research focuses on speech prosody,  spoken language understanding and generation, and affective computing.",
+      title: "Title: Watch your tone! Understanding prosodic variation in synthetic speech"
     },
     {
       imageSrc: lealuka,
