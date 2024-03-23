@@ -8,6 +8,7 @@ import {SectionDescription} from "components/misc/Typography";
 import lealuka from "images/lea-luka.png";
 import zhengjun from "images/zhengjun.png";
 import tony from "images/tony.jpeg";
+import kazuhiro from "images/kazuhiro.png"
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
@@ -56,10 +57,11 @@ export default ({
       title: "Title: Speech Technology for Healthcare in Robotics"
     },
     {
-      imageSrc: "https://images.pexels.com/photos/8566525/pexels-photo-8566525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      imageSrc: kazuhiro,
       name: "Dr. Kazuhiro Nakadai",
       position: "Tokyo Institute of Technology, Japan",
-      description: "Bio",
+      description: "Dr. Nakadai has been a pioneer in the field of robot audition for more than 20 years since Prof. Okuno and he proposed it in 2000, both as a JST and HRI scientist and, since 2022, as a professor in Department of Systems and Control Engineering, School of Engineering, Tokyo Institute of Technology. In addition to robot audition, his main research interests include AI, robotics, signal processing, computational auditory scene analysis, and multimodal integration. IEEE Fellow. RSJ Fellow. This talk will introduce robot audition techniques, mainly related to human-robot interaction, accompanied with demonstrations. In addition, machine learning and deep learning-based robot audition techniques, which have been developed rapidly in recent years, will be introduced and their advantages and disadvantages will be discussed from the perspective of robot audition.",
+      title: "Title: Robot Audition for Human Robot Interaction"
     },
     {
       imageSrc: tony,
