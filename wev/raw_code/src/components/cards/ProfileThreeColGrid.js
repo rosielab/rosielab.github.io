@@ -30,7 +30,10 @@ const CardContent = styled.div`
     ${tw`mb-4 text-xl font-medium text-gray-900`}
   }
   .title {
-    ${tw`mt-2 text-lg font-medium text-gray-700`}
+    ${tw`mt-2 text-lg font-medium text-primary-700`}
+  }
+  .description {
+    ${tw`font-medium text-gray-600`}
   }
 `
 

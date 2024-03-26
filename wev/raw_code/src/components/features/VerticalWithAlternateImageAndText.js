@@ -14,7 +14,7 @@ const HeadingDescription = tw.p`mt-4 font-medium text-gray-600 text-center `;
 const Content = tw.div`mt-16`;
 
 const Card = styled.div(props => [
-  tw`mt-24 md:flex justify-center items-center`,
+  tw`mt-24 md:flex justify-center items-center font-medium text-gray-600`,
   props.reversed ? tw`flex-row-reverse` : "flex-row"
 ]);
 const Image = styled.div(props => [
@@ -23,7 +23,7 @@ const Image = styled.div(props => [
 ]);
 const Details = tw.div`mt-4 md:mt-0 md:max-w-md mx-4 sm:mx-8 md:mx-4 lg:mx-8`;
 const Subtitle = tw.div`font-bold tracking-wide text-secondary-100`;
-const Title = tw.h4`text-3xl font-bold text-gray-900`;
+const Title = tw.h2`text-4xl  text-gray-700`;
 const Description = tw.p`mt-2 text-sm leading-loose`;
 const Link = tw.a`inline-block mt-4 text-sm text-primary-500 font-bold cursor-pointer transition duration-300 border-b-2 border-transparent hover:border-primary-500`;
 
