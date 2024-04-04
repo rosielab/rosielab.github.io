@@ -8,7 +8,7 @@ const Container = tw.div`relative`;
 const SingleColumn = tw.div` max-w-screen-xl mx-auto py-20 lg:py-24`;
 
 const HeadingInfoContainer = tw.div`flex flex-col items-center`;
-const HeadingDescription = tw.p`mt-2 mb-2 font-medium text-gray-600 text-center `;
+const HeadingDescription = tw.p`lg:mx-24 mt-2 mb-2 font-medium text-gray-600 text-center `;
 const HeadingMinor = tw.p`mt-6 mb-2 font-bold text-gray-600 text-center `;
 
 const List = tw.ul`mt-2 mb-2`;

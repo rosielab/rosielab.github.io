@@ -24,16 +24,16 @@ const CardImage = styled.div`
 const CardContent = styled.div`
   ${tw`flex flex-col items-center mt-6`}
   .position {
-    ${tw`mb-4 uppercase font-bold tracking-widest text-xs text-primary-500 text-center`}
+    ${tw`mb-4 uppercase font-bold tracking-widest text-xs text-primary-500`}
   }
   .name {
     ${tw`mb-4 text-xl font-medium text-gray-900`}
   }
   .title {
-    ${tw`mt-2 text-lg font-medium text-primary-700`}
+    ${tw`mt-2 text-lg font-bold text-primary-700`}
   }
   .description {
-    ${tw`font-medium text-gray-600`}
+    ${tw`font-medium text-gray-600 text-justify mx-6`}
   }
 `
 

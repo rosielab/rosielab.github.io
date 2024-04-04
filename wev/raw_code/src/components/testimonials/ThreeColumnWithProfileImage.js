@@ -21,7 +21,7 @@ const Testimonials = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl 
 const TestimonialContainer = tw.div`mt-16 lg:w-1/3`;
 const Testimonial = tw.div`px-4 text-center max-w-xs mx-auto flex flex-col items-center`;
 const Image = tw.img`w-20 h-20 rounded-full`;
-const Quote = tw.blockquote`mt-5 text-gray-600 font-medium leading-loose`;
+const Quote = tw.blockquote`mt-5 text-gray-600 font-medium leading-normal`;
 const Position = tw.div`uppercase font-bold tracking-widest text-xs text-primary-500`
 const CustomerName = tw.p`mt-5 text-gray-900 font-semibold uppercase text-sm tracking-wide`;
 
