@@ -14,10 +14,10 @@ const Table = tw.table`table-auto text-gray-600 lg:w-2/3`;
 
 const SvgDotPattern3 = tw(
   SvgDotPatternIcon
-)`absolute bottom-0 left-0 transform -translate-x-20 rotate-45 -translate-y-8 -z-10 opacity-25 text-primary-500 fill-current w-24`;
+)`absolute bottom-0 left-0 opacity-25 text-primary-500 fill-current w-20 lg:w-24`;
 const SvgDotPattern4 = tw(
   SvgDotPatternIcon
-)`absolute bottom-0 right-0 transform translate-x-20 rotate-90 -translate-y-24 -z-10 opacity-25 text-primary-500 fill-current w-24`;
+)`absolute bottom-0 right-0 opacity-25 text-primary-500 fill-current w-20 lg:w-24`;
 
 export default () => {
 

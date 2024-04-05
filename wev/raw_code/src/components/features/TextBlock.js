@@ -18,10 +18,10 @@ const Link = tw.a`border-b-2 border-transparent hocus:text-primary-500 hocus:bor
 
 const SvgDotPattern1 = tw(
   SvgDotPatternIcon
-)`absolute top-0 left-0 transform -translate-x-20 rotate-90 translate-y-8 -z-10 opacity-25 text-primary-500 fill-current w-24`;
+)`absolute top-0 left-0 opacity-25 text-primary-500 fill-current w-24`;
 const SvgDotPattern2 = tw(
   SvgDotPatternIcon
-)`absolute top-0 right-0 transform translate-x-20 rotate-45 translate-y-24 -z-10 opacity-25 text-primary-500 fill-current w-24`;
+)`absolute top-0 right-0 opacity-25 text-primary-500 fill-current w-24`;
 
 export default () => {
 
@@ -150,7 +150,6 @@ export default () => {
             /yjqvxxpznptx">Overleaf template</Link>), reviews will be double bind so all submissions must 
             be anonymized.
           </HeadingDescription>
-
         </HeadingInfoContainer>
       </SingleColumn>
       <SvgDotPattern1 />
