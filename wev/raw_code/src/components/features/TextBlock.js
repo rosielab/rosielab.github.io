@@ -141,7 +141,7 @@ export default () => {
             Submission Guidelines
           </HeadingMinor>
           <HeadingDescription>
-            We invite papers of 4 pages (excluding references).
+            We invite papers of 2-4 pages (excluding references).
           </HeadingDescription>
           <HeadingDescription>
             Please follow the style and submission 
