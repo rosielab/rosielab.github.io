@@ -44,19 +44,19 @@ export default () => {
           </HeadingMinor>
           <List>
             <ListItem>
-              Early-bird submission deadline: <b>April 24th, 2024</b>
+              <s>Early-bird submission deadline: <b>April 24th, 2024</b></s>
             </ListItem>
             <ListItem>
-              Early-bird notification of acceptance: <b>May 22nd, 2024</b>
+              <s>Early-bird notification of acceptance: <b>May 22nd, 2024</b></s>
             </ListItem>
             <ListItem>
-              General submission deadline: <b>May 15th, 2024</b>
-            </ListItem>
-            <ListItem>
-              General notification of acceptance: <b>June 15th, 2024</b>
+              General submission deadline: <b>June 1st, 2024</b>
             </ListItem>
             <ListItem>
               Camera-ready deadline: <b>July 10th, 2024</b>
+            </ListItem>
+            <ListItem>
+              General notification of acceptance: <b>June 26th, 2024</b>
             </ListItem>
           </List>
           <HeadingDescription>
