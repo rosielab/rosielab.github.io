@@ -25,6 +25,7 @@ const Details = tw.div`mt-4 md:mt-0 md:max-w-md mx-4 sm:mx-8 md:mx-4 lg:mx-8`;
 const Subtitle = tw.div`font-bold tracking-wide text-secondary-100`;
 const Title = tw.h2`text-4xl  text-gray-700`;
 const Description = tw.p`mt-2 text-sm leading-loose`;
+const Guest = tw.p`mt-2 font-bold text-base leading-loose`
 const Link = tw.a`inline-block mt-4 text-sm text-primary-500 font-bold cursor-pointer transition duration-300 border-b-2 border-transparent hover:border-primary-500`;
 
 const SvgDotPattern1 = tw(
@@ -64,6 +65,7 @@ export default () => {
       title: "Activities",
       description:
         "To get everyone thinking about embodiment, we will start with a robot body movement game. To finish of the workshop we will have an embodied voice task. Participants will be organized into teams and will be assigned a physical robot and an avatar. Each of the robots will have a short personal story to provide context such as their job, where they are, and who will be using them. Leading up to the workshop the organizers will prepare a set of voice clips that include a range of genders, naturalness, and speaking styles. In addition participants interested in and registered for the workshop will be able to submit their own curated voices via our website. Working through a co-design canvas, participants will brainstorm an appropriate voice for their robots. We will finish up with demos where each of the teams present their design process and selection.",
+      guest:  "Guest Judge : Dr. Roger K. Moore",
     }
   ];
 
@@ -105,6 +107,7 @@ export default () => {
                 <Subtitle>{card.subtitle}</Subtitle>
                 <Title>{card.title}</Title>
                 <Description>{card.description}</Description>
+                <Guest>{card.guest}</Guest>
               </Details>
             </Card>
           ))}
