@@ -53,10 +53,10 @@ export default () => {
               General submission deadline: <b>June 1st, 2024</b>
             </ListItem>
             <ListItem>
-              Camera-ready deadline: <b>July 10th, 2024</b>
+              General notification of acceptance: <b>June 26th, 2024</b>
             </ListItem>
             <ListItem>
-              General notification of acceptance: <b>June 26th, 2024</b>
+              Camera-ready deadline: <b>July 10th, 2024</b>
             </ListItem>
           </List>
           <HeadingDescription>
