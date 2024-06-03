@@ -28,10 +28,13 @@ export default () => {
         <HeadingInfoContainer >
           <HeadingTitle>Submit Your Voice</HeadingTitle>
           <HeadingMinor>
-          You can submit your TTS voice in our google form <a href="https://forms.gle/FHdYu9qVGTQhwVED6"> HERE </a>
+            You can submit your TTS voice in our google form <a href="https://forms.gle/FHdYu9qVGTQhwVED6"> HERE </a>
           </HeadingMinor>
           <HeadingMinor>
-          Please submit a zip file with several sample phrases in wav format.
+            Please submit a zip file with several sample phrases in wav format.
+          </HeadingMinor>
+          <HeadingMinor>
+            You may also submit a link to the source code via the form.
           </HeadingMinor>
         </HeadingInfoContainer>
       </SingleColumn>

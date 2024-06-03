@@ -37,26 +37,17 @@ export default () => {
             robots to consider the benefits of embedding state of the art generative models.
           </HeadingDescription>
           <HeadingDescription>
-            Papers are to be submitted via Microsoft CMT here: <Link href="https://cmt3.research.microsoft.com/wev2024/Submission/Index">HERE</Link>
+            Abstracts are to be submitted via Microsoft CMT here: <Link href="https://cmt3.research.microsoft.com/wev2024/Submission/Index">HERE</Link>
           </HeadingDescription>
           <HeadingMinor>
             Important Dates
           </HeadingMinor>
           <List>
             <ListItem>
-              <s>Early-bird submission deadline: <b>April 24th, 2024</b></s>
+              Abstract submission deadline: <b>June 19th, 2024</b>
             </ListItem>
             <ListItem>
-              <s>Early-bird notification of acceptance: <b>May 22nd, 2024</b></s>
-            </ListItem>
-            <ListItem>
-              General submission deadline: <b>June 1st, 2024</b>
-            </ListItem>
-            <ListItem>
-              General notification of acceptance: <b>June 26th, 2024</b>
-            </ListItem>
-            <ListItem>
-              Camera-ready deadline: <b>July 10th, 2024</b>
+              Notification of acceptance: <b>June 26th, 2024</b>
             </ListItem>
           </List>
           <HeadingDescription>
@@ -141,14 +132,7 @@ export default () => {
             Submission Guidelines
           </HeadingMinor>
           <HeadingDescription>
-            We invite papers of 2-4 pages (excluding references).
-          </HeadingDescription>
-          <HeadingDescription>
-            Please follow the style and submission 
-            <Link href="https://roboticsconference.org/information/authorinfo/"> guidelines for RSS </Link> 
-            (<Link href="https://www.overleaf.com/latex/templates/robotics-science-and-systems-conference
-            /yjqvxxpznptx">Overleaf template</Link>), reviews will be double bind so all submissions must 
-            be anonymized.
+            We invite abstracts of up to 3000 characters.
           </HeadingDescription>
         </HeadingInfoContainer>
       </SingleColumn>

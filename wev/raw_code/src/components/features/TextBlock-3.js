@@ -56,7 +56,7 @@ export default () => {
               <tr>
                 <Td> 10:00 </Td>
                 <Td> 10:30 </Td>
-                <Td> Lightning talks 1 (3-5mins + panel Q&A) </Td>
+                <Td> Invited Speaker 2 </Td>
               </tr>
               <tr>
                 <Td> 10:30 </Td>
@@ -65,13 +65,13 @@ export default () => {
               </tr>
               <tr>
                 <Td> 10:45 </Td>
-                <Td> 11:15 </Td>
-                <Td> Invited Speaker 2 </Td>
+                <Td> 11:30 </Td>
+                <Td> Lightning talks (8-10mins) </Td>
               </tr>
               <tr>
-                <Td> 11:15 </Td>
+                <Td> 11:30 </Td>
                 <Td> 11:45 </Td>
-                <Td> Lightning talks 2 (3-5mins + panel Q&A) </Td>
+                <Td> Panel Q&A </Td>
               </tr>
               <tr>
                 <Td> 11:45 </Td>
