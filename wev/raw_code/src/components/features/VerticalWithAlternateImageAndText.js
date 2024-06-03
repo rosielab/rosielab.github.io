@@ -56,7 +56,7 @@ export default () => {
         "https://images.pexels.com/photos/680940/pexels-photo-680940.jpeg?auto=compress&cs=tinysrgb&w=800",
       title: "Lightning Talks",
       description:
-        "Lightning talks will be 8-10 minutes long followed by panel Q&A. We aim to bring together robot designers, interaction scholars and those working in generative sound and voice that can be embedded into robotic systems. See the Call for Papers for additional information.",
+        "Lightning talks will be 8-10 minutes long followed by panel Q&A. We aim to bring together robot designers, interaction scholars and those working in generative sound and voice that can be embedded into robotic systems. See the Call for Abstracts for additional information.",
     },
 
     {

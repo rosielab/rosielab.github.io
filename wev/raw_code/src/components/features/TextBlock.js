@@ -29,10 +29,10 @@ export default () => {
     <Container>
       <SingleColumn>
         <HeadingInfoContainer id = "cfp">
-          <HeadingTitle>Call for Papers</HeadingTitle>
+          <HeadingTitle>Call for Abstracts</HeadingTitle>
           <HeadingDescription>
             We aim to bring together robot designers, interaction scholars and those working in speech and 
-            sound synthesis. We challenge those working in speech synthesis and sound generation to consider 
+            sound synthesis. We encourage those working in speech synthesis and sound generation to consider 
             the challenges of working within the constraints of embodiment and context, and those designing 
             robots to consider the benefits of embedding state of the art generative models.
           </HeadingDescription>
