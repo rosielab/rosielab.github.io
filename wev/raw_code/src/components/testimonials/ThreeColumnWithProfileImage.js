@@ -87,7 +87,7 @@ export default ({
       imageSrc:
         jura,
       quote:
-        "Jūra a PhD student working on Multimodal Machine Learning and HRI.",
+        "Jūra is a PhD student working on Multimodal Machine Learning and HRI.",
       customerName: "Jūra Miniota",
       position: "KTH Royal Institute of Technology, Sweden"
     },
@@ -95,7 +95,7 @@ export default ({
       imageSrc:
         shay,
       quote:
-        "Chuxuan (Shay) is a master’s student studying human emotion and behaviors in the HCI/HRI context. Her research interests include Affective Computing, Social Robotics and Human-Centered Design.",
+        "Chuxuan (Shay) is a PhD student studying human emotion and behaviors in the HCI/HRI context. Her research interests include Affective Computing, Social Robotics and Human-Centered Design.",
       customerName: "Chuxuan Zhang",
       position: "Simon Fraser University, Canada"
     },
