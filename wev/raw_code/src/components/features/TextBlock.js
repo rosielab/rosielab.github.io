@@ -29,7 +29,7 @@ export default () => {
     <Container>
       <SingleColumn>
         <HeadingInfoContainer id = "cfp">
-          <HeadingTitle>Call for Abstracts</HeadingTitle>
+          <HeadingTitle>Call for Papers</HeadingTitle>
           <HeadingDescription>
             We aim to bring together robot designers, interaction scholars and those working in speech and 
             sound synthesis. We encourage those working in speech synthesis and sound generation to consider 
@@ -37,14 +37,14 @@ export default () => {
             robots to consider the benefits of embedding state of the art generative models.
           </HeadingDescription>
           <HeadingDescription>
-            Abstracts are to be submitted via Microsoft CMT here: <Link href="https://cmt3.research.microsoft.com/wev2024/Submission/Index">HERE</Link>
+            Papers and abstracts are to be submitted via Microsoft CMT here: <Link href="https://cmt3.research.microsoft.com/wev2024/Submission/Index">HERE</Link>
           </HeadingDescription>
           <HeadingMinor>
             Important Dates
           </HeadingMinor>
           <List>
             <ListItem>
-              Abstract submission deadline: <b>June 19th, 2024</b>
+              Paper and abstract submission deadline: <b>June 19th, 2024</b>
             </ListItem>
             <ListItem>
               Notification of acceptance: <b>June 26th, 2024</b>
@@ -132,7 +132,14 @@ export default () => {
             Submission Guidelines
           </HeadingMinor>
           <HeadingDescription>
-            We invite abstracts of up to 3000 characters.
+            We invite papers up to 4 pages and abstracts of up to 3000 characters.
+          </HeadingDescription>
+          <HeadingDescription>
+            For papers, please follow the style and submission 
+            <Link href="https://roboticsconference.org/information/authorinfo/"> guidelines for RSS </Link> 
+            (<Link href="https://www.overleaf.com/latex/templates/robotics-science-and-systems-conference
+            /yjqvxxpznptx">Overleaf template</Link>), reviews will be double bind so all submissions must 
+            be anonymized.
           </HeadingDescription>
         </HeadingInfoContainer>
       </SingleColumn>
