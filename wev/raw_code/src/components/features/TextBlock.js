@@ -9,6 +9,7 @@ const SingleColumn = tw.div` max-w-screen-xl mx-auto py-20 lg:py-24`;
 
 const HeadingInfoContainer = tw.div`flex flex-col items-center`;
 const HeadingDescription = tw.p`lg:mx-24 mt-2 mb-2 font-medium text-gray-600 text-center `;
+const AbstractDescription = tw.p`lg:mx-24 mt-5 mb-2 font-medium text-gray-600 text-justify `;
 const HeadingMinor = tw.p`mt-6 mb-2 font-bold text-gray-600 text-center `;
 
 const List = tw.ul`mt-2 mb-2`;
@@ -29,117 +30,54 @@ export default () => {
     <Container>
       <SingleColumn>
         <HeadingInfoContainer id = "cfp">
-          <HeadingTitle>Call for Papers</HeadingTitle>
+          <HeadingTitle>Lightning Talks</HeadingTitle>
           <HeadingDescription>
             We aim to bring together robot designers, interaction scholars and those working in speech and 
             sound synthesis. We encourage those working in speech synthesis and sound generation to consider 
             the challenges of working within the constraints of embodiment and context, and those designing 
             robots to consider the benefits of embedding state of the art generative models.
           </HeadingDescription>
-          <HeadingDescription>
-            Papers and abstracts are to be submitted via Microsoft CMT here: <Link href="https://cmt3.research.microsoft.com/wev2024/Submission/Index">HERE</Link>
-          </HeadingDescription>
           <HeadingMinor>
-            Important Dates
+            Abstracts
           </HeadingMinor>
-          <List>
-            <ListItem>
-              Paper and abstract submission deadline: <b>June 19th, 2024</b>
-            </ListItem>
-            <ListItem>
-              Notification of acceptance: <b>June 26th, 2024</b>
-            </ListItem>
-          </List>
+          <AbstractDescription>
+            In artificial systems and robotics, much attention has been placed on machine vision. However, 
+            robot hearing is relatively less explored. In recent years, deep neural networks have become one 
+            of the most used approaches in intelligent systems. This is due to the high performance they 
+            achieve compared to traditional approaches in computer vision, and language processing. However, 
+            their dependency on large datasets that properly represent the spatial and temporal complexity of 
+            a robot's sensory inputs is a major challenge for the development of human-robot interactions in 
+            real scenarios. This is compounded by the small size of available datasets for human-robot interaction 
+            and limitations in hardware, such as the use of a spatially constrained onboard CPU in a robot. 
+            In this paper, we propose a method that tackles these challenges in the context of robot spatial hearing. 
+            We recorded a robot-specific Head Related Transfer Function (HRTF), which we use to spatially render 
+            large datasets of auditory scenes with multiple talkers. We then use this dataset to train both supervised 
+            and self-supervised learning models that can be fine-tuned for a variety of downstream tasks.
+          </AbstractDescription>
           <HeadingDescription>
-            All deadlines are at 23:59 AOE.
+            Authors: Omar Eldardear, Lukas Grasse, Matthew Tata, Francesco Rea 
           </HeadingDescription>
-          <HeadingMinor>
-            Topics
-          </HeadingMinor>
+          <AbstractDescription>
+            Spoken language interaction is at the heart of interpersonal communication, and people flexibly adapt 
+            their speech to different individuals and environments. It is surprising that robots, and by extension 
+            other digital devices, are not equipped to adapt their speech and instead rely on fixed speech parameters, 
+            which often hinder comprehension by the user. We conducted a speech comprehension study involving 39 
+            participants who were exposed to different environmental and contextual conditions. During the experiment, 
+            the robot articulated words using different vocal parameters, and the participants were tasked with both 
+            recognising the spoken words and rating their subjective impression of the robot's speech. The experiment's 
+            primary outcome shows that spaces with good acoustic quality positively correlate with intelligibility and 
+            user experience. However, increasing the distance between the user and the robot exacerbated the user 
+            experience, while distracting background sounds significantly reduced speech recognition accuracy and user 
+            satisfaction. We next built an adaptive voice for the robot. For this, the robot needs to know how 
+            difficult it is for a user to understand spoken language in a particular setting. We present a prediction 
+            model that rates how annoying the ambient acoustic environment is and, consequentially, how hard it is to 
+            understand someone in this setting. Then, we develop a convolutional neural network model to adapt the 
+            robot's speech parameters to different users and spaces, while taking into account the influence of ambient 
+            acoustics on intelligibility. Finally, we present an evaluation with 27 users, demonstrating superior 
+            intelligibility and user experience with adaptive voice parameters compared to fixed voice.
+          </AbstractDescription>
           <HeadingDescription>
-            We are seeking topics including, but not limited to, the following:
-          </HeadingDescription>
-          <List>
-            <ListItem>
-              <b>Robotic Sound Design</b>
-              <List>
-                <ListItem>
-                  Assessment and validation of appriopriateness of embodied sounds
-                </ListItem>
-                <ListItem>
-                  In the wild deployment of embodied sounds
-                </ListItem>
-                <ListItem>
-                  Uncanny Valley voice
-                </ListItem>
-              </List>
-            </ListItem>
-            <ListItem>
-              <b>Contextual Sound Synthesis</b>
-              <List>
-                <ListItem>
-                  Contextual speech synthesis
-                </ListItem>
-                <ListItem>
-                  Contextual non-speech sounds
-                </ListItem>
-                <ListItem>
-                  Adaptive sound generation
-                </ListItem>
-                <ListItem>
-                  Controllable TTS
-                </ListItem>
-              </List>
-            </ListItem>
-            <ListItem>
-              <b>Human Studies of Vocal Adaptation</b>
-              <List>
-                <ListItem>
-                  Linguisitic and psychological studies of vocal adaptation in context
-                </ListItem>
-              </List>
-            </ListItem>
-            <ListItem>
-              <b>Ethics in Sound Design</b>
-              <List>
-                <ListItem>
-                  Voice vs. sound
-                </ListItem>
-                <ListItem>
-                  Perception difficulties and accessibility
-                </ListItem>
-                <ListItem>
-                  Reinforcement of bias (gender, accents, jobs)
-                </ListItem>
-              </List>
-            </ListItem>
-            <ListItem>
-              <b>Embodied Interaction</b>
-              <List>
-                <ListItem>
-                  Robotic conversation systems
-                </ListItem>
-                <ListItem>
-                  Acoustic processing
-                </ListItem>
-                <ListItem>
-                  Speech processing
-                </ListItem>
-              </List>
-            </ListItem>
-          </List>
-          <HeadingMinor>
-            Submission Guidelines
-          </HeadingMinor>
-          <HeadingDescription>
-            We invite papers up to 4 pages and abstracts of up to 3000 characters.
-          </HeadingDescription>
-          <HeadingDescription>
-            For papers, please follow the style and submission 
-            <Link href="https://roboticsconference.org/information/authorinfo/"> guidelines for RSS </Link> 
-            (<Link href="https://www.overleaf.com/latex/templates/robotics-science-and-systems-conference
-            /yjqvxxpznptx">Overleaf template</Link>), reviews will be double bind so all submissions must 
-            be anonymized.
+            Authors : Qiaoqiao Ren, Yuanbo Hou, Dick Botteldooren, Tony Belpaeme
           </HeadingDescription>
         </HeadingInfoContainer>
       </SingleColumn>
