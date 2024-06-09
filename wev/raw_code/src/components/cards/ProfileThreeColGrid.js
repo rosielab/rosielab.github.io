@@ -75,6 +75,13 @@ export default ({
       description: "Dr. Belpaeme is professor and senior researcher. His team studies human-robot interaction and applications of social robotics, with a specific focus on building autonomous robots for applications such as education, healthcare and entertainment. Spoken language is the most natural and, once sufficiently mature and robust, will likely be the most common interface for robot applications. Interacting using language requires efforts across the whole chain of processing, which needs speech recognition, multimodal interpretation, dialogue management and speech production to all singing together. However, the speech of a robot is often an afterthought and all too often relies on bland out-of-the-box text-to-speech solutions. This talk argues that robot voices merit more attention and scopes the challenges and possible solutions to give robots the voice they deserve.",
       title: "Title: Giving Robots a Voice"
     },
+    {
+      imageSrc: "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      name: "Dr. James P. Trujillo",
+      position: "University of Amsterdam, Netherlands",
+      description: "",
+      title: ""
+    },
     //{
     //  imageSrc: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
     //  position: "Quality Assurance",

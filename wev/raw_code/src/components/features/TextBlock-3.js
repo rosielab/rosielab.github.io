@@ -39,84 +39,79 @@ export default () => {
             </thead>
             <tbody>
               <tr>
+                <Td> 08:45 </Td>
                 <Td> 09:00 </Td>
-                <Td> 09:15 </Td>
-                <Td> Opening remarks </Td>
+                <Td> Opening remarks & Body movement game </Td>
               </tr>
               <tr>
-                <Td> 09:15 </Td>
+                <Td> 09:00 </Td>
                 <Td> 09:30 </Td>
-                <Td> Body movement game </Td>
-              </tr>
-              <tr>
-                <Td> 09:30 </Td>
-                <Td> 10:00 </Td>
                 <Td> Invited Speaker 1 </Td>
               </tr>
               <tr>
+                <Td> 09:30 </Td>
                 <Td> 10:00 </Td>
-                <Td> 10:30 </Td>
                 <Td> Invited Speaker 2 </Td>
               </tr>
               <tr>
+                <Td> 10:00 </Td>
                 <Td> 10:30 </Td>
-                <Td> 10:45 </Td>
-                <Td> Break </Td>
+                <Td> Coffee Break </Td>
               </tr>
               <tr>
-                <Td> 10:45 </Td>
-                <Td> 11:30 </Td>
-                <Td> Lightning talks (8-10mins) </Td>
-              </tr>
-              <tr>
-                <Td> 11:30 </Td>
-                <Td> 11:45 </Td>
-                <Td> Panel Q&A </Td>
-              </tr>
-              <tr>
-                <Td> 11:45 </Td>
-                <Td> 12:15 </Td>
+                <Td> 10:30 </Td>
+                <Td> 11:00 </Td>
                 <Td> Invited Speaker 3 </Td>
               </tr>
               <tr>
-                <Td> 12:15 </Td>
-                <Td> 12:45 </Td>
+                <Td> 11:00 </Td>
+                <Td> 11:30 </Td>
                 <Td> Invited Speaker 4 </Td>
               </tr>
               <tr>
-                <Td> 12:45 </Td>
-                <Td> 13:30 </Td>
-                <Td> Lunch </Td>
-              </tr>
-              <tr>
-                <Td> 13:30 </Td>
-                <Td> 14:00 </Td>
+                <Td> 11:30 </Td>
+                <Td> 12:00 </Td>
                 <Td> Invited Speaker 5 </Td>
               </tr>
               <tr>
+                <Td> 12:00 </Td>
+                <Td> 12:30 </Td>
+                <Td> Lightning talks </Td>
+              </tr>
+              <tr>
+                <Td> 12:30 </Td>
                 <Td> 14:00 </Td>
-                <Td> 14:15 </Td>
+                <Td> Lunch </Td>
+              </tr>
+              <tr>
+                <Td> 14:00 </Td>
+                <Td> 14:30 </Td>
+                <Td> Invited Speaker 6 </Td>
+              </tr>
+              <tr>
+                <Td> 14:30 </Td>
+                <Td> 14:45 </Td>
                 <Td> Voice task Intro </Td>
               </tr>
               <tr>
-                <Td> 14:15 </Td>
-                <Td> 16:00 </Td>
+                <Td> 14:45 </Td>
+                <Td> 15:30 </Td>
                 <Td> Voice task </Td>
               </tr>
               <tr>
+                <Td> 15:30 </Td>
                 <Td> 16:00 </Td>
-                <Td> 16:15 </Td>
-                <Td> Break </Td>
+                <Td> Coffee Break </Td>
               </tr>
               <tr>
-                <Td> 16:15 </Td>
-                <Td> 16:45 </Td>
-                <Td> Voice task discussion </Td>
+                <Td> 16:00 </Td>
+                <Td> 16:30 </Td>
+                <Td> Voice task </Td>
               </tr>
               <tr>
-                <Td> 16:45 </Td>
+                <Td> 16:30 </Td>
                 <Td> 17:00 </Td>
-                <Td> Closing remarks </Td>
+                <Td> Voice task discussion </Td>
               </tr>
             </tbody>
           </Table>

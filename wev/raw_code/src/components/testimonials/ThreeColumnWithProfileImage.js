@@ -15,7 +15,6 @@ import charlotte from "images/charlotte.png";
 import emma from "images/emma.png";
 import marine from "images/marine.png";
 import minja from "images/minja.png";
-import jura from "images/jura.png";
 
 const Testimonials = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`;
 const TestimonialContainer = tw.div`mt-16 lg:w-1/3`;
@@ -82,14 +81,6 @@ export default ({
         "Minja is a final year PhD student working on design, ethics and user experiences in HRI, and particularly on robots for mental wellbeing.",
       customerName: "Minja Axelsson",
       position: "University of Cambridge, UK"
-    },
-    {
-      imageSrc:
-        jura,
-      quote:
-        "Jūra is a PhD student working on Multimodal Machine Learning and HRI.",
-      customerName: "Jūra Miniota",
-      position: "KTH Royal Institute of Technology, Sweden"
     },
     {
       imageSrc:
