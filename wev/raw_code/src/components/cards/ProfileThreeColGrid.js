@@ -10,6 +10,7 @@ import zhengjun from "images/zhengjun.png";
 import tony from "images/tony.jpeg";
 import kazuhiro from "images/kazuhiro.png"
 import catherine from "images/catherine.png"
+import james from "images/james.jpg"
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
@@ -76,11 +77,11 @@ export default ({
       title: "Title: Giving Robots a Voice"
     },
     {
-      imageSrc: "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      imageSrc: "james",
       name: "Dr. James P. Trujillo",
       position: "University of Amsterdam, Netherlands",
-      description: "",
-      title: ""
+      description: "Dr.Trujillo's research aims to understand how we use the ensemble of visual and vocal modalities available to us in order to communicate. How do we orchestrate, face, head, body, hands, and speech together into one multimodal whole, and how do others make sense of this? How do we adapt this complex array of behaviors to different contexts? How is neurodiversity reflected in different styles of communication, and how does this impact social interaction? To this end, he uses motion tracking, acoustic analysis, qualitative coding, and virtual agents to study both what people do in naturalistic settings, and to design experiments to test the hypotheses generated from studying more unconstrained behavior.",
+      title: "Facial Signals Combine to Influence the Interpretation of Speech"
     },
     //{
     //  imageSrc: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
