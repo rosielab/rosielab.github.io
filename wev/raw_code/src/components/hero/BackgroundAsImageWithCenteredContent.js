@@ -46,6 +46,11 @@ const Para = styled.h2`
   }
 `;
 
+export const PrimaryButton = tw.button`px-8 py-3 font-bold rounded bg-primary-500 text-gray-100
+                                       hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline
+                                       focus:outline-none transition duration-300 mt-2
+                                       text-sm sm:text-lg lg:text-xl xl:text-2xl`;
+
 export default () => {
   const navLinks = [
     <NavLinks key={1}>
@@ -83,7 +88,7 @@ export default () => {
         <StyledHeader links={navLinks} />
         <Content>
           <Para>
-              July 15th 2024, Full day, Hybrid
+              July 15th 2024, Full day: 8:45-17:00, Hybrid
           </Para>
           <Heading>
               WEV: Workshop on Embodied Voices
@@ -91,6 +96,15 @@ export default () => {
           <Para>
               Workshop at : <a href="https://roboticsconference.org/">RSS 2024</a>, Delft University of Technology, Netherlands
           </Para>
+          <Para>
+            <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGlrZ2M0amQxajQ2anQyO[…]VjbWRwdW4gcGFpZ2VAcm9zaWVsYWIuY2E&tmsrc=paige%40rosielab.ca">
+              Google Calendar Link
+            </a>
+          </Para>
+          <PrimaryButton>
+            Registration
+          </PrimaryButton>
+
         </Content>
       </HeroContainer>
     </Container>
