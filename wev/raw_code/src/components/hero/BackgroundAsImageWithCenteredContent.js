@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { NavHashLink } from "react-router-hash-link";
 
 import Header, { NavLinks, PrimaryLink as NavToggle, DesktopNavLinks } from "../headers/light.js";
+import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none w-full`}
@@ -27,10 +28,11 @@ const Container = styled.div`
 `;
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-75`;
-
+const PrimaryButton = tw(PrimaryButtonBase)`mt-8 inline-block w-56 tracking-wide text-center py-5`;
 const HeroContainer = tw.div`z-20 relative px-6 sm:px-8 mx-auto h-full flex flex-col`;
 /*const Content = tw.div`px-4 flex flex-1 flex-col justify-center items-center`;*/
 const Content = tw.div`px-4 flex flex-1 flex-col justify-center items-center`;
+
 
 const Heading = styled.h1`
   ${tw`text-3xl text-center sm:text-4xl lg:text-5xl xl:text-6xl font-black text-gray-100 leading-snug`}
@@ -46,12 +48,12 @@ const Para = styled.h2`
   }
 `;
 
-export const PrimaryButton = tw.button`px-8 py-3 font-bold rounded bg-primary-500 text-gray-100
-                                       hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline
-                                       focus:outline-none transition duration-300 mt-2
-                                       text-sm sm:text-lg lg:text-xl xl:text-2xl`;
-
-export default () => {
+export default ({
+  primaryButtonUrl = "https://forms.gle/w8fWkMFqQgnXQCC8A",
+  primaryButtonText = "Registration",
+  buttonRounded = true,
+  }) => {
+  const buttonRoundedCss = buttonRounded && tw`rounded-full`;
   const navLinks = [
     <NavLinks key={1}>
       <NavHashLink smooth to="/#about"
@@ -101,8 +103,8 @@ export default () => {
               Google Calendar Link
             </a>
           </Para>
-          <PrimaryButton>
-            Registration
+          <PrimaryButton as="a" href={primaryButtonUrl} css={buttonRoundedCss}>
+                {primaryButtonText}
           </PrimaryButton>
 
         </Content>
