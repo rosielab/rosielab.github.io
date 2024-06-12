@@ -50,7 +50,7 @@ const Para = styled.h2`
 
 export default ({
   primaryButtonUrl = "https://forms.gle/w8fWkMFqQgnXQCC8A",
-  primaryButtonText = "Registration",
+  primaryButtonText = "Attend",
   buttonRounded = true,
   }) => {
   const buttonRoundedCss = buttonRounded && tw`rounded-full`;
