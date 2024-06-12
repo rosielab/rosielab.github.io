@@ -28,7 +28,7 @@ const Container = styled.div`
 `;
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-75`;
-const PrimaryButton = tw(PrimaryButtonBase)`mt-8 inline-block w-56 tracking-wide text-center py-5`;
+const PrimaryButton = tw(PrimaryButtonBase)`mt-8 inline-block w-56 tracking-wide text-center py-3 px-0 text-xl no-underline`;
 const HeroContainer = tw.div`z-20 relative px-6 sm:px-8 mx-auto h-full flex flex-col`;
 /*const Content = tw.div`px-4 flex flex-1 flex-col justify-center items-center`;*/
 const Content = tw.div`px-4 flex flex-1 flex-col justify-center items-center`;
@@ -103,7 +103,7 @@ export default ({
               Google Calendar Link
             </a>
           </Para>
-          <PrimaryButton as="a" href={primaryButtonUrl} css={buttonRoundedCss}>
+          <PrimaryButton as="a" href ={primaryButtonUrl} css={buttonRoundedCss}>
                 {primaryButtonText}
           </PrimaryButton>
 
