@@ -9,8 +9,9 @@ const SingleColumn = tw.div` max-w-screen-xl mx-auto py-20 lg:py-24`;
 
 const HeadingInfoContainer = tw.div`flex flex-col items-center`;
 const HeadingDescription = tw.p`lg:mx-24 mt-2 mb-2 font-medium text-gray-600 text-center `;
-const AbstractDescription = tw.p`lg:mx-24 mt-5 mb-2 font-medium text-gray-600 text-justify `;
-const HeadingMinor = tw.p`mt-6 mb-2 font-bold text-gray-600 text-center `;
+const AbstractDescription = tw.p`lg:mx-24 mt-2 mb-2 font-medium text-gray-600 text-justify `;
+const HeadingMinor = tw.p`mt-6 mb-2 font-bold text-gray-600 text-center text-3xl`;
+const AbstractTitle = tw.p`mt-12 font-bold text-primary-500 text-center`;
 
 const List = tw.ul`mt-2 mb-2`;
 const ListItem = tw.li`mt-0 font-medium text-gray-600`;
@@ -40,6 +41,9 @@ export default () => {
           <HeadingMinor>
             Abstracts
           </HeadingMinor>
+          <AbstractTitle>
+            Virtual Datasets for Spatial Hearing in Robotics
+          </AbstractTitle>
           <AbstractDescription>
             In artificial systems and robotics, much attention has been placed on machine vision. However, 
             robot hearing is relatively less explored. In recent years, deep neural networks have become one 
@@ -55,8 +59,11 @@ export default () => {
             and self-supervised learning models that can be fine-tuned for a variety of downstream tasks.
           </AbstractDescription>
           <HeadingDescription>
-            Authors: Omar Eldardear, Lukas Grasse, Matthew Tata, Francesco Rea 
+            Authors: Omar Eldardeer, Lukas Grasse, Matthew Tata, Francesco Rea 
           </HeadingDescription>
+          <AbstractTitle>
+            No More Mumbles: Enhancing Robot Intelligibility through Speech Adaptation
+          </AbstractTitle>
           <AbstractDescription>
             Spoken language interaction is at the heart of interpersonal communication, and people flexibly adapt 
             their speech to different individuals and environments. It is surprising that robots, and by extension 
@@ -77,7 +84,32 @@ export default () => {
             intelligibility and user experience with adaptive voice parameters compared to fixed voice.
           </AbstractDescription>
           <HeadingDescription>
-            Authors : Qiaoqiao Ren, Yuanbo Hou, Dick Botteldooren, Tony Belpaeme
+            Authors: Qiaoqiao Ren, Yuanbo Hou, Dick Botteldooren, Tony Belpaeme
+          </HeadingDescription>
+          <AbstractTitle>
+            Hey, OK, Play! A rough guide for the dynamic design and interplay of multimodal, nonverbal communication signals in embodied voice assistants
+          </AbstractTitle>
+          <AbstractDescription>
+            Voice assistants initially gained popularity for performing straightforward tasks such as setting reminders, 
+            playing music, and providing weather updates. Over time, their functionalities have expanded to encompass smart 
+            home control, personalized recommendations, and managing complex schedules. This evolution has been significantly 
+            driven by advancements in natural language processing, machine learning and, ultimately, embodiment that made the 
+            assistants more intuitive and efficient to use. Despite these technological advancements, embodiment also posed 
+            new challenges that are still insufficiently addressed: the incorporation of non-verbal communication skills in 
+            voice assistants. There is a need for a deeper understanding of how these signals should be shaped in terms of visual 
+            and auditory design, and how they must be tailored to various factors such as the assistant's size, the specific 
+            task, the interlocutor, and the communicative context. As speech scientists we summarize empirical results, insights, 
+            and observations from our field to help engineers create suitable, meaningful, and coherent communication strategies 
+            for embodied voice assistants that enhance the overall interaction experience
+          </AbstractDescription>
+          <HeadingDescription>
+            Authors: Oliver Niebuhr, Io Valls-Ratés
+          </HeadingDescription>
+          <AbstractTitle>
+            CANELA: Creating Audio-based Novel Engineered LAnguages for HRI
+          </AbstractTitle>
+          <HeadingDescription>
+            Authors: Hideki Garcia Goo & Khiet Truong
           </HeadingDescription>
         </HeadingInfoContainer>
       </SingleColumn>
