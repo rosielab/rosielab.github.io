@@ -66,7 +66,7 @@ export default ({
       </NavHashLink>
       <NavHashLink smooth to ="/#cfp"
       style= {linkStyle}>
-        Call for Papers
+        Lightning Talks
       </NavHashLink>
       <NavHashLink smooth to ="/#schedule"
       style= {linkStyle}>
