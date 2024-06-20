@@ -46,12 +46,12 @@ export default () => {
               <tr>
                 <Td> 09:00 </Td>
                 <Td> 09:30 </Td>
-                <Td> Invited Speaker 1 </Td>
+                <Td> Invited speaker: Dr. Lea Luka Sikau </Td>
               </tr>
               <tr>
                 <Td> 09:30 </Td>
                 <Td> 10:00 </Td>
-                <Td> Invited Speaker 2 </Td>
+                <Td> Invited speaker: Dr. Zhengjun Yue </Td>
               </tr>
               <tr>
                 <Td> 10:00 </Td>
@@ -61,17 +61,17 @@ export default () => {
               <tr>
                 <Td> 10:30 </Td>
                 <Td> 11:00 </Td>
-                <Td> Invited Speaker 3 </Td>
+                <Td> Invited speaker: Dr. Tony Belpaeme </Td>
               </tr>
               <tr>
                 <Td> 11:00 </Td>
                 <Td> 11:30 </Td>
-                <Td> Invited Speaker 4 </Td>
+                <Td> Invited speaker: Dr. Kazuhiro Nakadai </Td>
               </tr>
               <tr>
                 <Td> 11:30 </Td>
                 <Td> 12:00 </Td>
-                <Td> Invited Speaker 5 </Td>
+                <Td> Invited speaker: Dr. Catherine Lai </Td>
               </tr>
               <tr>
                 <Td> 12:00 </Td>
@@ -86,7 +86,7 @@ export default () => {
               <tr>
                 <Td> 14:00 </Td>
                 <Td> 14:30 </Td>
-                <Td> Invited Speaker 6 </Td>
+                <Td> Invited speaker: Dr. James P. Trujillo </Td>
               </tr>
               <tr>
                 <Td> 14:30 </Td>
