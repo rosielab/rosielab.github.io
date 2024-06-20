@@ -40,6 +40,9 @@ export default () => {
               <tr>
                 <Td> Nathaniel Dennler </Td>
               </tr>
+              <tr>
+                <Td> Oliver Niebuhr </Td>
+              </tr>
             </tbody>
           </Table>
         </HeadingInfoContainer>
