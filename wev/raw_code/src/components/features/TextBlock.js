@@ -108,8 +108,20 @@ export default () => {
           <AbstractTitle>
             CANELA: Creating Audio-based Novel Engineered LAnguages for HRI
           </AbstractTitle>
+          <AbstractDescription>
+            In the Star Wars universe, droids such as R2-D2 and BB-8 speak Droidspeak, a conlang (a constructed, artificial language) 
+            that consists of strings of beeps and whistles that resemble sentences. A conlang is made up by linguistic components 
+            (rules that structure and give meaning to the sounds, e.g., the beeps and whistles that are strung together to resemble 
+            sentences) and can be spoken by someone with a certain voice timbre (the way a voice sounds which is an extra-linguistic 
+            component, e.g., R2-D2 sounds slightly different from BB-8). We argue that this framing into separate components of timbre 
+            and linguistics is an important one in robot communication design that is currently insufficiently addressed in existing 
+            robot sound design frameworks and recommendations. Disentangling timbre from linguistic components enables experimenters 
+            and designers to frame their research questions more precisely without being confounded. In this paper, we propose our 
+            framework CANELA (Creating Audio-based Novel Engineered LAnguages) that treats robot sound design as the creation of a 
+            conlang in which timbre is framed separately from the linguistic components
+          </AbstractDescription>
           <HeadingDescription>
-            Authors: Hideki Garcia Goo & Khiet Truong
+            Authors: Hideki Garcia Goo, Vanessa Evers, Khiet Truong
           </HeadingDescription>
         </HeadingInfoContainer>
       </SingleColumn>
