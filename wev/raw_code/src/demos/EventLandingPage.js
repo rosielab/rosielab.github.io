@@ -3,7 +3,7 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/BackgroundAsImageWithCenteredContent.js";
 import Intro from "components/features/VerticalWithAlternateImageAndText.js";
 import Call from "components/features/TextBlock.js";
-import Voices from "components/features/TextBlock-2.js";
+/*import Voices from "components/features/TextBlock-2.js";*/
 /* Need to find a component to add a nice schedule */
 import Schedule from "components/features/TextBlock-3.js";
 import Speakers from "components/cards/ProfileThreeColGrid.js";
@@ -18,10 +18,9 @@ export default () => (
     <BrowserRouter>
       <Hero />
       <Intro />
-      <Call />
-      <Voices />
       <Schedule />
       <Speakers />
+      <Call />
       <Organizers />
       <PC/>
       <Contact />

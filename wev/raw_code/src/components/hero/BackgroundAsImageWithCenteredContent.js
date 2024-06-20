@@ -64,10 +64,6 @@ export default ({
       style= {linkStyle}>
         Activities
       </NavHashLink>
-      <NavHashLink smooth to ="/#cfp"
-      style= {linkStyle}>
-        Lightning Talks
-      </NavHashLink>
       <NavHashLink smooth to ="/#schedule"
       style= {linkStyle}>
         Schedule
@@ -75,6 +71,10 @@ export default ({
       <NavHashLink smooth to="/#invited"
       style= {linkStyle}>
         Invited Speakers
+      </NavHashLink>
+      <NavHashLink smooth to ="/#cfp"
+      style= {linkStyle}>
+        Lightning Talks
       </NavHashLink>
       <NavHashLink smooth to="/#organizers"
       style= {linkStyle}>
