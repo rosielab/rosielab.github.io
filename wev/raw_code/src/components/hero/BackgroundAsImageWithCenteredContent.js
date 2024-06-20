@@ -6,6 +6,12 @@ import { NavHashLink } from "react-router-hash-link";
 import Header, { NavLinks, PrimaryLink as NavToggle, DesktopNavLinks } from "../headers/light.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 
+import EnchantedTools from "images/Enchanted_tools.png";
+import SFU from "images/SFU.png";
+import PAL from "images/pal.png";
+import Furhat from "images/furhat.png";
+import URG from "images/united_robotic_group.png"
+
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none w-full`}
   ${DesktopNavLinks} ${NavLinks}{
@@ -47,6 +53,22 @@ const Para = styled.h2`
     ${tw`inline-block mt-2`}
   }
 `;
+
+/*
+const ImageBand = tw.div`w-full h-40 mt-0 mb-10`;
+const ImageContainer = tw.div`w-80 h-32` The idea was to use a band container with small container that the images could be contain in, but the smaller containers were not side by side but on top of eachothers. 
+const Image = tw.img`w-40 h-auto bg-contain mx-10`;
+
+    //      <ImageBand>
+    //        <ImageContainer>
+    //          <Image src={EnchantedTools}/>
+    //        </ImageContainer>
+    //          <Image src={SFU}/>
+    //          <Image src={URG}/>
+    //          <Image src={PAL}/>
+    //          <Image src={Furhat}/>
+    //      </ImageBand>
+*/
 
 export default ({
   primaryButtonUrl = "https://forms.gle/w8fWkMFqQgnXQCC8A",
