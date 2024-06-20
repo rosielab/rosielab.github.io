@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/wev/static/js/main.562f3b3b.js",
+    "main.js": "/wev/static/js/main.8824b9a2.js",
     "static/media/minja.png": "/wev/static/media/minja.2ac3c6dc3597c3371e41.png",
     "static/media/paul.jpeg": "/wev/static/media/paul.c4933d3a60d3ab8baf74.jpeg",
     "static/media/marine.png": "/wev/static/media/marine.efa7e8fd938a9fd2c187.png",
@@ -16,15 +16,16 @@
     "static/media/shay.jpeg": "/wev/static/media/shay.f0759c8be6b17a40de38.jpeg",
     "static/media/zhengjun.png": "/wev/static/media/zhengjun.a104207fb6195732c3fa.png",
     "static/media/dot-pattern.svg": "/wev/static/media/dot-pattern.e52f8ce47afe6f572aef5cbf0389564c.svg",
+    "static/media/Enchanted_tools.png": "/wev/static/media/Enchanted_tools.2f4404e0440909a6059c.png",
     "index.html": "/wev/index.html",
     "static/media/svg-decorator-blob-8.svg": "/wev/static/media/svg-decorator-blob-8.7f469eafcfaa9b81ed32274238b40cd2.svg",
     "static/media/svg-decorator-blob-7.svg": "/wev/static/media/svg-decorator-blob-7.a72c1f4f12805814a51af1da93d42700.svg",
     "static/media/menu.svg": "/wev/static/media/menu.644fa295fdd5f662e642ba6bfb084239.svg",
     "static/media/x.svg": "/wev/static/media/x.6c9a4ba71a333be7b021fc6da39d864c.svg",
     "static/media/logo.svg": "/wev/static/media/logo.68e911afe80160fa490249cd905c76f3.svg",
-    "main.562f3b3b.js.map": "/wev/static/js/main.562f3b3b.js.map"
+    "main.8824b9a2.js.map": "/wev/static/js/main.8824b9a2.js.map"
   },
   "entrypoints": [
-    "static/js/main.562f3b3b.js"
+    "static/js/main.8824b9a2.js"
   ]
 }
