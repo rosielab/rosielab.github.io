@@ -106,7 +106,7 @@ export default () => {
             Authors: Oliver Niebuhr, Io Valls-Ratés
           </HeadingDescription>
           <AbstractTitle>
-            CANELA: Creating Audio-based Novel Engineered LAnguages for HRI
+            The CANELA Framework: Creating Audio-based Novel Engineered LAnguages for HRI
           </AbstractTitle>
           <AbstractDescription>
             In the Star Wars universe, droids such as R2-D2 and BB-8 speak Droidspeak, a conlang (a constructed, artificial language) 
