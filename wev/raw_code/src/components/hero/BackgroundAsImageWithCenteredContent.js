@@ -54,21 +54,19 @@ const Para = styled.h2`
   }
 `;
 
-/*
-const ImageBand = tw.div`w-full h-40 mt-0 mb-10`;
-const ImageContainer = tw.div`w-80 h-32` The idea was to use a band container with small container that the images could be contain in, but the smaller containers were not side by side but on top of eachothers. 
-const Image = tw.img`w-40 h-auto bg-contain mx-10`;
+const ImageHeader = styled.h2`
+  ${tw`text-lg text-center items-center lg:text-xl xl:text-xl md:text-left lg:text-left font-thin text-gray-100 leading-snug ml-auto`}
+  span {
+    ${tw`inline-block mt-2`}
+  }
+`;
 
-    //      <ImageBand>
-    //        <ImageContainer>
-    //          <Image src={EnchantedTools}/>
-    //        </ImageContainer>
-    //          <Image src={SFU}/>
-    //          <Image src={URG}/>
-    //          <Image src={PAL}/>
-    //          <Image src={Furhat}/>
-    //      </ImageBand>
-*/
+const TwoColumn = tw.div`flex flex-col items-center lg:flex-row md:flex-row`;
+const LeftColumn = tw.div`lg:w-1/4 md:w-1/4`;
+const RightColumn = tw.div`lg:w-1/4 md:w-1/4`;
+const CenterColumn = tw.div`lg:w-1/2 md:w-1/2`;
+const Image = tw.img`lg:w-48 w-32 items-center mr-2`;
+const ImageSponsor= tw.img`lg:w-72 items-center w-56`;
 
 export default ({
   primaryButtonUrl = "https://forms.gle/w8fWkMFqQgnXQCC8A",
@@ -100,7 +98,7 @@ export default ({
       </NavHashLink>
       <NavHashLink smooth to="/#organizers"
       style= {linkStyle}>
-        Organizing Commitee
+        Organizing Committee
       </NavHashLink>
     </NavLinks>,
   ];
@@ -110,6 +108,25 @@ export default ({
       <OpacityOverlay />
       <HeroContainer>
         <StyledHeader links={navLinks} />
+        <TwoColumn>
+          <LeftColumn>
+            <ImageHeader>
+              Sponsor
+            </ImageHeader>
+            <ImageSponsor src={SFU}/>
+          </LeftColumn>
+          <CenterColumn>
+          </CenterColumn>
+          <RightColumn>
+            <ImageHeader>
+              Robots and avatars provided by
+            </ImageHeader>
+            <Image src={URG}/>
+            <Image src={PAL}/>
+            <Image src={EnchantedTools}/>
+            <Image src={Furhat}/>
+          </RightColumn>
+        </TwoColumn>
         <Content>
           <Para>
               July 15th 2024, Full day: 8:45-17:00, Hybrid
@@ -121,7 +138,7 @@ export default ({
               Workshop at : <a href="https://roboticsconference.org/">RSS 2024</a>, Delft University of Technology, Netherlands
           </Para>
           <Para>
-            <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGlrZ2M0amQxajQ2anQyO[…]VjbWRwdW4gcGFpZ2VAcm9zaWVsYWIuY2E&tmsrc=paige%40rosielab.ca">
+            <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGlrZ2M0amQxajQ2anQyOWNiaXVjbWRwdW4gcGFpZ2VAcm9zaWVsYWIuY2E&tmsrc=paige%40rosielab.ca">
               Google Calendar Link
             </a>
           </Para>
