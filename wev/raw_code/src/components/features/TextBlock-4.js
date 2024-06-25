@@ -41,7 +41,7 @@ export default () => {
                 <Td> Nathaniel Dennler </Td>
               </tr>
               <tr>
-                <Td> Oliver Niebuhr </Td>
+                <Td> Dr. Oliver Niebuhr </Td>
               </tr>
             </tbody>
           </Table>
