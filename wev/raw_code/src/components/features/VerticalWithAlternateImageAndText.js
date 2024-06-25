@@ -4,6 +4,12 @@ import tw from "twin.macro";
 import { ReactComponent as SvgDotPatternIcon } from "../../images/dot-pattern.svg";
 import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
 
+import EnchantedTools from "images/Enchanted_tools.png";
+import SFU from "images/SFU.png";
+import PAL from "images/pal.png";
+import Furhat from "images/furhat.png";
+import URG from "images/united_robotic_group.png"
+
 const Container = tw.div`relative`;
 
 const SingleColumn = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -42,6 +48,20 @@ const SvgDotPattern4 = tw(
   SvgDotPatternIcon
 )`absolute bottom-0 right-0 opacity-25 text-primary-500 fill-current w-24`;
 
+const ImageHeader = styled.h2`
+  ${tw`text-lg text-center items-center lg:text-xl xl:text-xl md:text-left lg:text-left font-thin text-primary-700 leading-snug ml-auto`}
+  span {
+    ${tw`inline-block mt-2`}
+  }
+`;
+
+const TwoColumn = tw.div`flex flex-col items-center lg:flex-row md:flex-row`;
+const LeftColumn = tw.div`lg:w-1/4 md:w-1/4`;
+const RightColumn = tw.div`lg:w-1/4 md:w-1/4`;
+const CenterColumn = tw.div`lg:w-1/2 md:w-1/2`;
+const ImageRobot = tw.img`lg:w-48 w-32 items-center mr-2`;
+const ImageSponsor= tw.img`lg:w-72 items-center w-56`;
+
 export default () => {
   const cards = [
     {
@@ -73,6 +93,24 @@ export default () => {
 
   return (
     <Container>
+        <TwoColumn>
+          <LeftColumn>
+            <ImageHeader>
+              Sponsor
+            </ImageHeader>
+            <ImageSponsor src={SFU}/>
+          </LeftColumn>
+          <CenterColumn>
+          </CenterColumn>
+          <RightColumn>
+            <ImageHeader>
+              Robots and avatars provided by
+            </ImageHeader>
+            <ImageRobot src={URG}/>
+            <ImageRobot src={PAL}/>
+            <ImageRobot src={Furhat}/>
+          </RightColumn>
+        </TwoColumn>
       <SingleColumn>
         <HeadingInfoContainer id = "about">
           <HeadingTitle>About</HeadingTitle>

@@ -6,12 +6,6 @@ import { NavHashLink } from "react-router-hash-link";
 import Header, { NavLinks, PrimaryLink as NavToggle, DesktopNavLinks } from "../headers/light.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 
-import EnchantedTools from "images/Enchanted_tools.png";
-import SFU from "images/SFU.png";
-import PAL from "images/pal.png";
-import Furhat from "images/furhat.png";
-import URG from "images/united_robotic_group.png"
-
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none w-full`}
   ${DesktopNavLinks} ${NavLinks}{
@@ -54,20 +48,6 @@ const Para = styled.h2`
   }
 `;
 
-const ImageHeader = styled.h2`
-  ${tw`text-lg text-center items-center lg:text-xl xl:text-xl md:text-left lg:text-left font-thin text-gray-100 leading-snug ml-auto`}
-  span {
-    ${tw`inline-block mt-2`}
-  }
-`;
-
-const TwoColumn = tw.div`flex flex-col items-center lg:flex-row md:flex-row`;
-const LeftColumn = tw.div`lg:w-1/4 md:w-1/4`;
-const RightColumn = tw.div`lg:w-1/4 md:w-1/4`;
-const CenterColumn = tw.div`lg:w-1/2 md:w-1/2`;
-const Image = tw.img`lg:w-48 w-32 items-center mr-2`;
-const ImageSponsor= tw.img`lg:w-72 items-center w-56`;
-
 export default ({
   primaryButtonUrl = "https://forms.gle/w8fWkMFqQgnXQCC8A",
   primaryButtonText = "Attend",
@@ -108,25 +88,6 @@ export default ({
       <OpacityOverlay />
       <HeroContainer>
         <StyledHeader links={navLinks} />
-        <TwoColumn>
-          <LeftColumn>
-            <ImageHeader>
-              Sponsor
-            </ImageHeader>
-            <ImageSponsor src={SFU}/>
-          </LeftColumn>
-          <CenterColumn>
-          </CenterColumn>
-          <RightColumn>
-            <ImageHeader>
-              Robots and avatars provided by
-            </ImageHeader>
-            <Image src={URG}/>
-            <Image src={PAL}/>
-            <Image src={EnchantedTools}/>
-            <Image src={Furhat}/>
-          </RightColumn>
-        </TwoColumn>
         <Content>
           <Para>
               July 15th 2024, Full day: 8:45-17:00, Hybrid
