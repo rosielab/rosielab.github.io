@@ -91,7 +91,7 @@ export default () => {
               <tr>
                 <Td> 14:30 </Td>
                 <Td> 14:45 </Td>
-                <Td> Voice design challenge Intro </Td>
+                <Td> Voice design challenge: Intro </Td>
               </tr>
               <tr>
                 <Td> 14:45 </Td>
@@ -111,7 +111,7 @@ export default () => {
               <tr>
                 <Td> 16:30 </Td>
                 <Td> 17:00 </Td>
-                <Td> Voice design challenge discussion </Td>
+                <Td> Voice design challenge: Discussion </Td>
               </tr>
             </tbody>
           </Table>

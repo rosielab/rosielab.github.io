@@ -62,7 +62,7 @@ export default ({
       </NavHashLink>
       <NavHashLink smooth to ="/#activities"
       style= {linkStyle}>
-        Activities
+        Voice Design Challenge
       </NavHashLink>
       <NavHashLink smooth to ="/#schedule"
       style= {linkStyle}>
