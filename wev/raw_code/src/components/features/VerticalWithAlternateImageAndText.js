@@ -85,7 +85,7 @@ export default () => {
         "https://images.pexels.com/photos/8438979/pexels-photo-8438979.jpeg?auto=compress&cs=tinysrgb&w=800",
       title: "Voice Design Challenge",
       description:
-        "To get everyone thinking about embodiment, we will start with a robot body movement game. To finish of the workshop we will have an embodied voice design challenge. Participants will be organized into teams and will be assigned a physical robot and/or an avatar. Each of the robots will have a short personal story to provide context such as their job, where they are, and who will be using them. Working through a co-design canvas, participants will brainstorm an appropriate voice for their robots. They will then be provided with a state-of-the-art TTS system with which they will attempt to generate their desired voices and send them to the robots. We will finish up with demos where each of the teams present their design process and selection.",
+        "To get everyone thinking about embodiment, we will start with a robot body movement game. To finish off the workshop we will have an embodied voice design challenge. Participants will be organized into teams and will be assigned a physical robot and/or an avatar. Each of the robots will have a short personal story to provide context such as their job, where they are, and who will be using them. Working through a co-design canvas, participants will brainstorm an appropriate voice for their robots. They will then be provided with a state-of-the-art TTS system with which they will attempt to generate their desired voices and send them to the robots. We will finish up with demos where each of the teams present their design process and selection.",
       guest:  "Guest Judge : Dr. Roger K. Moore",
       price: "Prize : 250€"
     }
@@ -109,6 +109,7 @@ export default () => {
             <ImageRobot src={URG}/>
             <ImageRobot src={PAL}/>
             <ImageRobot src={Furhat}/>
+            <ImageRobot src={EnchantedTools}/>
           </RightColumn>
         </TwoColumn>
       <SingleColumn>
