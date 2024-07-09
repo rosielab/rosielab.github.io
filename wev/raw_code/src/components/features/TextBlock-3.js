@@ -70,18 +70,18 @@ export default () => {
               </tr>
               <tr>
                 <Td> 11:30 </Td>
-                <Td> 12:00 </Td>
-                <Td> Invited speaker: Dr. Catherine Lai </Td>
-              </tr>
-              <tr>
-                <Td> 12:00 </Td>
-                <Td> 12:30 </Td>
+                <Td> 12:15 </Td>
                 <Td> Lightning talks </Td>
               </tr>
               <tr>
-                <Td> 12:30 </Td>
-                <Td> 14:00 </Td>
+                <Td> 12:15 </Td>
+                <Td> 13:30 </Td>
                 <Td> Lunch </Td>
+              </tr>
+              <tr>
+                <Td> 13:30 </Td>
+                <Td> 14:00 </Td>
+                <Td> Invited speaker: Dr. Catherine Lai </Td>
               </tr>
               <tr>
                 <Td> 14:00 </Td>
