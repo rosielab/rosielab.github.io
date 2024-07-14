@@ -32,8 +32,8 @@ export default () => {
           <Table>
             <thead>
               <tr>
-                <Th> Starting time </Th>
-                <Th> Ending time </Th>
+                <Th> Starting time CET</Th>
+                <Th> Ending time CET</Th>
                 <Th> Activity </Th>
               </tr>
             </thead>

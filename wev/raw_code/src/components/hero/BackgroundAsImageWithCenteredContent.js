@@ -90,13 +90,13 @@ export default ({
         <StyledHeader links={navLinks} />
         <Content>
           <Para>
-              July 15th 2024, Full day: 8:45-17:00, Hybrid
+              July 15th 2024, Full day: 8:45-17:00 CET, Hybrid
           </Para>
           <Heading>
               WEV: Workshop on Embodied Voices
           </Heading>
           <Para>
-              Workshop at : <a href="https://roboticsconference.org/">RSS 2024</a>, Delft University of Technology, Netherlands
+              Workshop at : <a href="https://roboticsconference.org/">RSS 2024</a>, room <a href="https://esviewer.tudelft.nl/space/17">ME E - Hooke</a>, Delft University of Technology, Netherlands
           </Para>
           <Para>
             <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGlrZ2M0amQxajQ2anQyOWNiaXVjbWRwdW4gcGFpZ2VAcm9zaWVsYWIuY2E&tmsrc=paige%40rosielab.ca">
