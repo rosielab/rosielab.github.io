@@ -99,8 +99,8 @@ export default ({
               Workshop at : <a href="https://roboticsconference.org/">RSS 2024</a>, room <a href="https://esviewer.tudelft.nl/space/17">ME E - Hooke</a>, Delft University of Technology, Netherlands
           </Para>
           <Para>
-            <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGlrZ2M0amQxajQ2anQyOWNiaXVjbWRwdW4gcGFpZ2VAcm9zaWVsYWIuY2E&tmsrc=paige%40rosielab.ca">
-              Google Calendar Link
+            <a href="https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1Mscc1BZPgiqwpfUHu5J3tL08HOOMjI-g%3Fusp%3Dsharing&data=05%7C02%7Cpaulmaublanc%40clin.au.dk%7C1c325f2c8903445aaafd08dcd34b9d36%7C61fd1d36fecb47cab7d7d0df0370a198%7C1%7C0%7C638617568938625200%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=4wqlJ2bz3j54%2Fyku7NxDjuP3m2s5QznUTlg8IYGxQ90%3D&reserved=0">
+              Outputs
             </a>
           </Para>
           <PrimaryButton as="a" href ={primaryButtonUrl} css={buttonRoundedCss}>
