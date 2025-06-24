@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta property="og:url" content="https://rosielab.github.io/compas3d/"/>
+
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Tokenizing Nonverbal Communication in Salsa Dance</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Tokenizing Nonverbal Communication in Salsa Dance</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://chocobearz.github.io/" target="_blank">Bermet Burkanova*,</a><sup>1</sup></span>
+                <span class="author-block">
+                  <a href="https://www.sfu.ca/langdev/team/lab-director.html" target="_blank">Payam Jome Yazdian*,</a><sup>1</sup></span>
+                  <span class="author-block">
+                    <a href="https://www.sfu.ca/lablab/people1.html" target="_blank">Chuxuan Zhang,</a><sup>1/sup></span>
+                    <span class="author-block">;
+                      <a href="https://www.fenqiw.com/" target="_blank">Trinity Evans,</a><sup>1</sup></span>
+                      <span class="author-block">
+                        <a href="https://chocobearz.github.io/" target="_blank">Paige Tuttösí,</a><sup>1,2</sup></span>
+                        <span class="author-block">
+                          <span class="author-block">
+                            <a href="https://www.rosielab.ca/" target="_blank">Angelica Lim</a><sup>1</sup></span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>School of Computing Science, Simon Fraser University, Canada<br><sup>2</sup>Enchanted Tools, France</span>
+                    <span class="author-block">TokShop, ICML 2025</span>
+                  </div>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/placeholder" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/placeholder" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <!---Youtube Video link -->
+              <span class="link-block">
+                <a href="https://youtube.com/placeholder" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fa-brands fa-youtube""></i>
+                </span>
+                <span>Video</span>
+              </a>
+            </span>
+
+            <!---Dataset link -->
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/Rosie-Lab/compas3d" t</i></a>arget="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class=""fa-solid fa-face-smiling-hands"></i>
+                </span>
+                <span>Video</span>
+              </a>
+            </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/teaser.pdf" alt="3D MOCAP Animations"/>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Partner dance offers a compelling testbed for studying tokenization in multimodal, bidirectional communication.
+            In salsa, a lifted hand may signal a turn; musical accents may shape both dancers' motion.
+            These interactions are continuous and improvisational, and hinge on discrete, interpretable cues—gestures,
+            beats, and movement segments—that can be modeled as tokens. In this paper, we introduce a language model
+            and tokenization framework for social dance, treating salsa as a form of embodied dialogue grounded in
+            motion, music, and role-based interaction. To support this, we present CoMPAS3D, a large-scale 
+            motion capture dataset of improvised salsa dancing, capturing over 3 hours of leader-follower
+            interaction across three skill levels. The dataset includes frame-level annotations of moves, styling,
+            and execution errors, created through over 120 hours of expert effort. We use tokens as a foundation for
+            generative and classification tasks, including follower motion prediction and move recognition,
+            demonstrating the utility of token-based models for interactive, expressive virtual agents.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!---
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Method Overview</h2>
+          <center>
+          <img src="static/images/methods.png" alt="stimulis-choices" class="center-image blend-img-background"/>
+          </center>
+          <div class="level-set has-text-justified">
+            <p>
+               We selected vowels known to be difficult for speakers of the second language. Random pitch and stretch modifications were made using the 
+               <a href="https://github.com/neuro-team-femto/cleese" style="color:hsl(204, 86%, 53%)" target="_blank">CLEESE</a> <span> toolbox
+               both over a single word and the entire phrase. The phrases were chosen in an attempt to control contextual bias. Participants had a first language of
+               either French or English and moderate to advanced proficiency in the second language. Each participant listened to 250 of these manipulated phrases
+               and selected which of the two words they heard, e.g., peel or pill for English. To control selection bias we generated intermediate vowel sounds using
+               ASR and gradual formant modification.
+            </p>
+          </div>
+          <center>
+            <img src="static/images/modify_vowels.gif" alt="modify-vowels" class="center-image blend-img-background"/>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Audio Examples</h2>
+          <p>
+            English Phrases
+          </p>
+          <audio controls src="static/audio/english_276.wav"></audio>
+          <audio controls src="static/audio/english_34.wav"></audio>
+          <audio controls src="static/audio/english_976.wav"></audio>
+          <audio controls src="static/audio/english_173.wav"></audio>
+          <audio controls src="static/audio/english_817.wav"></audio>
+          <audio controls src="static/audio/english_302.wav"></audio>
+          <audio controls src="static/audio/english_464.wav"></audio>
+          <audio controls src="static/audio/english_393.wav"></audio>
+          <audio controls src="static/audio/english_511.wav"></audio>
+          <p>
+            French Phrases
+          </p>
+          <audio controls src="static/audio/french_379.wav"></audio>
+          <audio controls src="static/audio/french_80.wav"></audio>
+          <audio controls src="static/audio/french_838.wav"></audio>
+          <audio controls src="static/audio/french_13.wav"></audio>
+          <audio controls src="static/audio/french_137.wav"></audio>
+          <audio controls src="static/audio/french_245.wav"></audio>
+          <audio controls src="static/audio/french_296.wav"></audio>
+          <audio controls src="static/audio/french_575.wav"></audio>
+          <audio controls src="static/audio/french_69.wav"></audio>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Results</h2>
+            <p>
+              Other than in “pill” for English first language speakers we reproduced the <span style="color: #009688">known linguistic effects of duration</span> within the word, i.e., "peel" is longer than "pill" and "poule" is longer than "pull", for both English and French first language speakers<br>
+              For duration, in the phrase we have a <span style="color: #009688">distal contrastive effect</span> (opposite of the duration within the vowel) with a strong <span style="color: #009688">proximally congruent effect </span> (the same as the duration within the vowel) 200-300 ms before the vowel<br>
+              <span style="color: #009688">Pitch</span> has weaker effects than <span style="color: #009688">duration</span>, even more so for French first language speakers<br>
+              Second language speakers often have stronger effects in the vowel, suggesting they <span style="color: #009688">rely more on prosody</span> to parse difficult phonemes<br>
+              *Represent a time point of significantly different pitch/duration preference to bias towards one word or the other
+            </p>
+          </div>
+          <center>
+            <img src="static/images/results1.png" alt="results" class="center-image blend-img-background"/>
+          </center>
+          <center>
+            <img src="static/images/results2.png" alt="results" class="center-image blend-img-background"/>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Acknowledgements</h2>
+            <p>
+              This work was supported by NSERC Discovery Grant 06908-
+              2019, the France Canada Research Fund, the Mitacs Globalink
+              Research Award, and the Fondation Pour l’Audition (FPA RD2021-12). The authors thank P. Maublanc, R. Guha, and A. Adl
+              Zarrabi for their valuable discussions; V. Yang, B. Burkanova,
+              C. Zhang, and M. Durana for their help running our study; and
+              the Rajan Family for their support. This work has been conducted in the framework of the EIPHI Graduate school (ANR17-EURE-0002 contract).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+-->
+
+<!-- Paper poster -->
+<!--<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+End paper poster -->
+
+
+<!--BibTex citation 
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{tuttösí2024mmm,
+        title={Mmm whatcha say? Uncovering distal and proximal context effects in first and second-language word perception using psychophysical reverse correlation}, 
+        author={Paige Tuttösí and H. Henny Yeung and Yue Wang and Fenqi Wang and Guillaume Denis and Jean-Julien Aucouturier and Angelica Lim},
+        year={2024},
+        eprint={2406.05515},
+        archivePrefix={arXiv},
+        primaryClass={cs.SD}
+  }</code></pre>
+    </div>
+</section>
+End BibTex citation -->
+
+<!-- Youtube video
+<section class="section">
+    <div class="container is-max-desktop content">
+       Paper video. -->
+       <!--
+      <h2 class="title is-3">Title inspiration: Jason Derulo - Whatcha Say</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            Youtube embed code here -->
+            <!--
+            <iframe src="https://www.youtube.com/embed/pBI3lc18k8Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+End youtube video -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
