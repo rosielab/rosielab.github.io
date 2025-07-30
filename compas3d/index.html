@@ -39,7 +39,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Tokenizing Nonverbal Communication in Salsa Dance</h1>
+            <h1 class="title is-1 publication-title">Salsa as a Nonverbal Embodied Language -- The CoMPAS3D Dataset and Benchmarks</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">Bermet Burkanova*,</a><sup>1</sup></span>
@@ -70,7 +70,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://drive.google.com/file/d/1Gt9poKFNFF4oVSttkByytJi_KAb_G-L4/view" target="_blank"
+                  <a href="https://www.arxiv.org/abs/2507.19684" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -130,17 +130,23 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Partner dance offers a compelling testbed for studying tokenization in multimodal, bidirectional communication.
-            In salsa, a lifted hand may signal a turn; musical accents may shape both dancers' motion.
-            These interactions are continuous and improvisational, and hinge on discrete, interpretable cues—gestures,
-            beats, and movement segments—that can be modeled as tokens. In this paper, we introduce a language model
-            and tokenization framework for social dance, treating salsa as a form of embodied dialogue grounded in
-            motion, music, and role-based interaction. To support this, we present CoMPAS3D, a large-scale 
-            motion capture dataset of improvised salsa dancing, capturing over 3 hours of leader-follower
-            interaction across three skill levels. The dataset includes frame-level annotations of moves, styling,
-            and execution errors, created through over 120 hours of expert effort. We use tokens as a foundation for
-            generative and classification tasks, including follower motion prediction and move recognition,
-            demonstrating the utility of token-based models for interactive, expressive virtual agents.
+            Imagine a humanoid that can safely and creatively dance with a human, adapting to its partner's proficiency,
+             using haptic signaling as a primary form of communication. While today's AI systems excel at text or
+             voice-based interaction with large language models, human communication extends far beyond text-it includes
+             embodied movement, timing, and physical coordination. Modeling coupled interaction between two agents poses
+             a formidable challenge: it is continuous, bidirectionally reactive, and shaped by individual variation. We
+             present CoMPAS3D, the largest and most diverse motion capture dataset of improvised salsa dancing, designed
+             as a challenging testbed for interactive, expressive humanoid AI. The dataset includes 3 hours of
+             leader-follower salsa dances performed by 18 dancers spanning beginner, intermediate, and professional
+             skill levels. For the first time, we provide fine-grained salsa expert annotations, covering over 2,800
+             move segments, including move types, combinations, execution errors and stylistic elements. We draw
+             analogies between partner dance communication and natural language, evaluating CoMPAS3D on two benchmark
+             tasks for synthetic humans that parallel key problems in spoken language and dialogue processing: leader or
+             follower generation with proficiency levels (speaker or listener synthesis), and duet (conversation)
+             generation. Towards a long-term goal of partner dance with humans, we release the dataset, annotations, and
+             code, along with a multitask SalsaAgent model capable of performing all benchmark tasks, alongside
+             additional baselines to encourage research in socially interactive embodied AI and creative, expressive
+             humanoid motion generation. 
           </p>
         </div>
       </div>

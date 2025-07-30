@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta property="og:url" content="https://rosielab.github.io/emojivoice/"/>
+
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>EmojiVoice: Towards long-term controllable expressivity in robot speech</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">EmojiVoice: Towards long-term controllable expressivity in robot speech</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://chocobearz.github.io/" target="_blank">Paige Tuttösí,</a><sup>1,2,3</sup></span>
+                <span class="author-block">
+                  <a href="https://www.kth.se/profile/smehta" target="_blank">Shivam Mehta,</a><sup>4</sup></span>
+                  <span class="author-block">Zachary Syvenky,</a><sup>1</sup></span>
+                    <span class="author-block">Bermet Burkanova,</a><sup>1</sup></span>
+                        <span class="author-block">
+                          <a href="https://people.kth.se/~ghe/" target="_blank"> Gustav Eje Henter,</a><sup>4</sup></span>
+                          <span class="author-block">
+                            <a href="https://www.rosielab.ca/" target="_blank">Angelica Lim</a><sup>1</sup></span>
+                  </div>
+
+                  <div class="is-size-6 publication-authors">
+                    <span class="author-block"><sup>1</sup>School of Computing Science Simon Fraser University, Canada<br><sup>2</sup>Enchanted Tools, France<br><sup>4</sup> the Division of Speech Music and Hearing, KTH Royal Institute of Technology, Sweden</span>
+                  </div>
+                  <div class="is-size-4 publication-authors">
+                    <span class="author-block">RO-MAN 2025</span>
+                  </div>
+
+                  <!---<div class="column has-text-centered">
+                    <div class="publication-links">
+                          Arxiv PDF link -->
+                  <!---<div class="column has-text-centered">
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                   Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/rosielab/emojivoice" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2506.15085" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <!---Ceese Github link -->
+              <span class="link-block">
+                <a href="https://drive.google.com/drive/u/1/folders/1_shiKCJznON_4IWuIBQ7yxagf-oe8YTZ" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fa-solid fa-database"></i>
+                </span>
+                <span>Supplementary</span>
+              </a>
+            </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Humans vary their expressivity when speaking for
+            extended periods to maintain engagement with their listener.
+            Although social robots tend to be deployed with “expressive”
+            joyful voices, they lack this long-term variation found in human
+            speech. Foundation model text-to-speech systems are beginning
+            to mimic the expressivity in human speech, but they are difficult
+            to deploy offline on robots. We present EmojiVoice, a free,
+            customizable text-to-speech (TTS) toolkit that allows social
+            roboticists to build temporally variable, expressive speech on
+            social robots. We introduce emoji-prompting to allow fine-
+            grained control of expressivity on a phase level and use the
+            lightweight Matcha-TTS backbone to generate speech in real-
+            time. We explore three case studies: (1) a scripted conversation
+            with a robot assistant, (2) a storytelling robot, and (3) an
+            autonomous speech-to-speech interactive agent. We found that
+            using varied emoji prompting improved the perception and
+            expressivity of speech over a long period in a storytelling task,
+            but expressive voice was not preferred in the assistant use case.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Youtube video -->
+<section class="section">
+    <div class="container is-max-desktop content">
+      <!-- Paper video. -->
+      <h2 class="title is-3">HRI 2025 Demo Video</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/cpyFqYqESww?si=0WwjbG1Aw_qCJt2b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">TTS Toolbox</h2>
+          <center>
+              <img src="static/images/header.png" alt="Miroka speaking with emojis" class="responsive-image center-image blend-img-background" />
+          </center>
+          <div class="level-set has-text-justified">
+            <p>
+              We propose a free, open-source toolbox with documentation that allows social roboticists to use emoji
+              prompting to easily deploy an expressive TTS offline and customize the voices to their own use cases.
+
+              The toolbox extends Matcha-TTS for ease-of-use by HRI researchers by including: 1) Training files setup:
+              examples, raw data, and 3 checkpoints (with and without optimizers), 2) Additional information on the
+              amount of data needed to fine-tune, 3) Scripts to record the data, 4) Wrappers to parse emojis in text to
+              prompt the voices, and 5) A conversational agent. Our toolbox, data, and voices are available free and
+              open source
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Emoji Prompting</h2>
+          <div class="level-set has-text-justified">
+            <p>
+              We suggest emojis as a means to prompt expressive styles that can be used for temporal variational
+              control, i.e., selecting a different emoji style for each phrase generated. The variation provided by the
+              standard Unicode emoji set is especially useful in that they can express emotions: &#128525, &#128545, 
+              attitudes: &#128526, &#128077, mental states: &#129300, &#128580, and bodily states: &#129398, &#128564.
+            </p>
+          </div>
+        </div>
+          <center>
+          <img src="static/images/emojis.png" alt="emoji in text example" class="center-image blend-img-background"/>
+          <img src="static/images/emoji2.png" alt="emoji in prompt example" class="center-image blend-img-background"/>
+          </center>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Model Training</h2>
+          <div class="level-set has-text-justified">
+            <p>
+              Matcha TTS in excellent for social robotics applications as it requires few resources to train and can be
+              be used to create use-case custom voices.
+
+              Our model was fine-tuned with only 50 phrases (about 3 minutes of audio) per emoji. The model was trained
+              for 85 epochs, approximately 20 minutes. With the original data (VCTK) it is also possible to insert the
+              custom data as a new voice and re-train from scratch for higher quality audio, but this takes several
+              hours.
+            </p>
+          </div>
+        </div>
+          <center>
+            <img src="static/images/arch.png" alt="model architecture" class="center-image big-blend-img-background"/>
+          </center>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Results</h2>
+            <p>
+              We found that through the use of <span style="color: #F58027">phrase-by-phrase emoji prompting</span>,
+              we were able to create a <span style="color: #F58027">variable</span>,
+              <span style="color: #F58027">expressive</span> voice that improved
+              impressions over a singularly expressive “joyful” voice in the longer
+              storytelling use case. However, in a line-by-line assistant interaction, varied expressivity was not
+              preferred. As such, researchers need to put care into considering all aspects of the task and interaction
+              context when selecting and designing their robot voices.
+            </p>
+          </div>
+            <center>
+            <img src="static/images/results.png" alt="results" class="center-image big-blend-img-background"/>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Acknowledgements</h2>
+            <p>
+              We would like to thank Mohammed Hafsati and Waldez Gomes for their help in running the Miroka experiments,
+              Paul Maublanc for listening endlessly to our voices, Jean-Julien Aucouturier for his useful feedback,
+              and the Rajan Family for their support.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper poster -->
+<!--<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+End paper poster -->
+
+
+<!--BibTex citation 
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{tuttösí2024mmm,
+        title={Mmm whatcha say? Uncovering distal and proximal context effects in first and second-language word perception using psychophysical reverse correlation}, 
+        author={Paige Tuttösí and H. Henny Yeung and Yue Wang and Fenqi Wang and Guillaume Denis and Jean-Julien Aucouturier and Angelica Lim},
+        year={2024},
+        eprint={2406.05515},
+        archivePrefix={arXiv},
+        primaryClass={cs.SD}
+  }</code></pre>
+    </div>
+</section>
+End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
