@@ -132,3 +132,38 @@ body {
   font-size: smaller;
 }
 
+.blend-img-background {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .blend-img-background {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .blend-img-background {
+    width: 70%;
+  }
+}
+
+.blend-tab-background {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .blend-tab-background {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .blend-tab-background {
+    width: 100%;
+  }
+}
