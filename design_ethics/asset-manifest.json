@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/design_ethics/static/js/main.39c076bf.js",
+    "main.js": "/design_ethics/static/js/main.cebfb268.js",
     "static/media/minja.png": "/design_ethics/static/media/minja.2ac3c6dc3597c3371e41.png",
     "static/media/paul.jpeg": "/design_ethics/static/media/paul.c4933d3a60d3ab8baf74.jpeg",
     "static/media/marine.png": "/design_ethics/static/media/marine.efa7e8fd938a9fd2c187.png",
@@ -23,9 +23,9 @@
     "static/media/menu.svg": "/design_ethics/static/media/menu.644fa295fdd5f662e642ba6bfb084239.svg",
     "static/media/x.svg": "/design_ethics/static/media/x.6c9a4ba71a333be7b021fc6da39d864c.svg",
     "static/media/logo.svg": "/design_ethics/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg",
-    "main.39c076bf.js.map": "/design_ethics/static/js/main.39c076bf.js.map"
+    "main.cebfb268.js.map": "/design_ethics/static/js/main.cebfb268.js.map"
   },
   "entrypoints": [
-    "static/js/main.39c076bf.js"
+    "static/js/main.cebfb268.js"
   ]
 }

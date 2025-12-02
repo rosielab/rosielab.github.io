@@ -70,7 +70,7 @@ export default ({
         <StyledHeader links={navLinks} />
         <Content>
           <Para>
-              March 16th, 2026
+              July, 2026
           </Para>
           <Heading>
               Ethical Design in Human-Robot Interaction: Current State, Challenges, and Future Directions
