@@ -4,12 +4,6 @@ import tw from "twin.macro";
 import { ReactComponent as SvgDotPatternIcon } from "../../images/dot-pattern.svg";
 import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
 
-import EnchantedTools from "images/Enchanted_tools.png";
-import SFU from "images/SFU.png";
-import PAL from "images/pal.png";
-import Furhat from "images/furhat.png";
-import URG from "images/united_robotic_group.png"
-
 const Container = tw.div`relative`;
 
 const SingleColumn = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -67,76 +61,69 @@ export default () => {
     {
       imageSrc:
         "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "Invited Speakers",
+      title: "Keynote Talks",
       description:
-        "We have invited speakers with a broad range of backgrounds including: human robot interaction, AI, music, acting and speech synthesis. The invited speakers bring different perspectives from diverse disciples and varying applications including entertainment and academia with multiple career stages being represented by the academics.",
+        "Keynotes will focus on bringing together insights from ethics and design research, HRI practice, responsible technology, and the arts. To contribute towards an interdisciplinary understanding and critical investigation of ethical HRI",
     },
 
     {
       imageSrc:
-        "https://images.pexels.com/photos/680940/pexels-photo-680940.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Lightning Talks",
+        "https://images.pexels.com/photos/6476779/pexels-photo-6476779.jpeg?_gl=1*1uwec43*_ga*MTM2NjQyNDI1Mi4xNzY4OTU4ODY3*_ga_8JE65Q40S6*czE3Njg5NTg4NjYkbzEkZzEkdDE3Njg5NTkzMzMkajQ3JGwwJGgw",
+      title: "Contributed Talks",
       description:
-        "Lightning talks will be 8 minutes long followed by panel Q&A. We aim to bring together robot designers, interaction scholars and those working in generative sound and voice that can be embedded into robotic systems. See the Call for Papers for additional information.",
+        "Authors of accepted papers  will present their work: 8 minutes  with a 2-minute Q&A. See the Call for Papers for additional information.",
     },
 
     {
       imageSrc:
-        "https://images.pexels.com/photos/8438979/pexels-photo-8438979.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Voice Design Challenge",
+        "https://images.pexels.com/photos/12319354/pexels-photo-12319354.jpeg?_gl=1*r0owtu*_ga*MTM2NjQyNDI1Mi4xNzY4OTU4ODY3*_ga_8JE65Q40S6*czE3Njg5NTg4NjYkbzEkZzEkdDE3Njg5NTkyNzMkajQxJGwwJGgw",
+      title: "Poster Session and Collaborative Critique",
       description:
-        "To get everyone thinking about embodiment, we will start with a robot body movement game. To finish off the workshop we will have an embodied voice design challenge. Participants will be organized into teams and will be assigned a physical robot and/or an avatar. Each of the robots will have a short personal story to provide context such as their job, where they are, and who will be using them. Working through a co-design canvas, participants will brainstorm an appropriate voice for their robots. They will then be provided with a state-of-the-art TTS system with which they will attempt to generate their desired voices and send them to the robots. We will finish up with demos where each of the teams present their design process and selection.",
-      guest:  "Guest Judge : Dr. Roger K. Moore",
-      price: "Prize : 250€"
-    }
+        "Authors with accepted posters will be invited to present in the poster session. Other participants will be invited to discuss the posters with the presenters from a critical, ethical lens. See the Call for Papers for additional information.",
+    },
+    {
+      imageSrc:
+        "https://images.pexels.com/photos/8117466/pexels-photo-8117466.jpeg?_gl=1*rr1w2w*_ga*MTM2NjQyNDI1Mi4xNzY4OTU4ODY3*_ga_8JE65Q40S6*czE3Njg5NTg4NjYkbzEkZzEkdDE3Njg5NTkxNDEkajU5JGwwJGgw",
+      title: "Group Discussion and Insights Generation",
+      description:
+          " In groups of 4--5, participants will discuss: (1) What does ethical design mean in HRI today?, (2) What are the primary roadblocks and challenges to more meaningful engagement with ethics in HRI design practice? (3), How can we be more ethically engaged? Each group will share their insights at the end of the workshop. The discussion will be recorded and shared on the website with the consent of all participants.",
+    },
   ];
 
   return (
     <Container>
         <TwoColumn>
           <LeftColumn>
-            <ImageHeader>
-              Sponsor
-            </ImageHeader>
-            <ImageSponsor src={SFU}/>
           </LeftColumn>
           <CenterColumn>
           </CenterColumn>
           <RightColumn>
-            <ImageHeader>
-              Robots and avatars provided by
-            </ImageHeader>
-            <ImageRobot src={URG}/>
-            <ImageRobot src={PAL}/>
-            <ImageRobot src={Furhat}/>
-            <ImageRobot src={EnchantedTools}/>
           </RightColumn>
         </TwoColumn>
       <SingleColumn>
         <HeadingInfoContainer id = "about">
           <HeadingTitle>About</HeadingTitle>
           <HeadingDescription>
-          Communication between humans is driven by language and voice. As such, to improve 
-          interaction between humans and robots we must improve robot voices. Research in 
-          generative voices (Glow-TTS, VITS, Matcha-TTS) has been advancing at an 
-          unprecedented rate. Yet, even though these models exist, they have seen little deployment 
-          in robotics, with roboticists often opting for out-of-the-box voices from large 
-          companies, or voices custom designed to a single robot. Appropriateness of a robot’s 
-          voice requires considering a wide range of contextual factors including their appearance, 
-          task, location, the culture and abilities of the people they interact with. At the same time, 
-          the field of HRI is concerned with designing robots to interact with humans, often by 
-          studying human behavior to replicate appropriate behaviour in robots. Yet, simply 
-          applying human-like voices to a robot can result in uncanniness and may actually 
-          reduce human comfort. The first question to consider is whether the robot even needs 
-          a voice; will sounds, e.g. beeps and boops, suffice, or should there be no sound at all? 
-          When we decide to use a voice how do we choose the right one; how will this choice affect 
-          user comfort and perception, what ethical problems could result from vocal interaction, 
-          e.g. affirming gender bias in tasks, difficulties in perception for second language speakers, 
-          both on the side of the human and the robot, and increasing the humanlikess of the robot, 
-          which could lead to attachment issues and personification. Consider, for example, a 
-          robot dog approaching you while working in a warehouse. If it speaks, how do you expect 
-          it to sound? If it had the voice of a 5 year old child, would this affect the trust you 
-          have in this robot as a working companion? 
+          The design of human-robot interactions (HRI) in social robotics
+          carries profound ethical implications for normativity, justice, and social
+          well-being. Yet, the ethical dimensions often remain underexplored or
+          constrained by technical priorities. This raises an urgent question: How
+          can designers include rather than marginalise, protect rather than ma-
+          nipulate, and empower rather than exploit? This half-day workshop will
+          bring together researchers curious about design ethics. There will be
+          three keynotes, participant-contributed talks, a design critique-inspired
+          poster session, and discussion groups. Participants will address key ques-
+          tions in a discussion format, with the outcomes published on the work-
+          shop website and refined into a publication with workshop participants.
+          Through critique and discussion, the workshop will cultivate a diverse
+          community of inquiry, generate a shared map of current challenges, and
+          identify pathways for advancing ethical design in HRI. The workshop 
+          <b>objectives</b> are:
+           <ol>
+            <li>understanding the current state of ethical design in Human-Robot Interaction (HRI), </li>
+            <li>identifying the challenges of ethical design in HRI,</li>
+            <li>shaping future directions for ethical design in HRI.</li>
+          </ol> 
           </HeadingDescription>
         </HeadingInfoContainer>
 

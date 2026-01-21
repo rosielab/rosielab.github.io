@@ -60,8 +60,25 @@ export default ({
       style= {linkStyle}>
         About
       </NavHashLink>
+      <NavHashLink smooth to ="/#schedule"
+      style= {linkStyle}>
+        Schedule
+      </NavHashLink>
+      <NavHashLink smooth to="/#invited"
+      style= {linkStyle}>
+        Keynote Speakers
+      </NavHashLink>
+      <NavHashLink smooth to ="/#cfp"
+      style= {linkStyle}>
+        Call for Papers
+      </NavHashLink>
+      <NavHashLink smooth to="/#organizers"
+      style= {linkStyle}>
+        Organizing Committee
+      </NavHashLink>
     </NavLinks>,
   ];
+
 
   return (
     <Container>
@@ -76,7 +93,7 @@ export default ({
               Ethical Design in Human-Robot Interaction: Current State, Challenges, and Future Directions
           </Heading>
           <Para>
-              Coming Soon
+              Workshop at : <a href="https://icsr2026.uk/">ICSR 2026</a>, University of London, UK
           </Para>
 
         </Content>

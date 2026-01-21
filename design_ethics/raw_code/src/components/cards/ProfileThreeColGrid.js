@@ -5,12 +5,9 @@ import { css } from "styled-components/macro";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings";
 import {SectionDescription} from "components/misc/Typography";
-import lealuka from "images/lea-luka.png";
-import zhengjun from "images/zhengjun.png";
-import tony from "images/tony.jpeg";
-import kazuhiro from "images/kazuhiro.png";
-import catherine from "images/catherine.png";
-import james from "images/james.jpg"
+import michio from "images/MichioOkada(2).jpg";
+import paulina from "images/Paulina PIC.jpeg";
+import marina from "images/marina2.jpg";
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
@@ -39,50 +36,29 @@ const CardContent = styled.div`
 `
 
 export default ({
-  heading = "Invited Speakers",
+  heading = "Keynote Speakers",
   description = "We are excited to present our lineup of excellent speakers.",
   cards = [
     {
-      imageSrc: catherine,
-      name: "Dr. Catherine Lai",
-      position: "University of Edinburgh, UK",
-      description: "Dr. Lai is a Lecturer in Speech and Language Technology, based in the Centre for Speech Technology Research. She will discuss recent work exploring prosodic variation in conversational (English) speech using text-to-speech synthesis models. She argues that there are a  lot of benefits to be had from new self-supervised methods for representation learning on speech and text datasets, but we still need linguistic knowledge to actually make use of the true richness of spoken communication. Her research focuses on speech prosody,  spoken language understanding and generation, and affective computing.",
-      title: "Title: Watch your tone! Understanding prosodic variation in synthetic speech"
+      imageSrc: michio,
+      name: "Prof. Michio Okada",
+      position: "Chikushi Jogakuen University",
+      description: "Professor Okada is both a professor at Chikushi Jogakuen University and Professor Emeritus at Toyohashi University of Technology. Building on his research on “weak robots,” he is advancing studies on HRI design for conviviality (Convivial Robotics), in which humans and robots can engage in a loosely interdependent relationship without compromising each other’s autonomy or creativity",
+      title: "Title: TBA"
     },
     {
-      imageSrc: lealuka,
-      name: "Dr. Lea Luka Sikau",
-      position: "Musician in Residence at S+T+ARTS, Germany",
-      description: "Dr. Sikau (she/her) is an artist-researcher with a PhD on critical posthumanism, new music and rehearsal ethnography from the University of Cambridge. She teaches on artistic research processes at Humboldt University Berlin and Seoul National University. Sikau has been a Bavarian American Academy Fellow at Harvard University’s Mellon School for Performance and Theater Research and was awarded with the Bavarian Cultural Award for her research at MIT’s Center for Art, Science and Technology. She has worked with some of the most sought-after visionaries in the arts such as Romeo Castellucci, Marina Abramović, Lotte de Beer and Stefan Kaegi (Rimini Protokoll). As a media artist and mezzosoprano, Sikau was commissioned by S+T+ARTS (European Commission), the Ars Electronica Festival, transmediale Berlin, Impakt Utrecht, Ensemble Modern and Climate Week NYC. Image : Patrick Münnich",
-      title: "Title: How human voices are produced, modified and believed to shatter glass"
+      imageSrc: paulina,
+      name: "Dr. Paulina Yurman",
+      position: "Central Saint Martins, University of the Arts London",
+      description: "Dr. Yurman is a Research Fellow, designer and lecturer at Central Saint Martins, University of the Arts London. Her research blends critical design, speculative design, drawing and making to question and reimagine our relationships with technology. She is investigating Maternal Machines, imagined and designed for maternal and infant care",
+      title: "Title: TBA"
     },
     {
-      imageSrc: zhengjun,
-      name: "Dr. Zhengjun Yue",
-      position: "Delft University of Technology, Netherlands",
-      description: "Dr. Yue is an Assistant Professor at the Multimedia Computing Group working on speech technology for healthcare. Her interests are atypical speech processing and recognition.  She is also interested in building conversation AI medical systems for healthcare, and using heart sounds and brain signals for medical care and treatment.",
-      title: "Title: Speech Technology for Healthcare in Robotics"
-    },
-    {
-      imageSrc: kazuhiro,
-      name: "Dr. Kazuhiro Nakadai",
-      position: "Tokyo Institute of Technology, Japan",
-      description: "Dr. Nakadai has been a pioneer in the field of robot audition for more than 20 years since Prof. Okuno and he proposed it in 2000, both as a JST and HRI scientist and, since 2022, as a professor in Department of Systems and Control Engineering, School of Engineering, Tokyo Institute of Technology. In addition to robot audition, his main research interests include AI, robotics, signal processing, computational auditory scene analysis, and multimodal integration. IEEE Fellow. RSJ Fellow. This talk will introduce robot audition techniques, mainly related to human-robot interaction, accompanied with demonstrations. In addition, machine learning and deep learning-based robot audition techniques, which have been developed rapidly in recent years, will be introduced and their advantages and disadvantages will be discussed from the perspective of robot audition.",
-      title: "Title: Robot Audition for Human Robot Interaction"
-    },
-    {
-      imageSrc: tony,
-      name: "Dr. Tony Belpaeme",
-      position: "Ghent University & imec, Belgium",
-      description: "Dr. Belpaeme is professor and senior researcher. His team studies human-robot interaction and applications of social robotics, with a specific focus on building autonomous robots for applications such as education, healthcare and entertainment. Spoken language is the most natural and, once sufficiently mature and robust, will likely be the most common interface for robot applications. Interacting using language requires efforts across the whole chain of processing, which needs speech recognition, multimodal interpretation, dialogue management and speech production to all singing together. However, the speech of a robot is often an afterthought and all too often relies on bland out-of-the-box text-to-speech solutions. This talk argues that robot voices merit more attention and scopes the challenges and possible solutions to give robots the voice they deserve.",
-      title: "Title: Giving Robots a Voice"
-    },
-    {
-      imageSrc: james,
-      name: "Dr. James P. Trujillo",
-      position: "University of Amsterdam, Netherlands",
-      description: "Dr. Trujillo's research aims to understand how we use the ensemble of visual and vocal modalities available to us in order to communicate. How do we orchestrate, face, head, body, hands, and speech together into one multimodal whole, and how do others make sense of this? How do we adapt this complex array of behaviors to different contexts? How is neurodiversity reflected in different styles of communication, and how does this impact social interaction? To this end, he uses motion tracking, acoustic analysis, qualitative coding, and virtual agents to study both what people do in naturalistic settings, and to design experiments to test the hypotheses generated from studying more unconstrained behavior.",
-      title: "Title: Facial Signals Combine to Influence the Interpretation of Speech"
+      imageSrc: marina,
+      name: "Prof. Marina Jirotka",
+      position: "University of Oxford",
+      description: "Prof. Jirotka is a professor of Human Centred Computing in the Department of Computer Science, Director of Responsible Technology Institute, University of Oxford. She leads interdisciplinary research in technology, including the “Black Box” for robot accidents.",
+      title: "Title: TBA"
     },
     //{
     //  imageSrc: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",

@@ -17,6 +17,13 @@ export default () => (
   <AnimationRevealPage>
     <BrowserRouter>
       <Hero />
+      <Intro />
+      <Schedule />
+      <Speakers />
+      <Call />
+      <Organizers />
+      <PC/>
+      <Contact />
     </BrowserRouter>
   </AnimationRevealPage>
 );

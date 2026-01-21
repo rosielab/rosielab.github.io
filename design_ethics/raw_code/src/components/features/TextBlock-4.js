@@ -28,21 +28,7 @@ export default () => {
           <HeadingTitle>Program Commitee</HeadingTitle>
           <Table>
             <tbody>
-              <tr>
-                <Td> Dr. Eric Nichols </Td>
-              </tr>
-              <tr>
-                <Td> Hideki García Goo </Td>
-              </tr>
-              <tr>
-                <Td> Joel Currie </Td>
-              </tr>
-              <tr>
-                <Td> Nathaniel Dennler </Td>
-              </tr>
-              <tr>
-                <Td> Dr. Oliver Niebuhr </Td>
-              </tr>
+              TBD
             </tbody>
           </Table>
         </HeadingInfoContainer>

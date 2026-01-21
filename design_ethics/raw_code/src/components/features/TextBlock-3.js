@@ -32,86 +32,56 @@ export default () => {
           <Table>
             <thead>
               <tr>
-                <Th> Starting time CET</Th>
-                <Th> Ending time CET</Th>
+                <Th> Starting time GMT</Th>
+                <Th> Ending time GMT</Th>
                 <Th> Activity </Th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <Td> 08:45 </Td>
                 <Td> 09:00 </Td>
-                <Td> Opening remarks & Body movement game </Td>
+                <Td> 09:10 </Td>
+                <Td> Introduction </Td>
               </tr>
               <tr>
-                <Td> 09:00 </Td>
-                <Td> 09:30 </Td>
-                <Td> Invited speaker: Dr. Lea Luka Sikau </Td>
+                <Td> 09:10 </Td>
+                <Td> 09:40 </Td>
+                <Td> Keynote speaker: Prof. Michio Okada </Td>
               </tr>
               <tr>
-                <Td> 09:30 </Td>
-                <Td> 10:00 </Td>
-                <Td> Invited speaker: Dr. Zhengjun Yue </Td>
+                <Td> 09:40 </Td>
+                <Td> 10:40 </Td>
+                <Td> Contributed talks </Td>
               </tr>
               <tr>
-                <Td> 10:00 </Td>
-                <Td> 10:30 </Td>
-                <Td> Coffee Break </Td>
-              </tr>
-              <tr>
-                <Td> 10:30 </Td>
+                <Td> 10:40 </Td>
                 <Td> 11:00 </Td>
-                <Td> Invited speaker: Dr. Tony Belpaeme </Td>
+                <Td> Coffee Break </Td>
               </tr>
               <tr>
                 <Td> 11:00 </Td>
                 <Td> 11:30 </Td>
-                <Td> Invited speaker: Dr. Kazuhiro Nakadai </Td>
+                <Td> Keynote speaker: Dr. Paulina Yurman </Td>
               </tr>
               <tr>
                 <Td> 11:30 </Td>
-                <Td> 12:15 </Td>
-                <Td> Lightning talks </Td>
+                <Td> 12:00 </Td>
+                <Td> Poster presentations and collaborative critique </Td>
               </tr>
               <tr>
-                <Td> 12:15 </Td>
-                <Td> 13:30 </Td>
-                <Td> Lunch </Td>
+                <Td> 12:00 </Td>
+                <Td> 12:30 </Td>
+                <Td> Keynote speaker: Prof. Marina Jirotka </Td>
               </tr>
               <tr>
-                <Td> 13:30 </Td>
-                <Td> 14:00 </Td>
-                <Td> Invited speaker: Dr. Catherine Lai </Td>
+                <Td> 12:30 </Td>
+                <Td> 12:50 </Td>
+                <Td> Structured group discussions and insights generation </Td>
               </tr>
               <tr>
-                <Td> 14:00 </Td>
-                <Td> 14:30 </Td>
-                <Td> Invited speaker: Dr. James P. Trujillo </Td>
-              </tr>
-              <tr>
-                <Td> 14:30 </Td>
-                <Td> 14:45 </Td>
-                <Td> Voice design challenge: Intro </Td>
-              </tr>
-              <tr>
-                <Td> 14:45 </Td>
-                <Td> 15:30 </Td>
-                <Td> Voice design challenge </Td>
-              </tr>
-              <tr>
-                <Td> 15:30 </Td>
-                <Td> 16:00 </Td>
-                <Td> Coffee Break </Td>
-              </tr>
-              <tr>
-                <Td> 16:00 </Td>
-                <Td> 16:30 </Td>
-                <Td> Voice design challenge </Td>
-              </tr>
-              <tr>
-                <Td> 16:30 </Td>
-                <Td> 17:00 </Td>
-                <Td> Voice design challenge: Discussion </Td>
+                <Td> 12:50 </Td>
+                <Td> 13:00 </Td>
+                <Td> Sharing insights and closing workshop </Td>
               </tr>
             </tbody>
           </Table>

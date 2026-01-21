@@ -6,14 +6,7 @@ import { ContentWithPaddingXl, Container } from "components/misc/Layouts.js";
 import { SectionHeading as Heading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-7.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-8.svg";
-import shay from "images/shay.jpeg";
-import lawrence from "images/LAWRENCE_KIM (3)-slim Medium.jpeg";
 import paige from "images/paige.png";
-import paul from "images/paul.jpeg";
-import angelica from "images/angelica.jpg";
-import charlotte from "images/charlotte.png";
-import emma from "images/emma.png";
-import marine from "images/marine.png";
 import minja from "images/minja.png";
 
 const Testimonials = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`;
@@ -36,84 +29,60 @@ export default ({
   testimonials = [
     {
       imageSrc:
-        paige,
-      quote:
-        "Paige is a PhD sudent building adaptive voices for robotics, specifically focusing on voices for teaching and second language learners.",
-      customerName: "Paige Tuttösí",
-      position: "Simon Fraser University, Canada & FEMTO-ST, France"
-    },
-    {
-      imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      quote:
-        "Siyang is a PhD student working on speech and gesture synthesis.",
-      customerName: "Siyang Wang",
-      position: "KTH Royal Institute of Technology, Sweden"
-    },
-    {
-      imageSrc:
-        charlotte,
-      quote:
-        "Charlotte is a PhD student working on anthropomorphism and agency in social robots and AI's impact on human interaction.",
-      customerName: "Charlotte Stinkeste",
-      position: "KTH Royal Institute of Technology, Sweden"
-    },
-    {
-      imageSrc:
-        emma,
-      quote:
-        "Emma holds a BSc (honours) in psychology from the UVic and MSc in CS from SFU. She has 4 years of both industry and academic experience working in affective computing, human-machine interaction, cognitive science, and data science.",
-      customerName: "Emma Hughson",
-      position: "Cambridge Consultants, UK"
-    },
-    {
-      imageSrc:
-        paul,
-      quote:
-        "Paul is a PhD student in Music In the Brain Lab. His work focuses on the altered vocal feedback impacts on felt emotion.",
-      customerName: "Paul Maublanc",
-      position: "Aarhus University, Denmark"
-    },
-    {
-      imageSrc:
         minja,
       quote:
-        "Minja is a final year PhD student working on design, ethics and user experiences in HRI, and particularly on robots for mental wellbeing.",
+        "Minja is a postdoctoral researcher, Visiting Scholar at the Leverhulme Centre for the Future of Intelligence, and Teaching Fellow at the Centre of Human-Inspired AI (University of Cambridge). She researches the design and ethics of social robots. ",
       customerName: "Minja Axelsson",
       position: "University of Cambridge, UK"
     },
     {
       imageSrc:
-        shay,
+        paige,
       quote:
-        "Chuxuan (Shay) is a PhD student studying human emotion and behaviors in the HCI/HRI context. Her research interests include Affective Computing, Social Robotics and Human-Centered Design.",
-      customerName: "Chuxuan Zhang",
-      position: "Simon Fraser University, Canada"
+        "Paige is an AI Engineer and Post-Doctoral researcher in linguistics. Her work focuses on building adaptive voices for robotics, specifically focusing on voices for teaching and second language learners.",
+      customerName: "Paige Tuttösí",
+      position: "Enchanted Tools, France & Simon Fraser University, Canada"
     },
     {
       imageSrc:
-        marine,
+        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       quote:
-        "Marine has been leading the HRI team in the software department in Aldebaran for almost 7 years now, addressing the challenges of social robotics to enhance the social intelligence and the attractiveness and naturalness of our robots.",
-      customerName: "Marine Chamoux",
-      position: "Aldebaran, France"
+        "Joel is a PhD student at the University of Aberdeen. He investigates the cognitive processes involved in human-robot interaction and develops cognitive models for robots, with a specific interest in social abilities such as visual perspective-taking in embodied",
+      customerName: "Joel Currie",
+      position: "University of Aberdeen, UK"
     },
     {
       imageSrc:
-        lawrence,
+        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       quote:
-        "Dr. Kim is an Assistant Professor in the School of Computing Science. His research includes the design and development of novel tangible user interfaces for physical and mental well-being.",
-      customerName: "Dr. Lawrence Kim",
-      position: "Simon Fraser University, Canada"
+        "Jiaee completed her doctoral studies at the University of Cambridge and is currently pursuing her postdoctoral studies at Harvard University. She is interested in advancing responsible and equitable AI systems for healthcare and human wellbeing.",
+      customerName: "Jiaee Cheong",
+      position: "Harvard University, USA"
     },
     {
       imageSrc:
-        angelica,
+        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       quote:
-        "Dr. Lim is an Assistant Professor in the School of Computing Science and Director of the Robots with Social Intelligence and Empathy (ROSIE) Lab. Her research interests include multimodal emotional intelligence, machine learning and social robotics.",
-      customerName: "Dr. Angelica Lim",
-      position: "Simon Fraser University, Canada"
-    }
+        "Shalaleh is a postdoctoral researcher at McGill University and Mila Quebec AI Institute studying how people can exercise meaningful control when co-creating with AI systems. She is also the Executive Director of the Open Roboethics Institute, a Canadian non-profit.",
+      customerName: "Shalaleh Rismani",
+      position: "McGill University & Mila Québec AI Institute, Canada"
+    },
+    {
+      imageSrc:
+        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      quote:
+        "Patrícia is an Assistant Professor of Robotics at the University of Michigan, where she leads Robot Studio, a research lab focused on creating robots for human health and creativity. Her research unifies the fields of Robotics, Design, and Psychology",
+      customerName: "Patrícia Alves-Oliveira",
+      position: "University of Michigan, USA"
+    },
+    {
+      imageSrc:
+        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      quote:
+        "Katie is an Associate Professor and scholar of critical computing and HCI whose work spans social robotics, feminism and gender studies, queer theory, intersectionality and critical race theory, and inclusive design.",
+      customerName: "Katie Seaborn",
+      position: "Institute of Science Tokyo, Japan & University of Cambridge, UK"
+    },
   ]
 }) => {
   return (
