@@ -8,6 +8,12 @@ import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-7
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-8.svg";
 import paige from "images/paige.png";
 import minja from "images/minja.png";
+import patricia from "images/patricia-alves-oliveira-portrait.png";
+import joel from "images/profile_joel.jpeg";
+import jiaee from "images/jiaee_headshot_0 (1).jpg";
+import katie from "images/katie.jpeg";
+import shalaleh from "images/SR-scaled.jpg";
+
 
 const Testimonials = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`;
 const TestimonialContainer = tw.div`mt-16 lg:w-1/3`;
@@ -45,7 +51,7 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        joel,
       quote:
         "Joel is a PhD student at the University of Aberdeen. He investigates the cognitive processes involved in human-robot interaction and develops cognitive models for robots, with a specific interest in social abilities such as visual perspective-taking in embodied",
       customerName: "Joel Currie",
@@ -53,7 +59,7 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        jiaee,
       quote:
         "Jiaee completed her doctoral studies at the University of Cambridge and is currently pursuing her postdoctoral studies at Harvard University. She is interested in advancing responsible and equitable AI systems for healthcare and human wellbeing.",
       customerName: "Jiaee Cheong",
@@ -61,7 +67,7 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        shalaleh,
       quote:
         "Shalaleh is a postdoctoral researcher at McGill University and Mila Quebec AI Institute studying how people can exercise meaningful control when co-creating with AI systems. She is also the Executive Director of the Open Roboethics Institute, a Canadian non-profit.",
       customerName: "Shalaleh Rismani",
@@ -69,7 +75,7 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        patricia,
       quote:
         "Patrícia is an Assistant Professor of Robotics at the University of Michigan, where she leads Robot Studio, a research lab focused on creating robots for human health and creativity. Her research unifies the fields of Robotics, Design, and Psychology",
       customerName: "Patrícia Alves-Oliveira",
@@ -77,7 +83,7 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.pexels.com/photos/8566428/pexels-photo-8566428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        katie,
       quote:
         "Katie is an Associate Professor and scholar of critical computing and HCI whose work spans social robotics, feminism and gender studies, queer theory, intersectionality and critical race theory, and inclusive design.",
       customerName: "Katie Seaborn",

@@ -7,7 +7,7 @@ import { SectionHeading, Subheading as SubheadingBase } from "components/misc/He
 import {SectionDescription} from "components/misc/Typography";
 import michio from "images/MichioOkada(2).jpg";
 import paulina from "images/Paulina PIC.jpeg";
-import marina from "images/marina2.jpg";
+import marina from "images/marina.jpeg";
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``

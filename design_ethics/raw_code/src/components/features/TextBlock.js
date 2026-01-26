@@ -109,7 +109,8 @@ export default () => {
         These abstracts will receive a light review for fit and factual correctness, and authors will receive feedback during a collaborative critique 
         in the workshop. </p>
 
-        <p>Accepted papers in both categories will be published here ont the workshop website. Authors can opt out of this</p>
+        <p>Accepted papers in both categories will be published here on the workshop website. 
+          Authors can opt out of this, please notify us of this upon possible acceptance of your paper.</p>
 
         <p>Accepted authors will be given the option to include their submissions within proceedings, which we will compile and make available on arXiv.
           We will also gather the insights generated during the workshop and publish them on the workshop website. </p>

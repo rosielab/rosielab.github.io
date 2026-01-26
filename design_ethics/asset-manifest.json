@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.js": "/design_ethics/static/js/main.b356f64c.js",
+    "main.js": "/design_ethics/static/js/main.cb958112.js",
+    "static/media/patricia-alves-oliveira-portrait.png": "/design_ethics/static/media/patricia-alves-oliveira-portrait.19420070ad16b0392c92.png",
     "static/media/minja.png": "/design_ethics/static/media/minja.2ac3c6dc3597c3371e41.png",
     "static/media/MichioOkada(2).jpg": "/design_ethics/static/media/MichioOkada(2).962f6507226bda83718b.jpg",
+    "static/media/SR-scaled.jpg": "/design_ethics/static/media/SR-scaled.8f81c98d69cd5c935936.jpg",
     "static/media/paige.png": "/design_ethics/static/media/paige.774743874480e8b6239e.png",
     "static/media/Paulina PIC.jpeg": "/design_ethics/static/media/Paulina PIC.0efe39083f1fec2baaa4.jpeg",
-    "static/media/marina2.jpg": "/design_ethics/static/media/marina2.5a8c90efc4af259de05d.jpg",
+    "static/media/profile_joel.jpeg": "/design_ethics/static/media/profile_joel.f3a2aa465d88ac9ad48f.jpeg",
+    "static/media/katie.jpeg": "/design_ethics/static/media/katie.915d21da5efcb8213ee3.jpeg",
+    "static/media/jiaee_headshot_0 (1).jpg": "/design_ethics/static/media/jiaee_headshot_0 (1).646e6c9051ad72da4c96.jpg",
+    "static/media/marina.jpeg": "/design_ethics/static/media/marina.2d50683885f86abcce80.jpeg",
     "static/media/dot-pattern.svg": "/design_ethics/static/media/dot-pattern.ee6f4f0e6654d6e38850896165f9dc36.svg",
     "index.html": "/design_ethics/index.html",
     "static/media/svg-decorator-blob-8.svg": "/design_ethics/static/media/svg-decorator-blob-8.46d53f6b637ec792eff69fa98170e560.svg",
@@ -13,9 +18,9 @@
     "static/media/menu.svg": "/design_ethics/static/media/menu.644fa295fdd5f662e642ba6bfb084239.svg",
     "static/media/x.svg": "/design_ethics/static/media/x.6c9a4ba71a333be7b021fc6da39d864c.svg",
     "static/media/logo.svg": "/design_ethics/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg",
-    "main.b356f64c.js.map": "/design_ethics/static/js/main.b356f64c.js.map"
+    "main.cb958112.js.map": "/design_ethics/static/js/main.cb958112.js.map"
   },
   "entrypoints": [
-    "static/js/main.b356f64c.js"
+    "static/js/main.cb958112.js"
   ]
 }

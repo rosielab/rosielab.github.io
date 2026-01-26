@@ -104,25 +104,20 @@ export default () => {
         <HeadingInfoContainer id = "about">
           <HeadingTitle>About</HeadingTitle>
           <HeadingDescription>
-          The design of human-robot interactions (HRI) in social robotics
-          carries profound ethical implications for normativity, justice, and social
-          well-being. Yet, the ethical dimensions often remain underexplored or
-          constrained by technical priorities. This raises an urgent question: How
-          can designers include rather than marginalise, protect rather than ma-
-          nipulate, and empower rather than exploit? This half-day workshop will
-          bring together researchers curious about design ethics. There will be
-          three keynotes, participant-contributed talks, a design critique-inspired
-          poster session, and discussion groups. Participants will address key ques-
-          tions in a discussion format, with the outcomes published on the work-
-          shop website and refined into a publication with workshop participants.
-          Through critique and discussion, the workshop will cultivate a diverse
-          community of inquiry, generate a shared map of current challenges, and
-          identify pathways for advancing ethical design in HRI. The workshop 
-          <b>objectives</b> are:
+          The design of human-robot interactions (HRI) in social robotics carries profound ethical implications for 
+          normativity, justice, and social well-being. Yet, the ethical dimensions often remain underexplored or 
+          constrained by technical priorities. This raises an urgent question: How can designers include rather than 
+          marginalise, protect rather than manipulate, and empower rather than exploit? This half-day workshop will 
+          bring together researchers curious about design ethics. There will be three keynotes, participant-contributed 
+          talks, a design critique-inspired poster session, and discussion groups. Participants will address key 
+          questions in a discussion format, with the outcomes published on the work- shop website and refined into a 
+          publication with workshop participants. Through critique and discussion, the workshop will cultivate a 
+          diverse community of inquiry, generate a shared map of current challenges, and identify pathways for 
+          advancing ethical design in HRI. The workshop <b>objectives</b> are:
            <ol>
-            <li>understanding the current state of ethical design in Human-Robot Interaction (HRI), </li>
-            <li>identifying the challenges of ethical design in HRI,</li>
-            <li>shaping future directions for ethical design in HRI.</li>
+            <li>understanding the current state of ethical design in Human-Robot Interaction (HRI)</li>
+            <li>identifying the challenges of ethical design in HRI</li>
+            <li>shaping future directions for ethical design in HRI</li>
           </ol> 
           </HeadingDescription>
         </HeadingInfoContainer>
