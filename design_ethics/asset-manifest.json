@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/design_ethics/static/js/main.cb958112.js",
+    "main.js": "/design_ethics/static/js/main.edd15c91.js",
     "static/media/patricia-alves-oliveira-portrait.png": "/design_ethics/static/media/patricia-alves-oliveira-portrait.19420070ad16b0392c92.png",
     "static/media/minja.png": "/design_ethics/static/media/minja.2ac3c6dc3597c3371e41.png",
     "static/media/MichioOkada(2).jpg": "/design_ethics/static/media/MichioOkada(2).962f6507226bda83718b.jpg",
@@ -18,9 +18,9 @@
     "static/media/menu.svg": "/design_ethics/static/media/menu.644fa295fdd5f662e642ba6bfb084239.svg",
     "static/media/x.svg": "/design_ethics/static/media/x.6c9a4ba71a333be7b021fc6da39d864c.svg",
     "static/media/logo.svg": "/design_ethics/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg",
-    "main.cb958112.js.map": "/design_ethics/static/js/main.cb958112.js.map"
+    "main.edd15c91.js.map": "/design_ethics/static/js/main.edd15c91.js.map"
   },
   "entrypoints": [
-    "static/js/main.cb958112.js"
+    "static/js/main.edd15c91.js"
   ]
 }

@@ -33,7 +33,7 @@ export default () => {
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
             <h2>Contact Us</h2>
-            < a href="mailto:wev@rosielab.ca" style={{color: '#FFFFFF'}}>wev@rosielab.ca </a>
+            < a href="mailto:ethicaldesigninhri@gmail.com " style={{color: '#FFFFFF'}}>ethicaldesigninhri@gmail.com </a>
           </div>
           <SvgDotPattern1 />
         </FormContainer>

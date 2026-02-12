@@ -9,7 +9,7 @@ import Schedule from "components/features/TextBlock-3.js";
 import Speakers from "components/cards/ProfileThreeColGrid.js";
 import Organizers from "components/testimonials/ThreeColumnWithProfileImage.js";
 /* this needs to be added when we have a PC, it will just be a list of names so find a simple component*/
-import PC from "components/features/TextBlock-4.js";
+/*import PC from "components/features/TextBlock-4.js"; */
 import Contact from "components/forms/SimpleContactUs.js";
 import { BrowserRouter } from "react-router-dom";
 
@@ -22,7 +22,6 @@ export default () => (
       <Speakers />
       <Call />
       <Organizers />
-      <PC/>
       <Contact />
     </BrowserRouter>
   </AnimationRevealPage>

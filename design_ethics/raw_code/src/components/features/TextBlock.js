@@ -14,6 +14,7 @@ const HeadingMinor = tw.p`mt-6 mb-2 font-bold text-gray-600 text-center text-3xl
 const AbstractTitle = tw.p`mt-12 font-bold text-primary-500 text-center`;
 const CenteredList = tw.div`w-full flex justify-center`;
 const ListInner = tw.div`text-left`; // max-w-prose is optional
+const Divider = tw.hr`my-12 w-24 mx-auto border-t-4 border-primary-800`;
 
 const linkStyle = {
   margin: "1rem",
@@ -84,6 +85,8 @@ export default () => {
           
           <p>Please submit your works to <a href="mailto:ethicaldesigninhri@gmail.com">ethicaldesigninhri@gmail.com</a></p>
 
+          <Divider />
+
           <b>Submission and notification schedule:</b>
 
          <CenteredList>
@@ -99,15 +102,22 @@ export default () => {
           </ListInner>
          </CenteredList>
 
+         <Divider />
+
 
         <p><b>Extended abstracts:</b> We invite contributions of 3–5 pages (excluding references and appendices). Works will receive a light peer-review. 
         Selected works will be presented at the workshop as a talk. We invite works highlighting Ethical HRI Design, especially in relation to but not limited to the list of topics. 
         Works can include position papers, experimental results, case studies, design explorations, and ethical analysis of ongoing HRI work. </p>
 
+
+        <Divider />
+
         <p><b>Posters:</b> We will also invite 1–3 page (excluding references and appendices) extended abstracts for poster presentations.
         Contributions can include position papers and designerly works such as speculative design proposals, design artifacts, and design fiction. 
         These abstracts will receive a light review for fit and factual correctness, and authors will receive feedback during a collaborative critique 
         in the workshop. </p>
+
+        <Divider />
 
         <p>Accepted papers in both categories will be published here on the workshop website. 
           Authors can opt out of this, please notify us of this upon possible acceptance of your paper.</p>
