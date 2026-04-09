@@ -39,49 +39,39 @@ export default () => {
             </thead>
             <tbody>
               <tr>
-                <Td> 09:00 </Td>
-                <Td> 09:10 </Td>
+                <Td> 14:00 </Td>
+                <Td> 14:05 </Td>
                 <Td> Introduction </Td>
               </tr>
               <tr>
-                <Td> 09:10 </Td>
-                <Td> 09:40 </Td>
+                <Td> 14:05 </Td>
+                <Td> 14:35 </Td>
                 <Td> Keynote speaker: Prof. Michio Okada </Td>
               </tr>
               <tr>
-                <Td> 09:40 </Td>
-                <Td> 10:40 </Td>
+                <Td> 14:35 </Td>
+                <Td> 15:30 </Td>
                 <Td> Contributed talks </Td>
               </tr>
               <tr>
-                <Td> 10:40 </Td>
-                <Td> 11:00 </Td>
-                <Td> Coffee Break </Td>
-              </tr>
-              <tr>
-                <Td> 11:00 </Td>
-                <Td> 11:30 </Td>
+                <Td> 15:30 </Td>
+                <Td> 16:00 </Td>
                 <Td> Keynote speaker: Dr. Paulina Yurman </Td>
               </tr>
               <tr>
-                <Td> 11:30 </Td>
-                <Td> 12:00 </Td>
-                <Td> Poster presentations and collaborative critique </Td>
+                <Td> 16:00 </Td>
+                <Td> 16:30 </Td>
+                <Td> Keynote speaker: Samuel Lascombe </Td>
               </tr>
               <tr>
-                <Td> 12:00 </Td>
-                <Td> 12:30 </Td>
-                <Td> Keynote speaker: Prof. Marina Jirotka </Td>
-              </tr>
-              <tr>
-                <Td> 12:30 </Td>
-                <Td> 12:50 </Td>
+                <Td> 16:30 </Td>
+                <Td> 16:55 </Td>
                 <Td> Structured group discussions and insights generation </Td>
               </tr>
               <tr>
-                <Td> 12:50 </Td>
-                <Td> 13:00 </Td>
-                <Td> Sharing insights and closing workshop </Td>
+                <Td> 16:55 </Td>
+                <Td> 17:00 </Td>
+                <Td> Workshop Closing </Td>
               </tr>
             </tbody>
           </Table>

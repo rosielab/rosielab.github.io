@@ -43,17 +43,7 @@ export default () => {
         <HeadingInfoContainer id = "cfp">
           <HeadingTitle>Call For Papers</HeadingTitle>
           <HeadingDescription>
-            <b>We invite two types of contributions:</b>
-
-            <CenteredList>
-              <ListInner>
-              <ol>
-                <li>extended abstracts to be presented as talks, and</li>
-                <li>posters to be presented in a poster session.</li>
-              </ol>
-              </ListInner>
-            </CenteredList>
-
+            <b>We invite contributions as extended abstracts to be presented as talks.</b>
 
             <p><b>List of topics:</b></p>
 

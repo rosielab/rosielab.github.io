@@ -73,14 +73,6 @@ export default () => {
       description:
         "Authors of accepted papers  will present their work: 8 minutes  with a 2-minute Q&A. See the Call for Papers for additional information.",
     },
-
-    {
-      imageSrc:
-        "https://images.pexels.com/photos/12319354/pexels-photo-12319354.jpeg?_gl=1*r0owtu*_ga*MTM2NjQyNDI1Mi4xNzY4OTU4ODY3*_ga_8JE65Q40S6*czE3Njg5NTg4NjYkbzEkZzEkdDE3Njg5NTkyNzMkajQxJGwwJGgw",
-      title: "Poster Session and Collaborative Critique",
-      description:
-        "Authors with accepted posters will be invited to present in the poster session. Other participants will be invited to discuss the posters with the presenters from a critical, ethical lens. See the Call for Papers for additional information.",
-    },
     {
       imageSrc:
         "https://images.pexels.com/photos/8117466/pexels-photo-8117466.jpeg?_gl=1*rr1w2w*_ga*MTM2NjQyNDI1Mi4xNzY4OTU4ODY3*_ga_8JE65Q40S6*czE3Njg5NTg4NjYkbzEkZzEkdDE3Njg5NTkxNDEkajU5JGwwJGgw",
