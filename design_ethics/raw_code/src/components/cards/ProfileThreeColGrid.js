@@ -7,7 +7,7 @@ import { SectionHeading, Subheading as SubheadingBase } from "components/misc/He
 import {SectionDescription} from "components/misc/Typography";
 import michio from "images/MichioOkada(2).jpg";
 import paulina from "images/Paulina PIC.jpeg";
-import marina from "images/marina.jpeg";
+import samuel from "images/samuel.jpg";
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
@@ -54,10 +54,10 @@ export default ({
       title: "Title: TBA"
     },
     {
-      imageSrc: marina,
-      name: "Prof. Marina Jirotka",
-      position: "University of Oxford",
-      description: "Prof. Jirotka is a professor of Human Centred Computing in the Department of Computer Science, Director of Responsible Technology Institute, University of Oxford. She leads interdisciplinary research in technology, including the “Black Box” for robot accidents.",
+      imageSrc: samuel,
+      name: "Samuel Lascombe",
+      position: "Enchanted Tools",
+      description: "Samuel Lascombe is a Product Design & UX Lead in Paris, at Enchanted Tools. With a background in cognitive and social psychology, his career has been defined by User Experience roles in robotics, notably during six years for SoftBank Robotics. His expertise focuses on complex Human-Machine Interaction (HMI) beyond traditional digital interfaces, integrating user research and product design to optimize the next generation of humanoid robotic functionalities.",
       title: "Title: TBA"
     },
     //{

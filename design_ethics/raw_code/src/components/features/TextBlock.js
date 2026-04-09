@@ -77,11 +77,11 @@ export default () => {
               </ListInner>
             </CenteredList>
 
-            By default, please use the conference format for your submissions.
+            By default, please use the ICSR conference format for your submissions.
             Authors are invited to submit the complete article in PDF format, following the Instructions for Authors provided <a href="https://icsr2026.uk/wp-content/uploads/2025/10/Springer_Instructions_for_Authors_of_Proceedings_CS.pdf">here</a>.
             For detailed guidance, please refer to <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">Springer’s author guidelines</a>, available for both LaTeX and Word submissions.
             Springer’s proceedings LaTeX templates are also available in <a href="https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj#.WsdHOy5uZpg">Overleaf</a>. 
-            For designerly works, please include works diverting from this format as appendices.
+            For designerly works, please include any additional design materials as appendices.
           
           <p>Please submit your works to <a href="mailto:ethicaldesigninhri@gmail.com">ethicaldesigninhri@gmail.com</a></p>
 
@@ -92,12 +92,10 @@ export default () => {
          <CenteredList>
           <ListInner>
               <ul>
-                <li>Extended abstract Submission Deadline: 31 March, 2026</li>
-                <li>Notification of Paper Acceptance: 16 April, 2026</li>
-                <li>Poster Submission Deadline: 31 March, 2026</li>
-                <li>Notification of Poster Acceptance: 16 April, 2026</li>
-                <li>Camera-ready Deadline: 01 May, 2026</li>
-                <li>Conference days (exact workshop day to be confirmed): 1-4 July, 2026</li>
+                <li>Extended abstract Submission Deadline: May 6th, 2026</li>
+                <li>Notification of Paper Acceptance: June 6th, 2026 (Please not that this is after the earlybird registration deadline)</li>
+                <li>Camera-ready Deadline: June 20th, 2026</li>
+                <li>Workshop: July 3rd, 2026, 14:00-17:00</li>
               </ul>
           </ListInner>
          </CenteredList>
@@ -109,17 +107,9 @@ export default () => {
         Selected works will be presented at the workshop as a talk. We invite works highlighting Ethical HRI Design, especially in relation to but not limited to the list of topics. 
         Works can include position papers, experimental results, case studies, design explorations, and ethical analysis of ongoing HRI work. </p>
 
-
         <Divider />
 
-        <p><b>Posters:</b> We will also invite 1–3 page (excluding references and appendices) extended abstracts for poster presentations.
-        Contributions can include position papers and designerly works such as speculative design proposals, design artifacts, and design fiction. 
-        These abstracts will receive a light review for fit and factual correctness, and authors will receive feedback during a collaborative critique 
-        in the workshop. </p>
-
-        <Divider />
-
-        <p>Accepted papers in both categories will be published here on the workshop website. 
+        <p>Accepted papers will be published here on the workshop website. 
           Authors can opt out of this, please notify us of this upon possible acceptance of your paper.</p>
 
         <p>Accepted authors will be given the option to include their submissions within proceedings, which we will compile and make available on arXiv.
