@@ -83,7 +83,7 @@ export default () => {
           <ListInner>
               <ul>
                 <li>Extended abstract Submission Deadline: May 6th, 2026</li>
-                <li>Notification of Paper Acceptance: June 6th, 2026 (Please not that this is after the earlybird registration deadline)</li>
+                <li>Notification of Paper Acceptance: June 6th, 2026 (Please note that this is after the earlybird registration deadline)</li>
                 <li>Camera-ready Deadline: June 20th, 2026</li>
                 <li>Workshop: July 3rd, 2026, 14:00-17:00</li>
               </ul>
