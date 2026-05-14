@@ -48,6 +48,10 @@ const Para = styled.h2`
   }
 `;
 
+const HighlightPara = styled(Para)`
+  ${tw`text-base sm:text-xl lg:text-2xl xl:text-3xl font-normal`}
+`;
+
 export default ({
   primaryButtonUrl = "https://forms.gle/w8fWkMFqQgnXQCC8A",
   primaryButtonText = "Attend",
@@ -94,6 +98,12 @@ export default ({
           </Heading>
           <Para>
               Workshop at : <a href="https://icsr2026.uk/">ICSR 2026</a>, University of London, UK
+          </Para>
+          <HighlightPara>
+              Please register your interest in attending the workshop <a href="https://forms.gle/VmLBXj1Da88BusCK6">here</a>
+          </HighlightPara>
+          <Para>
+              In the event of interested participants beyond the amount we can accommodate, we will prioritise registered participants for access to the workshop.
           </Para>
 
         </Content>

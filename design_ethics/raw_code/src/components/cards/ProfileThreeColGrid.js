@@ -50,8 +50,32 @@ export default ({
       imageSrc: paulina,
       name: "Dr. Paulina Yurman",
       position: "Central Saint Martins, University of the Arts London",
-      description: "Dr. Yurman is a Research Fellow, designer and lecturer at Central Saint Martins, University of the Arts London. Her research blends critical design, speculative design, drawing and making to question and reimagine our relationships with technology. She is investigating Maternal Machines, imagined and designed for maternal and infant care",
-      title: "Title: TBA"
+    description: (
+      <>
+        Dr. Yurman is a Research Fellow, designer and lecturer at Central Saint Martins, University of the Arts London. Her research blends critical design, speculative design, drawing and making to question and reimagine our relationships with technology. She is investigating Maternal Machines, imagined and designed for maternal and infant care.
+        
+        <br />
+    
+        <a
+          href="https://www.arts.ac.uk/colleges/central-saint-martins/research-at-csm/maternal-machines"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Maternal Machines: Design Speculations about Fantasies of Care
+        </a>
+    
+        <br />
+    
+        <a
+          href="https://www.yurman.co.uk"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Website
+        </a>
+      </>
+    ),
+      title: "Title: Navigating Uncertainty, Ethics and Speculation in Maternal Machines "
     },
     {
       imageSrc: samuel,
