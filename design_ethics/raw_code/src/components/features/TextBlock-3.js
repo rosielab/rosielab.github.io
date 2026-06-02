@@ -32,8 +32,8 @@ export default () => {
           <Table>
             <thead>
               <tr>
-                <Th> Starting time GMT</Th>
-                <Th> Ending time GMT</Th>
+                <Th> Starting time GMT+1</Th>
+                <Th> Ending time GMT+1</Th>
                 <Th> Activity </Th>
               </tr>
             </thead>
@@ -50,8 +50,13 @@ export default () => {
               </tr>
               <tr>
                 <Td> 14:35 </Td>
+                <Td> 15:05 </Td>
+                <Td> Flash talks and poster session </Td>
+              </tr>
+              <tr>
+                <Td> 15:05 </Td>
                 <Td> 15:30 </Td>
-                <Td> Contributed talks </Td>
+                <Td> Group activity part 1 </Td>
               </tr>
               <tr>
                 <Td> 15:30 </Td>
@@ -66,7 +71,7 @@ export default () => {
               <tr>
                 <Td> 16:30 </Td>
                 <Td> 16:55 </Td>
-                <Td> Structured group discussions and insights generation </Td>
+                <Td> Group activity part 2 </Td>
               </tr>
               <tr>
                 <Td> 16:55 </Td>
