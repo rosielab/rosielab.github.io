@@ -43,8 +43,8 @@ export default ({
       imageSrc: michio,
       name: "Prof. Michio Okada",
       position: "Chikushi Jogakuen University",
-      description: "Professor Okada is both a professor at Chikushi Jogakuen University and Professor Emeritus at Toyohashi University of Technology. Building on his research on “weak robots,” he is advancing studies on HRI design for conviviality (Convivial Robotics), in which humans and robots can engage in a loosely interdependent relationship without compromising each other’s autonomy or creativity",
-      title: "Title: TBA"
+      description: "Professor Okada is both a professor at Chikushi Jogakuen University and Professor Emeritus at Toyohashi University of Technology. Building on his research on “weak robots,” he is advancing studies on HRI design for conviviality (Convivial Robotics), in which humans and robots can engage in a loosely interdependent relationship without compromising each other’s autonomy or creativity.",
+      title: "Title: Convivial Robotics – Designing Relations with Weak Robots"
     },
     {
       imageSrc: paulina,

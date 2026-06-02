@@ -53,7 +53,7 @@ export default ({
       imageSrc:
         joel,
       quote:
-        "Joel is a PhD student at the University of Aberdeen. He investigates the cognitive processes involved in human-robot interaction and develops cognitive models for robots, with a specific interest in social abilities such as visual perspective-taking in embodied",
+        "Joel is a PhD student at the University of Aberdeen. He investigates the cognitive processes involved in human-robot interaction and develops cognitive models for robots, with a specific interest in social abilities such as visual perspective-taking in embodied robots.",
       customerName: "Joel Currie",
       position: "University of Aberdeen, UK"
     },
@@ -77,7 +77,7 @@ export default ({
       imageSrc:
         patricia,
       quote:
-        "Patrícia is an Assistant Professor of Robotics at the University of Michigan, where she leads Robot Studio, a research lab focused on creating robots for human health and creativity. Her research unifies the fields of Robotics, Design, and Psychology",
+        "Patrícia is an Assistant Professor of Robotics at the University of Michigan, where she leads Robot Studio, a research lab focused on creating robots for human health and creativity. Her research unifies the fields of Robotics, Design, and Psychology.",
       customerName: "Patrícia Alves-Oliveira",
       position: "University of Michigan, USA"
     },
