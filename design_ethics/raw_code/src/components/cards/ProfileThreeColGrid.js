@@ -82,7 +82,7 @@ export default ({
       name: "Samuel Lascombe",
       position: "Enchanted Tools",
       description: "Samuel Lascombe is a Product Design & UX Lead in Paris, at Enchanted Tools. With a background in cognitive and social psychology, his career has been defined by User Experience roles in robotics, notably during six years for SoftBank Robotics. His expertise focuses on complex Human-Machine Interaction (HMI) beyond traditional digital interfaces, integrating user research and product design to optimize the next generation of humanoid robotic functionalities.",
-      title: "Title: TBA"
+      title: "Title: The Ethics of Robots in the Corporate World"
     },
     //{
     //  imageSrc: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
