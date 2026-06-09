@@ -50,13 +50,13 @@ export default () => {
               </tr>
               <tr>
                 <Td> 14:35 </Td>
-                <Td> 15:05 </Td>
-                <Td> Flash talks and poster session </Td>
+                <Td> 15:00 </Td>
+                <Td> Group activity part 1 </Td>
               </tr>
               <tr>
-                <Td> 15:05 </Td>
+                <Td> 15:00 </Td>
                 <Td> 15:30 </Td>
-                <Td> Group activity part 1 </Td>
+                <Td> Flash talks and poster session </Td>
               </tr>
               <tr>
                 <Td> 15:30 </Td>
