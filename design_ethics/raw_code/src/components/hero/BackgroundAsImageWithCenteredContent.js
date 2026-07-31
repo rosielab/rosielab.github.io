@@ -1,6 +1,7 @@
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
+import { css } from "styled-components/macro"; //eslint-disable-line
 import { NavHashLink } from "react-router-hash-link";
 
 import Header, { NavLinks, PrimaryLink as NavToggle, DesktopNavLinks } from "../headers/light.js";
@@ -28,7 +29,7 @@ const Container = styled.div`
 `;
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-75`;
-const PrimaryButton = tw(PrimaryButtonBase)`mt-8 inline-block w-56 tracking-wide text-center py-3 px-0 text-xl no-underline`;
+const PrimaryButton = tw(PrimaryButtonBase)`mt-8 inline-block w-auto tracking-wide text-center py-3 px-8 text-xl no-underline`;
 const HeroContainer = tw.div`z-20 relative px-6 sm:px-8 mx-auto h-full flex flex-col`;
 /*const Content = tw.div`px-4 flex flex-1 flex-col justify-center items-center`;*/
 const Content = tw.div`px-4 flex flex-1 flex-col justify-center items-center`;
@@ -43,18 +44,21 @@ const Heading = styled.h1`
 
 const Para = styled.h2`
   ${tw`text-sm text-center sm:text-lg lg:text-xl xl:text-2xl font-thin text-gray-100 leading-snug`}
+  a {
+    ${tw`text-gray-100 underline hocus:text-primary-100 transition duration-300`}
+  }
   span {
     ${tw`inline-block mt-2`}
   }
 `;
 
-const HighlightPara = styled(Para)`
-  ${tw`text-base sm:text-xl lg:text-2xl xl:text-3xl font-normal`}
-`;
+const SecondaryButton = tw(
+  PrimaryButtonBase
+)`inline-block mt-4 tracking-wide text-center py-2 px-6 text-base no-underline bg-gray-100 text-primary-500 hocus:bg-primary-100 hocus:text-gray-100`;
 
 export default ({
-  primaryButtonUrl = "https://forms.gle/w8fWkMFqQgnXQCC8A",
-  primaryButtonText = "Attend",
+  primaryButtonUrl = "https://osf.io/u9fyq/download",
+  primaryButtonText = "Download Proceedings",
   buttonRounded = true,
   }) => {
   const buttonRoundedCss = buttonRounded && tw`rounded-full`;
@@ -99,12 +103,12 @@ export default ({
           <Para>
               Workshop at : <a href="https://icsr2026.uk/">ICSR 2026</a>, University of London, UK
           </Para>
-          <HighlightPara>
-              Please register your interest in attending the workshop <a href="https://forms.gle/VmLBXj1Da88BusCK6">here</a>
-          </HighlightPara>
-          <Para>
-              In the event of interested participants beyond the amount we can accommodate, we will prioritise registered participants for access to the workshop.
-          </Para>
+          <PrimaryButton as="a" href={primaryButtonUrl} css={buttonRoundedCss}>
+              {primaryButtonText}
+          </PrimaryButton>
+          <SecondaryButton as="a" href="https://osf.io/u9fyq" css={buttonRoundedCss}>
+              View on OSF
+          </SecondaryButton>
 
         </Content>
       </HeroContainer>
