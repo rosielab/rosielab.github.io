@@ -7,39 +7,6 @@ import { NavHashLink } from "react-router-hash-link";
 import Header, { NavLinks, PrimaryLink as NavToggle, DesktopNavLinks } from "../headers/light.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 
-// --- Archive dropdown menu item has its own styling ---
-const ArchiveContainer = tw.div`relative inline-block ml-6`;
-
-const ArchiveLabel = tw.span`cursor-default text-gray-100`;
-
-const ArchiveMenu = styled.div`
-  ${tw`absolute left-0 mt-2 w-56 bg-white rounded-lg shadow-lg py-2 z-50`}
-  ${tw`opacity-0 invisible transition-all duration-200`}
-  top: 100%;
-
-  ${ArchiveContainer}:hover & {
-    ${tw`opacity-100 visible`}
-  }
-`;
-
-const ArchiveItem = tw(
-  NavHashLink
-)`block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100 hover:text-primary-500 no-underline`;
-
-const ArchiveDropdown = ({ years }) => (
-  <ArchiveContainer>
-    <ArchiveLabel>Archive</ArchiveLabel>
-    <ArchiveMenu>
-      {years.map((year) => (
-        <ArchiveItem key={year.value} to={year.path}>
-          {year.label}
-        </ArchiveItem>
-      ))}
-    </ArchiveMenu>
-  </ArchiveContainer>
-);
-
-
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none w-full`}
   ${DesktopNavLinks} ${NavLinks}{
@@ -90,7 +57,6 @@ const SecondaryButton = tw(
 )`inline-block mt-4 tracking-wide text-center py-2 px-6 text-base no-underline bg-gray-100 text-primary-500 hocus:bg-primary-100 hocus:text-gray-100`;
 
 export default ({
-  basePath,
   primaryButtonUrl = "https://osf.io/u9fyq/download",
   primaryButtonText = "Download Proceedings",
   buttonRounded = true,
@@ -98,31 +64,26 @@ export default ({
   const buttonRoundedCss = buttonRounded && tw`rounded-full`;
   const navLinks = [
     <NavLinks key={1}>
-      <NavHashLink smooth to={`${basePath}/#about`}
+      <NavHashLink smooth to="/#about"
       style= {linkStyle}>
         About
       </NavHashLink>
-      <NavHashLink smooth to ={`${basePath}/#schedule`}
+      <NavHashLink smooth to ="/#schedule"
       style= {linkStyle}>
         Schedule
       </NavHashLink>
-      <NavHashLink smooth to={`${basePath}/#invited`}
+      <NavHashLink smooth to="/#invited"
       style= {linkStyle}>
         Keynote Speakers
       </NavHashLink>
-      <NavHashLink smooth to ={`${basePath}/#cfp`}
+      <NavHashLink smooth to ="/#cfp"
       style= {linkStyle}>
         Call for Papers
       </NavHashLink>
-      <NavHashLink smooth to={`${basePath}/#organizers`}
+      <NavHashLink smooth to="/#organizers"
       style= {linkStyle}>
         Organizing Committee
       </NavHashLink>
-      <ArchiveDropdown
-        years={[
-          { label: "2026 (ICSR 2026)", path: "/archive/2026", value: "2026" },
-        ]}
-      />
     </NavLinks>,
   ];
 
@@ -134,13 +95,13 @@ export default ({
         <StyledHeader links={navLinks} />
         <Content>
           <Para>
-              March 8th, 2027, 9:00-13:00
+              July 3rd, 2026, 14:00-17:00
           </Para>
           <Heading>
-              Ethical Design in Human-Robot Interaction: Ethical Innovation Across Academia, Industry, and Policy
+              Ethical Design in Human-Robot Interaction: Current State, Challenges, and Future Directions
           </Heading>
           <Para>
-              Workshop at : <a href="https://icsr2026.uk/">HRI 2027</a>, Santa Clara, CA, USA
+              Workshop at : <a href="https://icsr2026.uk/">ICSR 2026</a>, University of London, UK
           </Para>
           <PrimaryButton as="a" href={primaryButtonUrl} css={buttonRoundedCss}>
               {primaryButtonText}

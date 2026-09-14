@@ -13,14 +13,16 @@ import Organizers from "components/testimonials/ThreeColumnWithProfileImage.js";
 import Contact from "components/forms/SimpleContactUs.js";
 import { BrowserRouter } from "react-router-dom";
 
-export default ({basePath}) => (
+export default () => (
   <AnimationRevealPage>
-      <Hero basePath={basePath}/>
+    <BrowserRouter>
+      <Hero />
       <Intro />
       <Schedule />
       <Speakers />
       <Call />
       <Organizers />
       <Contact />
+    </BrowserRouter>
   </AnimationRevealPage>
 );

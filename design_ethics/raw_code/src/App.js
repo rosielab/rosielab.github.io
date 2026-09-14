@@ -7,7 +7,6 @@
  *
  * The App component below is using React router to render the landing page that you see on the live demo website
  * and the component previews.
- * 
  *
  */
 
@@ -21,22 +20,6 @@
  */
 
 /* Ready Made Pages (from demos folder) */
-import React from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-
 import EventLandingPage from "demos/EventLandingPage.js";
-import EventLandingPageArchive2026 from "demos/EventLandingPageArchive2026";
 
-export default () => (
-  <BrowserRouter basename="/design_ethics">
-    <Routes>
-            {/* We need to keep the original /design_ethics URL reserved for 2026 content because
-            it is referenced in proceedings and elsewhere. However, to avoid confusing on
-            which year is being shown, always re-direct immediately to the 2026 page
-            */}
-      <Route path="/" element={<Navigate to="/archive/2026" replace />} />
-      <Route path="/archive/2026" element={<EventLandingPageArchive2026 basePath="/archive/2026" />} />
-      <Route path="/2027" element={<EventLandingPage basePath="/2027" />} />
-    </Routes>
-  </BrowserRouter>
-);
+export default EventLandingPage;
