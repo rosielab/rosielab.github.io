@@ -1,0 +1,117 @@
+import React from "react";
+import tw from "twin.macro";
+import styled from "styled-components";
+import { css } from "styled-components/macro"; //eslint-disable-line
+import { NavHashLink } from "react-router-hash-link";
+
+import Header, { NavLinks, PrimaryLink as NavToggle, DesktopNavLinks } from "../headers/light.js";
+import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
+
+const StyledHeader = styled(Header)`
+  ${tw`pt-8 max-w-none w-full`}
+  ${DesktopNavLinks} ${NavLinks}{
+    ${tw`text-gray-100 hover:border-gray-300 hover:text-gray-300`}
+  }
+  ${NavToggle}.closed {
+    ${tw`text-gray-100 hover:text-primary-500`}
+  }
+`;
+
+const linkStyle = {
+  margin: "1rem",
+  textDecoration: "none",
+  color: 'grey'
+};
+
+const Container = styled.div`
+  ${tw`relative -mx-8 -mt-8 bg-center bg-cover h-screen min-h-144`}
+  background-image: url("https://www.digitaltrends.com/wp-content/uploads/2017/08/pepper-softbank.jpg?fit=1500%2C1000&p=1");
+`;
+
+const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-75`;
+const PrimaryButton = tw(PrimaryButtonBase)`mt-8 inline-block w-auto tracking-wide text-center py-3 px-8 text-xl no-underline`;
+const HeroContainer = tw.div`z-20 relative px-6 sm:px-8 mx-auto h-full flex flex-col`;
+/*const Content = tw.div`px-4 flex flex-1 flex-col justify-center items-center`;*/
+const Content = tw.div`px-4 flex flex-1 flex-col justify-center items-center`;
+
+
+const Heading = styled.h1`
+  ${tw`text-3xl text-center sm:text-4xl lg:text-5xl xl:text-6xl font-black text-gray-100 leading-snug`}
+  span {
+    ${tw`inline-block mt-2`}
+  }
+`;
+
+const Para = styled.h2`
+  ${tw`text-sm text-center sm:text-lg lg:text-xl xl:text-2xl font-thin text-gray-100 leading-snug`}
+  a {
+    ${tw`text-gray-100 underline hocus:text-primary-100 transition duration-300`}
+  }
+  span {
+    ${tw`inline-block mt-2`}
+  }
+`;
+
+const SecondaryButton = tw(
+  PrimaryButtonBase
+)`inline-block mt-4 tracking-wide text-center py-2 px-6 text-base no-underline bg-gray-100 text-primary-500 hocus:bg-primary-100 hocus:text-gray-100`;
+
+export default ({
+  primaryButtonUrl = "https://osf.io/u9fyq/download",
+  primaryButtonText = "Download Proceedings",
+  buttonRounded = true,
+  }) => {
+  const buttonRoundedCss = buttonRounded && tw`rounded-full`;
+  const navLinks = [
+    <NavLinks key={1}>
+      <NavHashLink smooth to="/#about"
+      style= {linkStyle}>
+        About
+      </NavHashLink>
+      <NavHashLink smooth to ="/#schedule"
+      style= {linkStyle}>
+        Schedule
+      </NavHashLink>
+      <NavHashLink smooth to="/#invited"
+      style= {linkStyle}>
+        Keynote Speakers
+      </NavHashLink>
+      <NavHashLink smooth to ="/#cfp"
+      style= {linkStyle}>
+        Call for Papers
+      </NavHashLink>
+      <NavHashLink smooth to="/#organizers"
+      style= {linkStyle}>
+        Organizing Committee
+      </NavHashLink>
+    </NavLinks>,
+  ];
+
+
+  return (
+    <Container>
+      <OpacityOverlay />
+      <HeroContainer>
+        <StyledHeader links={navLinks} />
+        <Content>
+          <Para>
+              July 3rd, 2026, 14:00-17:00
+          </Para>
+          <Heading>
+              Ethical Design in Human-Robot Interaction: Current State, Challenges, and Future Directions
+          </Heading>
+          <Para>
+              Workshop at : <a href="https://icsr2026.uk/">ICSR 2026</a>, University of London, UK
+          </Para>
+          <PrimaryButton as="a" href={primaryButtonUrl} css={buttonRoundedCss}>
+              {primaryButtonText}
+          </PrimaryButton>
+          <SecondaryButton as="a" href="https://osf.io/u9fyq" css={buttonRoundedCss}>
+              View on OSF
+          </SecondaryButton>
+
+        </Content>
+      </HeroContainer>
+    </Container>
+  );
+};
