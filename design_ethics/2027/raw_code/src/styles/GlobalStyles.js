@@ -2,6 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 import  { globalStyles } from 'twin.macro'
 
 const GlobalStyles = createGlobalStyle(globalStyles, `
+   html { scroll-behavior: smooth; }
    /* Below animations are for modal created using React-Modal */
      .ReactModal__Overlay {
      transition: transform 300ms ease-in-out;

@@ -11,18 +11,15 @@ import Organizers from "components/testimonials/ThreeColumnWithProfileImage.js";
 /* this needs to be added when we have a PC, it will just be a list of names so find a simple component*/
 /*import PC from "components/features/TextBlock-4.js"; */
 import Contact from "components/forms/SimpleContactUs.js";
-import { BrowserRouter } from "react-router-dom";
 
 export default () => (
   <AnimationRevealPage>
-    <BrowserRouter>
-      <Hero />
-      <Intro />
-      <Schedule />
-      <Speakers />
-      <Call />
-      <Organizers />
-      <Contact />
-    </BrowserRouter>
+    <Hero />
+    <Intro />
+    <Schedule />
+    <Speakers />
+    <Call />
+    <Organizers />
+    <Contact />
   </AnimationRevealPage>
 );

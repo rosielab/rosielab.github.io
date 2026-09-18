@@ -5,9 +5,7 @@ import { css } from "styled-components/macro";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings";
 import {SectionDescription} from "components/misc/Typography";
-import michio from "images/MichioOkada(2).jpg";
-import paulina from "images/Paulina PIC.jpeg";
-import samuel from "images/samuel.jpg";
+import patricia from "images/patricia-alves-oliveira-portrait.jpg";
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
@@ -36,73 +34,45 @@ const CardContent = styled.div`
 `
 
 export default ({
-  heading = "Keynote Speakers",
-  description = "We are excited to present our lineup of excellent speakers.",
+  heading = "Panel",
+  description = "The panel will bring together practitioners across academia, industry and policymaking. Further panellists will be announced.",
   cards = [
     {
-      imageSrc: michio,
-      name: "Prof. Michio Okada",
-      position: "Chikushi Jogakuen University",
-      description: "Professor Okada is both a professor at Chikushi Jogakuen University and Professor Emeritus at Toyohashi University of Technology. Building on his research on “weak robots,” he is advancing studies on HRI design for conviviality (Convivial Robotics), in which humans and robots can engage in a loosely interdependent relationship without compromising each other’s autonomy or creativity.",
-      title: "Title: Convivial Robotics – Designing Relations with Weak Robots"
+      imageSrc: patricia,
+      name: "Prof. Patrícia Alves-Oliveira",
+      position: "University of Michigan, USA",
+      description: (
+        <>
+          Patrícia is an Assistant Professor of Robotics at the University of Michigan, where she
+          leads Robot Studio, a research lab focused on creating robots for human health and
+          creativity. Her research unifies the fields of Robotics, Design, and Psychology.
+
+          <br />
+
+          <a href="https://patricialvesoliveira.com/" target="_blank" rel="noopener noreferrer">
+            Website
+          </a>
+        </>
+      ),
     },
     {
-      imageSrc: paulina,
-      name: "Dr. Paulina Yurman",
-      position: "Central Saint Martins, University of the Arts London",
-    description: (
-      <>
-        Dr. Yurman is a Research Fellow, designer and lecturer at Central Saint Martins, University of the Arts London. Her research blends critical design, speculative design, drawing and making to question and reimagine our relationships with technology. She is investigating Maternal Machines, imagined and designed for maternal and infant care.
-        
-        <br />
-    
-        <a
-          href="https://www.arts.ac.uk/colleges/central-saint-martins/research-at-csm/maternal-machines"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Maternal Machines: Design Speculations about Fantasies of Care
-        </a>
-    
-        <br />
-    
-        <a
-          href="https://www.yurman.co.uk"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Website
-        </a>
-      </>
-    ),
-      title: "Title: Navigating Uncertainty, Ethics and Speculation in Maternal Machines "
+      name: "Prof. Serena Booth",
+      position: "Brown University, USA",
+      description: (
+        <>
+          Serena Booth is an Assistant Professor at Brown University. Booth studies how humans
+          provide specifications to AI systems and robots, and how to assess the consequences of the
+          design choices therein. She also studies the governance of AI and robots, and has
+          previously served as an AI Policy Advisor in the United States Senate.
+
+          <br />
+
+          <a href="https://giraffe.cs.brown.edu" target="_blank" rel="noopener noreferrer">
+            Website
+          </a>
+        </>
+      ),
     },
-    {
-      imageSrc: samuel,
-      name: "Samuel Lascombe",
-      position: "Enchanted Tools",
-      description: "Samuel Lascombe is a Product Design & UX Lead in Paris, at Enchanted Tools. With a background in cognitive and social psychology, his career has been defined by User Experience roles in robotics, notably during six years for SoftBank Robotics. His expertise focuses on complex Human-Machine Interaction (HMI) beyond traditional digital interfaces, integrating user research and product design to optimize the next generation of humanoid robotic functionalities.",
-      title: "Title: The Ethics of Robots in the Corporate World"
-    },
-    //{
-    //  imageSrc: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-    //  position: "Quality Assurance",
-    //  name: "Holo Wo",
-    //  links: [
-    //    {
-    //      url: "https://twitter.com",
-    //      icon: TwitterIcon,
-    //    },
-    //    {
-    //      url: "https://linkedin.com",
-    //      icon: LinkedinIcon,
-    //    },
-    //    {
-    //      url: "https://github.com",
-    //      icon: GithubIcon,
-    //    },
-    //  ],
-    //},
   ]
 }) => {
   return (
@@ -115,7 +85,7 @@ export default ({
         <Cards>
           {cards.map((card, index) => (
             <Card key={index}>
-              <CardImage imageSrc={card.imageSrc} />
+              {card.imageSrc && <CardImage imageSrc={card.imageSrc} />}
               <CardContent>
                 <span className="name">{card.name}</span>
                 <span className="position">{card.position}</span>

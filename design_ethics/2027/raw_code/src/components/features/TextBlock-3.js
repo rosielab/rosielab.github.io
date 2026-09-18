@@ -29,54 +29,65 @@ export default () => {
       <SingleColumn>
         <HeadingInfoContainer id = "schedule">
           <HeadingTitle>Schedule</HeadingTitle>
+          <HeadingMinor>Tentative programme.</HeadingMinor>
           <Table>
             <thead>
               <tr>
-                <Th> Starting time GMT+1</Th>
-                <Th> Ending time GMT+1</Th>
+                <Th> Starting time </Th>
+                <Th> Ending time </Th>
                 <Th> Activity </Th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <Td> 14:00 </Td>
-                <Td> 14:05 </Td>
+                <Td> 09:00 </Td>
+                <Td> 09:10 </Td>
                 <Td> Introduction </Td>
               </tr>
               <tr>
-                <Td> 14:05 </Td>
-                <Td> 14:35 </Td>
-                <Td> Keynote speaker: Prof. Michio Okada </Td>
+                <Td> 09:10 </Td>
+                <Td> 09:40 </Td>
+                <Td> Contributed lightning talks and poster session 1 </Td>
               </tr>
               <tr>
-                <Td> 14:35 </Td>
-                <Td> 15:00 </Td>
-                <Td> Group activity part 1 </Td>
+                <Td> 09:40 </Td>
+                <Td> 10:35 </Td>
+                <Td> Panel discussion </Td>
               </tr>
               <tr>
-                <Td> 15:00 </Td>
-                <Td> 15:30 </Td>
-                <Td> Flash talks and poster session </Td>
+                <Td> 10:35 </Td>
+                <Td> 10:50 </Td>
+                <Td> Coffee break </Td>
               </tr>
               <tr>
-                <Td> 15:30 </Td>
-                <Td> 16:00 </Td>
-                <Td> Keynote speaker: Dr. Paulina Yurman </Td>
+                <Td> 10:50 </Td>
+                <Td> 11:30 </Td>
+                <Td> Group discussion part 1: questions 1 and 2 </Td>
               </tr>
               <tr>
-                <Td> 16:00 </Td>
-                <Td> 16:30 </Td>
-                <Td> Keynote speaker: Samuel Lascombe </Td>
+                <Td> 11:30 </Td>
+                <Td> 11:40 </Td>
+                <Td> Sharing action points from discussion 1 </Td>
               </tr>
               <tr>
-                <Td> 16:30 </Td>
-                <Td> 16:55 </Td>
-                <Td> Group activity part 2 </Td>
+                <Td> 11:40 </Td>
+                <Td> 12:10 </Td>
+                <Td> Contributed lightning talks and poster session 2 </Td>
               </tr>
               <tr>
-                <Td> 16:55 </Td>
-                <Td> 17:00 </Td>
-                <Td> Workshop Closing </Td>
+                <Td> 12:10 </Td>
+                <Td> 12:40 </Td>
+                <Td> Group discussion part 2: questions 3 and 4 </Td>
+              </tr>
+              <tr>
+                <Td> 12:40 </Td>
+                <Td> 12:50 </Td>
+                <Td> Sharing action points from discussion 2 </Td>
+              </tr>
+              <tr>
+                <Td> 12:50 </Td>
+                <Td> 13:00 </Td>
+                <Td> Closing </Td>
               </tr>
             </tbody>
           </Table>

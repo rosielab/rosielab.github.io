@@ -9,7 +9,7 @@ const Container = tw.div`relative`;
 const SingleColumn = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
 
 const HeadingInfoContainer = tw.div`flex flex-col items-center`;
-const HeadingDescription = tw.p`lg:mx-24 mt-4 font-medium text-gray-600 text-justify `;
+const HeadingDescription = tw.div`lg:mx-24 mt-4 font-medium text-gray-600 text-justify `;
 
 const Content = tw.div`mt-16`;
 
@@ -61,24 +61,23 @@ export default () => {
     {
       imageSrc:
         "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "Keynote Talks",
+      title: "Panel Discussion",
       description:
-        "Keynotes will focus on bringing together insights from ethics and design research, HRI practice, responsible technology, and the arts. To contribute towards an interdisciplinary understanding and critical investigation of ethical HRI",
+        "A panel that will bring together experts across academia, industry and policymaking, to contribute towards a cohesive community and practice in ethical HRI design.",
     },
-
     {
       imageSrc:
         "https://images.pexels.com/photos/6476779/pexels-photo-6476779.jpeg?_gl=1*1uwec43*_ga*MTM2NjQyNDI1Mi4xNzY4OTU4ODY3*_ga_8JE65Q40S6*czE3Njg5NTg4NjYkbzEkZzEkdDE3Njg5NTkzMzMkajQ3JGwwJGgw",
-      title: "Contributed Talks",
+      title: "Contributed Lightning Talks and Posters",
       description:
-        "Authors of accepted papers  will present their work: 8 minutes  with a 2-minute Q&A. See the Call for Papers for additional information.",
+        "Authors of accepted papers will present their work in a lightning talk and a dedicated poster session. See the Call for Papers for further information.",
     },
     {
       imageSrc:
         "https://images.pexels.com/photos/8117466/pexels-photo-8117466.jpeg?_gl=1*rr1w2w*_ga*MTM2NjQyNDI1Mi4xNzY4OTU4ODY3*_ga_8JE65Q40S6*czE3Njg5NTg4NjYkbzEkZzEkdDE3Njg5NTkxNDEkajU5JGwwJGgw",
-      title: "Group Discussion and Insights Generation",
+      title: "Group Discussion and Action Points",
       description:
-          " In groups of 4--5, participants will discuss: (1) What does ethical design mean in HRI today?, (2) What are the primary roadblocks and challenges to more meaningful engagement with ethics in HRI design practice? (3), How can we be more ethically engaged? Each group will share their insights at the end of the workshop. The discussion will be recorded and shared on the website with the consent of all participants.",
+        "Participants will be split into groups of 4 to 5 to discuss how the ethical HRI design community can build bridges across practices. Each group will develop action points addressing the workshop questions and share them after each discussion session. The points will be compiled into a report and published on the workshop website.",
     },
   ];
 
@@ -96,21 +95,36 @@ export default () => {
         <HeadingInfoContainer id = "about">
           <HeadingTitle>About</HeadingTitle>
           <HeadingDescription>
-          The design of human-robot interactions (HRI) in social robotics carries profound ethical implications for 
-          normativity, justice, and social well-being. Yet, the ethical dimensions often remain underexplored or 
-          constrained by technical priorities. This raises an urgent question: How can designers include rather than 
-          marginalise, protect rather than manipulate, and empower rather than exploit? This half-day workshop will 
-          bring together researchers curious about design ethics. There will be three keynotes, participant-contributed 
-          talks, a design critique-inspired poster session, and discussion groups. Participants will address key 
-          questions in a discussion format, with the outcomes published on the work- shop website and refined into a 
-          publication with workshop participants. Through critique and discussion, the workshop will cultivate a 
-          diverse community of inquiry, generate a shared map of current challenges, and identify pathways for 
-          advancing ethical design in HRI. The workshop <b>objectives</b> are:
+          <p>
+          How can we build robots that build better futures for humanity? How can we design robots
+          that strengthen rather than undermine community? How can we collaborate across
+          Human-Robot Interaction (HRI) practices to create more ethical HRI?
+          </p>
+          <p>
+          This <b>half-day, hybrid workshop</b> will explore <i>Ethical Design in HRI</i>. This second
+          workshop iteration focuses on <i>ethical innovation across academia, industry, and policy</i>,
+          by bringing together researchers, industry practitioners, and policymakers contributing to
+          HRI design. We think that all those designing HRI have a stake in creating more ethical
+          robotics futures. Ethical HRI design can build robots that enable people to flourish, and
+          prevent harms such as robotic deception, robots that exacerbate inequality, and robots that
+          exploit people. To achieve ethical HRI design, shared knowledge and practices across
+          research, industry and policy are needed. This workshop aims to bridge this gap between
+          practitioners.
+          </p>
+          <p>
+          The workshop will include a panel discussion with practitioners across academia, industry
+          and policymaking. We also invite position papers from participants, which will be presented
+          in lightning talks and a poster session. Throughout the workshop, we will organise group
+          discussions, which will generate action points to unite ethical HRI design across academia,
+          industry and policy.
+          </p>
+          <p>Workshop participants will collaboratively address these <b>key questions</b>:</p>
            <ol>
-            <li>understanding the current state of ethical design in Human-Robot Interaction (HRI)</li>
-            <li>identifying the challenges of ethical design in HRI</li>
-            <li>shaping future directions for ethical design in HRI</li>
-          </ol> 
+            <li>How can we align ethics with the fast AI and robotics development?</li>
+            <li>Who is responsible for creating, updating, and being accountable for these ethics?</li>
+            <li>Should there be universal design for HRI ethics?</li>
+            <li>Should ethics be different across academia, industry, and policymaking?</li>
+          </ol>
           </HeadingDescription>
         </HeadingInfoContainer>
 
