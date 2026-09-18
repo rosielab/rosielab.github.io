@@ -31,6 +31,9 @@ const CardContent = styled.div`
   .description {
     ${tw`font-medium text-gray-600 text-justify mx-6`}
   }
+  .description a {
+    ${tw`block text-center`}
+  }
 `
 
 export default ({
