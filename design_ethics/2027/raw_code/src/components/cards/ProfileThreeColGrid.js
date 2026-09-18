@@ -6,6 +6,7 @@ import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings";
 import {SectionDescription} from "components/misc/Typography";
 import patricia from "images/patricia-alves-oliveira-portrait.jpg";
+import serena from "images/serena-booth-portrait.jpg";
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
@@ -46,9 +47,14 @@ export default ({
       position: "University of Michigan, USA",
       description: (
         <>
-          Patrícia is an Assistant Professor of Robotics at the University of Michigan, where she
-          leads Robot Studio, a research lab focused on creating robots for human health and
-          creativity. Her research unifies the fields of Robotics, Design, and Psychology.
+          Patrícia Alves-Oliveira is an Assistant Professor at the University of Michigan and a
+          member of the Advisory Board at Meta. She leads the Robot Studio, a research lab dedicated
+          to advancing human health augmentation through embodied social intelligence, focusing on
+          designing robots that understand and support human preferences, particularly in
+          healthcare. Her work bridges human-centered robot design, embodied AI systems, and
+          real-world evaluation, as she develops novel robotic hardware and context-agnostic
+          algorithms, while studying how robots can integrate into everyday life in socially
+          intelligent ways.
 
           <br />
 
@@ -59,11 +65,12 @@ export default ({
       ),
     },
     {
+      imageSrc: serena,
       name: "Prof. Serena Booth",
       position: "Brown University, USA",
       description: (
         <>
-          Serena Booth is an Assistant Professor at Brown University. Booth studies how humans
+          Serena Booth is an Assistant Professor at Brown University. She studies how humans
           provide specifications to AI systems and robots, and how to assess the consequences of the
           design choices therein. She also studies the governance of AI and robots, and has
           previously served as an AI Policy Advisor in the United States Senate.
