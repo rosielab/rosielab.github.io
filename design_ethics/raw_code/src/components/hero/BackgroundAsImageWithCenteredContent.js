@@ -2,10 +2,50 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import { NavHashLink } from "react-router-hash-link";
 
 import Header, { NavLinks, PrimaryLink as NavToggle, DesktopNavLinks } from "../headers/light.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
+
+const SectionLink = styled.a`
+  ${tw`no-underline`}
+`;
+
+const EditionsContainer = tw.div`relative inline-block`;
+
+const EditionsLabel = tw.span`cursor-pointer`;
+
+const EditionsMenu = styled.div`
+  ${tw`absolute left-0 mt-2 w-56 bg-white rounded-lg shadow-lg py-2 z-50`}
+  ${tw`opacity-0 invisible transition-all duration-200`}
+  top: 100%;
+
+  ${EditionsContainer}:hover &,
+  ${EditionsContainer}:focus-within & {
+    ${tw`opacity-100 visible`}
+  }
+`;
+
+const EditionsItem = styled.a`
+  ${tw`block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100 hover:text-primary-500 no-underline`}
+  ${props => props.current && tw`font-bold text-primary-500`}
+`;
+
+const EditionsDropdown = ({ editions, current }) => (
+  <EditionsContainer>
+    <EditionsLabel tabIndex={0} style={linkStyle}>Editions</EditionsLabel>
+    <EditionsMenu>
+      {editions.map((edition) => (
+        <EditionsItem
+          key={edition.value}
+          href={edition.href}
+          current={edition.value === current}
+        >
+          {edition.label}
+        </EditionsItem>
+      ))}
+    </EditionsMenu>
+  </EditionsContainer>
+);
 
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none w-full`}
@@ -64,26 +104,33 @@ export default ({
   const buttonRoundedCss = buttonRounded && tw`rounded-full`;
   const navLinks = [
     <NavLinks key={1}>
-      <NavHashLink smooth to="/#about"
+      <SectionLink href="#about"
       style= {linkStyle}>
         About
-      </NavHashLink>
-      <NavHashLink smooth to ="/#schedule"
+      </SectionLink>
+      <SectionLink href="#schedule"
       style= {linkStyle}>
         Schedule
-      </NavHashLink>
-      <NavHashLink smooth to="/#invited"
+      </SectionLink>
+      <SectionLink href="#invited"
       style= {linkStyle}>
         Keynote Speakers
-      </NavHashLink>
-      <NavHashLink smooth to ="/#cfp"
+      </SectionLink>
+      <SectionLink href="#cfp"
       style= {linkStyle}>
         Call for Papers
-      </NavHashLink>
-      <NavHashLink smooth to="/#organizers"
+      </SectionLink>
+      <SectionLink href="#organizers"
       style= {linkStyle}>
         Organizing Committee
-      </NavHashLink>
+      </SectionLink>
+      <EditionsDropdown
+        current="2026"
+        editions={[
+          { label: "2027", href: "/design_ethics/2027/", value: "2027" },
+          { label: "2026", href: "/design_ethics/", value: "2026" },
+        ]}
+      />
     </NavLinks>,
   ];
 
