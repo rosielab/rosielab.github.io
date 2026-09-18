@@ -43,7 +43,7 @@ export default () => {
         <HeadingInfoContainer id = "cfp">
           <HeadingTitle>Call For Papers</HeadingTitle>
           <HeadingDescription>
-            <b>We invite position papers, to be presented as lightning talks with a dedicated poster session.</b>
+            <b>We invite short contributions, to be presented as lightning talks with a dedicated poster session.</b>
 
             <p><b>List of topics:</b></p>
 
@@ -81,9 +81,10 @@ export default () => {
 
           <Divider />
 
-        <p><b>Position papers:</b> We invite contributions of 3&ndash;4 pages (excluding references and appendices),
+        <p><b>Short contributions:</b> We invite submissions of 3&ndash;4 pages (excluding references and appendices),
         related to Ethical Design in HRI, including but not limited to the list of topics above.
-        Works can include experimental results, case studies, design explorations, and ethical analysis of ongoing HRI work.
+        Contributions can include position papers, experimental results, case studies, design explorations, and ethical analysis of ongoing HRI work.
+        Early-stage work is welcome.
         Submissions will be peer-reviewed for quality, relevance, novelty and contribution to the field.</p>
 
         <Divider />

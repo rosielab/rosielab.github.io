@@ -70,7 +70,7 @@ export default () => {
         "https://images.pexels.com/photos/6476779/pexels-photo-6476779.jpeg?_gl=1*1uwec43*_ga*MTM2NjQyNDI1Mi4xNzY4OTU4ODY3*_ga_8JE65Q40S6*czE3Njg5NTg4NjYkbzEkZzEkdDE3Njg5NTkzMzMkajQ3JGwwJGgw",
       title: "Contributed Lightning Talks and Posters",
       description:
-        "Authors of accepted papers will present their work in a lightning talk and a dedicated poster session. See the Call for Papers for further information.",
+        "Authors of accepted contributions will present their work in a lightning talk and a dedicated poster session. See the Call for Papers for further information.",
     },
     {
       imageSrc:
@@ -113,7 +113,7 @@ export default () => {
           </p>
           <p>
           The workshop will include a panel discussion with practitioners across academia, industry
-          and policymaking. We also invite position papers from participants, which will be presented
+          and policymaking. We also invite short contributions from participants, which will be presented
           in lightning talks and a poster session. Throughout the workshop, we will organise group
           discussions, which will generate action points to unite ethical HRI design across academia,
           industry and policy.
