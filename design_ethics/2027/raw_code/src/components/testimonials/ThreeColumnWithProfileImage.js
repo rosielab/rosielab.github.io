@@ -12,6 +12,7 @@ import joel from "images/profile_joel.jpeg";
 import jiaee from "images/jiaee_headshot_0 (1).jpg";
 import katie from "images/katie.jpeg";
 import shalaleh from "images/SR-scaled.jpg";
+import anastasia from "images/anastasia.jpg";
 
 
 const Testimonials = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`;
@@ -79,6 +80,8 @@ export default ({
       position: "McGill University & Open Roboethics Institute, Canada"
     },
     {
+      imageSrc:
+        anastasia,
       quote:
         "Dr. Anastasia Kouvaras Ostrowski is an Assistant Professor in the School of Applied and Creative Computing with a courtesy appointment in the School of Mechanical Engineering. Her work supports design and implementation processes in HCI and HRI, focusing on robots and AI in industrial, manufacturing, and home contexts, among others. She incorporates human-centered approaches, including co-design and participatory design, in her work.",
       customerName: "Anastasia Kouvaras Ostrowski",
