@@ -13,6 +13,7 @@ import jiaee from "images/jiaee_headshot_0 (1).jpg";
 import katie from "images/katie.jpeg";
 import shalaleh from "images/SR-scaled.jpg";
 import anastasia from "images/anastasia.jpg";
+import cheng from "images/cheng.jpg";
 
 
 const Testimonials = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`;
@@ -74,6 +75,8 @@ export default ({
       position: "University of Aberdeen, UK"
     },
     {
+      imageSrc:
+        cheng,
       quote:
         "Cheng Lin is a doctoral student at McGill University and Mila Quebec AI Institute and a researcher at Open Roboethics Institute. She studies the social and physical safety risks of robotics.",
       customerName: "Cheng Lin",
