@@ -7,6 +7,7 @@ import { SectionHeading, Subheading as SubheadingBase } from "components/misc/He
 import {SectionDescription} from "components/misc/Typography";
 import patricia from "images/patricia-alves-oliveira-portrait.jpg";
 import serena from "images/serena-booth-portrait.jpg";
+import vicky from "images/vicky-charisi-portrait.jpg";
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
@@ -78,6 +79,21 @@ export default ({
           <br />
 
           <a href="https://giraffe.cs.brown.edu" target="_blank" rel="noopener noreferrer">
+            Website
+          </a>
+        </>
+      ),
+    },
+    {
+      imageSrc: vicky,
+      name: "Dr. Vicky Charisi",
+      position: "Brown University, USA",
+      description: (
+        <>
+          Dr. Vicky Charisi is a Research Scientist at MIT currently based Singapore focusing on human-robot interaction and a Research Fellow at Harvard Bekrman Klein Centre for Internet and Society. She serves on the advisory board for the UN Centre for AI and robotics. She has a significant policy background via past work at the European Commission and ethics in HRI based on her work at the Honda Research Institute, Japan.
+          <br />
+
+          <a href="https://m3s.mit.edu/our-team/vasiliki-charisi" target="_blank" rel="noopener noreferrer">
             Website
           </a>
         </>

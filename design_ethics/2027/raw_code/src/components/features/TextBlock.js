@@ -50,23 +50,21 @@ export default () => {
             <CenteredList>
               <ListInner>
               <ul>
-                <li>Ethical design methods, e.g., design justice, participatory design, value sensitive design</li>
-                <li>Frameworks and tools for ethical HRI design</li>
-                <li>Manipulation, deceptive design, and “dark patterns” in HRI</li>
+                <li>Ethical design methods, frameworks, processes, and tools</li>
+                <li>Policy, power and socio-technical aspects in HRI design</li>
+                <li>Industry perspectives on ethical HRI design</li>
+                <li>Ethical design of foundation model-powered robotics</li>
+                <li>Ethical evaluation and benchmarking in HRI design</li>
+                <li>Human rights, values and virtues in HRI design</li>
+                <li>Manipulation, deceptive design, and &ldquo;dark patterns&rdquo; in HRI</li>
                 <li>Surveillance and privacy by design in HRI</li>
                 <li>Philosophy and theory of ethical HRI design</li>
-                <li>Ethical tensions in HRI design, e.g., human control vs. robot autonomy, personalisation vs. privacy</li>
                 <li>Anticipatory and speculative ethical design</li>
-                <li>Ethical design futures in HRI</li>
-                <li>Ethical evaluation in HRI design</li>
                 <li>Moral judgement and ethical decision-making in HRI</li>
-                <li>User and stakeholder perspectives on ethical design</li>
+                <li>User and stakeholder perspectives on ethical HRI design</li>
                 <li>Intersectionality and marginalised groups in HRI design</li>
                 <li>Stereotypes, normativity, and status quo disruption in HRI</li>
-                <li>Power, policy, and socio-technical aspects in HRI design</li>
-                <li>Power dynamics of HRI design with and for vulnerable populations</li>
-                <li>Human rights and values in HRI design</li>
-                <li>Challenges and limitations of ethical design in HRI</li>
+                <li>Challenges, tensions and limitations of ethical design in HRI</li>
               </ul>
               </ListInner>
             </CenteredList>

@@ -120,10 +120,9 @@ export default () => {
           </p>
           <p>Workshop participants will collaboratively address these <b>key questions</b>:</p>
            <ol>
-            <li>How can we align ethics with the fast AI and robotics development?</li>
+            <li>How can we align ethical HRI practice with the fast pace of AI and robotics development?</li>
+            <li>Should there be universal design for HRI ethics across academia, industry, and policymaking?</li>
             <li>Who is responsible for creating, updating, and being accountable for these ethics?</li>
-            <li>Should there be universal design for HRI ethics?</li>
-            <li>Should ethics be different across academia, industry, and policymaking?</li>
           </ol>
           </HeadingDescription>
         </HeadingInfoContainer>
