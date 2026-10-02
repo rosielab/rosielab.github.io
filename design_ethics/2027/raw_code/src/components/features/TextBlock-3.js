@@ -62,7 +62,7 @@ export default () => {
               <tr>
                 <Td> 10:50 </Td>
                 <Td> 11:30 </Td>
-                <Td> Group discussion part 1: questions 1 and 2 </Td>
+                <Td> Group discussion part 1</Td>
               </tr>
               <tr>
                 <Td> 11:30 </Td>
@@ -77,7 +77,7 @@ export default () => {
               <tr>
                 <Td> 12:10 </Td>
                 <Td> 12:40 </Td>
-                <Td> Group discussion part 2: questions 3 and 4 </Td>
+                <Td> Group discussion part 2</Td>
               </tr>
               <tr>
                 <Td> 12:40 </Td>
