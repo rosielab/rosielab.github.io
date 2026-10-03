@@ -87,10 +87,10 @@ export default ({
     {
       imageSrc: vicky,
       name: "Dr. Vicky Charisi",
-      position: "Brown University, USA",
+      position: "Singapore-MIT Alliance, Singapore",
       description: (
         <>
-          Dr. Vicky Charisi is a Research Scientist at MIT currently based Singapore focusing on human-robot interaction and a Research Fellow at Harvard Bekrman Klein Centre for Internet and Society. She serves on the advisory board for the UN Centre for AI and robotics. She has a significant policy background via past work at the European Commission and ethics in HRI based on her work at the Honda Research Institute, Japan.
+          Dr. Vicky Charisi is a Research Scientist at the Singapore-MIT Alliance for Research and Technology focusing on human-robot interaction and a Research Fellow at Harvard Bekrman Klein Centre for Internet and Society. She serves on the advisory board for the UN Centre for AI and robotics. She has a significant policy background via past work at the European Commission and ethics in HRI based on her work at the Honda Research Institute, Japan.
           <br />
 
           <a href="https://m3s.mit.edu/our-team/vasiliki-charisi" target="_blank" rel="noopener noreferrer">
